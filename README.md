@@ -211,7 +211,8 @@ python powerbi/generar_pbip.py   # powerbi/Valdora.pbip (requiere Power BI Deskt
 ```
 
 Para abrir el `.pbip` en Power BI Desktop: ábrelo, espera a que cargue por completo y pulsa **Actualizar**.
-Si moviste la carpeta, vuelve a correr `generar_pbip.py`, que apunta el parámetro `CarpetaDatos` a tu ruta.
+Antes de abrirlo por primera vez corre `python powerbi/generar_pbip.py`: crea el archivo con la ruta de los
+datos en tu computador (parámetro `CarpetaDatos`), que no se publica en el repositorio.
 
 ---
 
