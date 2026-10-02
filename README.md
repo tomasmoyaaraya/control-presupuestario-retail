@@ -1,8 +1,7 @@
 # Control presupuestario para una cadena de retail: de los datos a las alertas
 
 Sistema de control de gestión para **Tiendas Valdora**, una cadena **ficticia** de 30 tiendas, 4 zonas y 6 categorías
-(ene-2024 a sep-2026). Responde las preguntas que se hace un controller cada mes:
-**¿cuánto nos desviamos del presupuesto, por qué, y qué debería revisar primero?**
+(ene-2024 a sep-2026).
 
 **[Ver el tablero web en vivo](https://tomasmoyaaraya.github.io/control-presupuestario-retail/)** · [Informe en Excel](resultados/informe_control_gestion.xlsx) · [Proyecto de Power BI](powerbi/)
 
@@ -13,6 +12,81 @@ Sistema de control de gestión para **Tiendas Valdora**, una cadena **ficticia**
 ![Tablero web](docs/img/tablero_web.png)
 
 ---
+
+## De qué trata
+
+**Tiendas Valdora** es una cadena ficticia de 30 tiendas en Chile que vende en 6 categorías (electro, hogar, belleza,
+deportes, juguetería y vestuario). Como toda empresa, parte el año con un **presupuesto**: cuánto espera vender,
+cuánto le costará y cuánto gastará cada mes. Y cada mes, un analista de control de gestión (un *controller*) debe
+contestar tres preguntas:
+
+1. **¿Cuánto nos desviamos del presupuesto?**
+2. **¿Por qué?** ¿Bajaron los precios, se vendió menos, subió el costo de los productos o se disparó algún gasto?
+3. **¿Dónde miro primero?** ¿Qué tienda, zona o categoría tiene el problema, y desde cuándo?
+
+Hacer esto a mano significa horas de Excel cada mes, y muchas veces el problema se descubre tarde. Este proyecto
+automatiza ese proceso completo, de los datos crudos al tablero.
+
+## Qué quería averiguar
+
+> **¿Puede un conjunto de reglas simples y explícitas detectar a tiempo los problemas reales de una cadena, sin
+> llenar al analista de falsas alarmas?**
+
+Es la pregunta de fondo. No basta con construir gráficos bonitos: un sistema de alertas solo sirve si avisa de lo
+que importa y no grita por todo. Y con datos de una empresa real no se puede medir eso, porque nadie sabe cuál es
+"la verdad". Por eso el proyecto se diseñó como un experimento:
+
+- **Simulé los datos** de la empresa, con una semilla fija para que cualquiera pueda reproducirlos.
+- **Escondí 5 problemas a propósito** (un competidor que le quita ventas a una categoría, una merma anormal en una
+  tienda, un alza de tarifas eléctricas, entre otros) y los anoté en un archivo *antes* de analizar nada.
+- **Corrí el sistema sin mirar esa lista** y después comparé: cuántos encontró, con cuántos meses de demora y cuántas
+  alarmas falsas generó.
+
+## Cómo lo hice, paso a paso
+
+**1. Datos: una empresa simulada pero anclada a la realidad** (`generar_datos.py`, `indicadores_reales.py`).
+Simulé las ventas diarias de cada tienda y categoría durante 33 meses, con estacionalidad por mes y categoría, por día
+de la semana y con eventos como CyberDay y Black Friday. Para que no fuera un mundo de fantasía, anclé la simulación
+a indicadores **reales** del Banco Central:
+- el **IMACEC** (actividad económica) mueve la demanda: cuando la economía real se enfría, las ventas simuladas también;
+- el **dólar** encarece el costo de las categorías importadas (Electro y Juguetería), con unos meses de desfase por inventario;
+- la **UF** reajusta los arriendos, los precios cada marzo y los sueldos cada enero.
+
+Además generé el presupuesto, armado como lo haría una empresa (suponiendo 4% de inflación anual), y los gastos
+operacionales: remuneraciones, arriendo, comisiones, servicios básicos, mermas e insumos.
+
+**2. Modelo de datos en SQL** (`modelo.py`, `sql/vistas.sql`).
+Cargué todo en una base SQLite con esquema estrella (tablas de ventas, presupuesto y gastos conectadas a tiendas,
+categorías y calendario) y creé vistas que comparan real contra presupuesto. Así las cifras se calculan en un solo
+lugar y todo lo demás las reutiliza.
+
+**3. Análisis de control de gestión** (`analisis.py`).
+Aquí están las respuestas a las tres preguntas:
+- *¿Cuánto?* KPIs de venta, margen y EBITDA contra el presupuesto y contra el año anterior.
+- *¿Por qué?* Un **puente de EBITDA** que parte del resultado presupuestado y llega al real, separando el efecto del
+  precio, del costo unitario, del volumen, del mix de productos y tiendas, y de cada cuenta de gasto.
+- *¿Dónde?* **Alertas automáticas** con tres reglas fijas (gasto atípico, venta bajo presupuesto sostenida y
+  precio/margen bajo presupuesto), más una marca para las alertas que se repiten mes a mes.
+- *¿Cómo cierra el mes?* Una **proyección del cierre** del mes en curso, cuyo error medí contra un método ingenuo.
+
+**4. Visualización: dos tableros con el mismo estándar** (`docs/`, `powerbi/`).
+Un tablero web (HTML y Chart.js) y un informe de **Power BI** con modelo semántico y medidas DAX. Ambos siguen el
+estándar de notación **IBCS** para reportes de gestión: real en gris oscuro, presupuesto en gris claro, y color
+solo para las desviaciones (verde favorable, rojo desfavorable). Las cifras principales (cumplimiento de venta y de EBITDA, puente, P&L) coinciden entre los dos y con el
+análisis en Python; las revisé una por una.
+
+**5. Verificación: ¿encontró lo que escondí?**
+Comparé las alertas con la lista de anomalías plantadas. El resultado está más abajo, junto con lo que el proyecto
+**no** demuestra.
+
+**Glosario rápido**
+- **EBITDA:** el resultado operacional antes de depreciaciones e intereses; la ganancia que deja el negocio de tiendas.
+- **Puente (o cascada):** gráfico que explica cómo se pasa de un número a otro, por ejemplo del EBITDA presupuestado al real.
+- **Mix:** cambio en la composición de lo vendido (si se vende más de lo barato y menos de lo caro, el promedio baja aunque cada precio esté igual).
+- **Presupuesto flexible:** comparar los gastos que dependen de la venta (comisiones, mermas) como porcentaje de la venta, no en pesos.
+- **z-score robusto:** mide cuán raro es un valor frente al resto; se usa para ver si una tienda gasta de forma atípica comparada con las demás.
+- **IBCS:** estándar internacional para que los reportes de gestión se lean igual en cualquier empresa.
+
 
 ## Qué encuentra
 
@@ -91,6 +165,9 @@ después comprobé si el análisis los detectaba solo:
 | A3 Merma anormal en una tienda | jul-2025 | jul-2025 | 0 meses |
 | A4 Gastos irregulares en insumos | oct-2025 | oct-2025 | 0 meses |
 | A5 Alza de tarifas eléctricas en el Sur | may-2026 | may-2026 | 0 meses |
+
+**Respuesta a la pregunta:** sí, con matices. Las 5 anomalías se detectaron, con 0 a 2 meses de demora y sin ninguna
+alerta recurrente falsa. El costo fue de 22 alertas puntuales sin problema real detrás (ver límites más abajo).
 
 Además apareció algo que no planté: el **alza real del dólar en 2024** subió el costo de las categorías importadas
 (Electro y Juguetería). El análisis la marcó en mayo de 2024, cuatro meses después.
