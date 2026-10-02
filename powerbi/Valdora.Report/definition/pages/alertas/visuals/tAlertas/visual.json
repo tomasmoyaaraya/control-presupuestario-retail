@@ -1,0 +1,245 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "tAlertas",
+  "position": {
+    "x": 20,
+    "y": 130,
+    "z": 0,
+    "width": 900,
+    "height": 580
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Alertas"
+                    }
+                  },
+                  "Property": "periodo"
+                }
+              },
+              "queryRef": "Alertas.periodo",
+              "nativeQueryRef": "periodo",
+              "displayName": "Mes"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Alertas"
+                    }
+                  },
+                  "Property": "regla"
+                }
+              },
+              "queryRef": "Alertas.regla",
+              "nativeQueryRef": "regla",
+              "displayName": "Regla"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Alertas"
+                    }
+                  },
+                  "Property": "tipo"
+                }
+              },
+              "queryRef": "Alertas.tipo",
+              "nativeQueryRef": "tipo",
+              "displayName": "Tipo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Alertas"
+                    }
+                  },
+                  "Property": "zona"
+                }
+              },
+              "queryRef": "Alertas.zona",
+              "nativeQueryRef": "zona",
+              "displayName": "Zona"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Alertas"
+                    }
+                  },
+                  "Property": "tienda"
+                }
+              },
+              "queryRef": "Alertas.tienda",
+              "nativeQueryRef": "tienda",
+              "displayName": "Tienda"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Alertas"
+                    }
+                  },
+                  "Property": "categoria"
+                }
+              },
+              "queryRef": "Alertas.categoria",
+              "nativeQueryRef": "categoria",
+              "displayName": "Categoría"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Alertas"
+                    }
+                  },
+                  "Property": "detalle"
+                }
+              },
+              "queryRef": "Alertas.detalle",
+              "nativeQueryRef": "detalle",
+              "displayName": "Qué pasó"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Alertas"
+                    }
+                  },
+                  "Property": "impacto_MM$"
+                }
+              },
+              "queryRef": "Alertas.impacto_MM$",
+              "nativeQueryRef": "impacto_MM$",
+              "displayName": "Impacto MM$"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Alertas del periodo'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "gridVertical": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "gridHorizontal": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "gridHorizontalColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E6E6E6'"
+                    }
+                  }
+                }
+              }
+            },
+            "rowPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Base SQLite (se regenera con modelo.py)
+valdora.db
+
+# Caché de Power BI
+powerbi/**/.pbi/
+
+# Configuración local de la herramienta
+.claude/

@@ -1,0 +1,64 @@
+table Alertas
+
+	column periodo
+		dataType: dateTime
+		formatString: mmm yyyy
+		summarizeBy: none
+		sourceColumn: periodo
+
+	column regla
+		dataType: string
+		summarizeBy: none
+		sourceColumn: regla
+
+	column regla_corta
+		dataType: string
+		summarizeBy: none
+		sourceColumn: regla_corta
+
+	column tipo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: tipo
+
+	column zona
+		dataType: string
+		summarizeBy: none
+		sourceColumn: zona
+
+	column tienda
+		dataType: string
+		summarizeBy: none
+		sourceColumn: tienda
+
+	column categoria
+		dataType: string
+		summarizeBy: none
+		sourceColumn: categoria
+
+	column cuenta
+		dataType: string
+		summarizeBy: none
+		sourceColumn: cuenta
+
+	column detalle
+		dataType: string
+		summarizeBy: none
+		sourceColumn: detalle
+
+	column 'impacto_MM$'
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: sum
+		sourceColumn: impacto_MM$
+
+	partition Alertas = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(CarpetaDatos & "\powerbi\alertas.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"periodo", type date}, {"regla", type text}, {"regla_corta", type text}, {"tipo", type text}, {"zona", type text}, {"tienda", type text}, {"categoria", type text}, {"cuenta", type text}, {"detalle", type text}, {"impacto_MM$", type number}}, "en-US")
+				in
+				    Tipos
+

@@ -1,0 +1,275 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "tTiendas",
+  "position": {
+    "x": 20,
+    "y": 425,
+    "z": 0,
+    "width": 730,
+    "height": 285
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Tiendas"
+                    }
+                  },
+                  "Property": "tienda"
+                }
+              },
+              "queryRef": "Tiendas.tienda",
+              "nativeQueryRef": "tienda",
+              "displayName": "Tienda"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Tiendas"
+                    }
+                  },
+                  "Property": "zona"
+                }
+              },
+              "queryRef": "Tiendas.zona",
+              "nativeQueryRef": "zona",
+              "displayName": "Zona"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Tiendas"
+                    }
+                  },
+                  "Property": "formato"
+                }
+              },
+              "queryRef": "Tiendas.formato",
+              "nativeQueryRef": "formato",
+              "displayName": "Formato"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Venta YTD (MM$)"
+                }
+              },
+              "queryRef": "Medidas.Venta YTD (MM$)",
+              "nativeQueryRef": "Venta YTD (MM$)",
+              "displayName": "Venta"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Cumplimiento Venta YTD %"
+                }
+              },
+              "queryRef": "Medidas.Cumplimiento Venta YTD %",
+              "nativeQueryRef": "Cumplimiento Venta YTD %",
+              "displayName": "Cumpl. venta"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "EBITDA YTD (MM$)"
+                }
+              },
+              "queryRef": "Medidas.EBITDA YTD (MM$)",
+              "nativeQueryRef": "EBITDA YTD (MM$)",
+              "displayName": "EBITDA"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Desv. EBITDA YTD (MM$)"
+                }
+              },
+              "queryRef": "Medidas.Desv. EBITDA YTD (MM$)",
+              "nativeQueryRef": "Desv. EBITDA YTD (MM$)",
+              "displayName": "Δ EBITDA vs ppto"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Cumplimiento EBITDA YTD %"
+                }
+              },
+              "queryRef": "Medidas.Cumplimiento EBITDA YTD %",
+              "nativeQueryRef": "Cumplimiento EBITDA YTD %",
+              "displayName": "Cumpl. EBITDA"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Resultado por tienda (MM$, año a la fecha)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Medidas"
+                        }
+                      },
+                      "Property": "Color Desv Tienda"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "Medidas.Desv. EBITDA YTD (MM$)"
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "gridVertical": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "gridHorizontal": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "gridHorizontalColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E6E6E6'"
+                    }
+                  }
+                }
+              }
+            },
+            "rowPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

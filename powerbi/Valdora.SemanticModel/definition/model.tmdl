@@ -1,0 +1,20 @@
+model Model
+	culture: es-CL
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CL
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+ref table Ventas
+ref table Presupuesto
+ref table Gastos
+ref table Tiendas
+ref table Categorias
+ref table Calendario
+ref table Alertas
+ref table PuenteEBITDA
+ref table LineasPnL
+ref table Medidas
+
+ref expression CarpetaDatos

@@ -1,0 +1,48 @@
+table Ventas
+
+	column fecha
+		dataType: dateTime
+		formatString: dd-mm-yyyy
+		summarizeBy: none
+		sourceColumn: fecha
+
+	column tienda_id
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: tienda_id
+
+	column categoria_id
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: categoria_id
+
+	column unidades
+		dataType: int64
+		formatString: #,0
+		summarizeBy: sum
+		sourceColumn: unidades
+
+	column venta_neta
+		dataType: double
+		formatString: #,0
+		summarizeBy: sum
+		sourceColumn: venta_neta
+
+	column costo_venta
+		dataType: double
+		formatString: #,0
+		summarizeBy: sum
+		sourceColumn: costo_venta
+
+	partition Ventas = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(CarpetaDatos & "\ventas_diarias.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"fecha", type date}, {"tienda_id", type text}, {"categoria_id", type text}, {"unidades", Int64.Type}, {"venta_neta", type number}, {"costo_venta", type number}}, "en-US")
+				in
+				    Tipos
+

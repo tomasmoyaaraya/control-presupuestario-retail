@@ -1,0 +1,69 @@
+table Presupuesto
+
+	column año
+		dataType: int64
+		formatString: 0
+		isHidden
+		summarizeBy: none
+		sourceColumn: año
+
+	column mes
+		dataType: int64
+		formatString: 0
+		isHidden
+		summarizeBy: none
+		sourceColumn: mes
+
+	column tienda_id
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: tienda_id
+
+	column categoria_id
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: categoria_id
+
+	column unidades_ppto
+		dataType: int64
+		formatString: #,0
+		summarizeBy: sum
+		sourceColumn: unidades_ppto
+
+	column precio_ppto
+		dataType: double
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: precio_ppto
+
+	column venta_ppto
+		dataType: double
+		formatString: #,0
+		summarizeBy: sum
+		sourceColumn: venta_ppto
+
+	column costo_ppto
+		dataType: double
+		formatString: #,0
+		summarizeBy: sum
+		sourceColumn: costo_ppto
+
+	column Fecha
+		dataType: dateTime
+		formatString: dd-mm-yyyy
+		summarizeBy: none
+		sourceColumn: Fecha
+
+	partition Presupuesto = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(CarpetaDatos & "\presupuesto_ventas.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"año", Int64.Type}, {"mes", Int64.Type}, {"tienda_id", type text}, {"categoria_id", type text}, {"unidades_ppto", Int64.Type}, {"precio_ppto", type number}, {"venta_ppto", type number}, {"costo_ppto", type number}}, "en-US"),
+				    ConFecha = Table.AddColumn(Tipos, "Fecha", each #date([año], [mes], 1), type date)
+				in
+				    ConFecha
+

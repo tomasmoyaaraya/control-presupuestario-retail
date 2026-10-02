@@ -1,0 +1,60 @@
+table Gastos
+
+	column año
+		dataType: int64
+		formatString: 0
+		isHidden
+		summarizeBy: none
+		sourceColumn: año
+
+	column mes
+		dataType: int64
+		formatString: 0
+		isHidden
+		summarizeBy: none
+		sourceColumn: mes
+
+	column tienda_id
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: tienda_id
+
+	column cuenta
+		dataType: string
+		summarizeBy: none
+		sourceColumn: cuenta
+
+	column monto
+		dataType: double
+		formatString: #,0
+		summarizeBy: sum
+		sourceColumn: monto
+
+	column escenario
+		dataType: string
+		summarizeBy: none
+		sourceColumn: escenario
+
+	column Fecha
+		dataType: dateTime
+		formatString: dd-mm-yyyy
+		summarizeBy: none
+		sourceColumn: Fecha
+
+	partition Gastos = m
+		mode: import
+		source =
+				let
+				    Leer = (archivo as text, escenario as text) =>
+				        let
+				            Origen = Csv.Document(File.Contents(CarpetaDatos & "\" & archivo), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				            Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				            Tipos = Table.TransformColumnTypes(Encabezados, {{"año", Int64.Type}, {"mes", Int64.Type}, {"tienda_id", type text}, {"cuenta", type text}, {"monto", type number}}, "en-US")
+				        in
+				            Table.AddColumn(Tipos, "escenario", each escenario, type text),
+				    Union = Table.Combine({Leer("gastos_real.csv", "real"), Leer("gastos_presupuesto.csv", "ppto")}),
+				    ConFecha = Table.AddColumn(Union, "Fecha", each #date([año], [mes], 1), type date)
+				in
+				    ConFecha
+

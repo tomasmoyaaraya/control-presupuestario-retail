@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "mensaje",
+  "position": {
+    "x": 20,
+    "y": 72,
+    "z": 0,
+    "width": 1240,
+    "height": 82
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "El EBITDA acumulado está 9% bajo el presupuesto ($518 MM): los menores precios restaron $1.503 MM, y el menor costo unitario compensó $922 MM.",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "fontWeight": "bold",
+                      "color": "#1A1A1A",
+                      "fontFamily": "Segoe UI"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Mes en curso (septiembre, día 28 de 30): cierre proyectado de 94,0% del presupuesto (−$370 MM), con un error típico del método de 2,2% al día 10.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#6B6B6B",
+                      "fontFamily": "Segoe UI"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

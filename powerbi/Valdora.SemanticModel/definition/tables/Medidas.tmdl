@@ -1,0 +1,295 @@
+table Medidas
+
+	measure 'Venta Real' = SUM(Ventas[venta_neta])
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'Costo Real' = SUM(Ventas[costo_venta])
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'Unidades Real' = SUM(Ventas[unidades])
+		formatString: #,0
+		displayFolder: 1 Base
+
+	measure 'Venta Ppto' = SUM(Presupuesto[venta_ppto])
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'Costo Ppto' = SUM(Presupuesto[costo_ppto])
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'Unidades Ppto' = SUM(Presupuesto[unidades_ppto])
+		formatString: #,0
+		displayFolder: 1 Base
+
+	measure 'Gastos Real' = CALCULATE(SUM(Gastos[monto]), Gastos[escenario] = "real")
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'Gastos Ppto' = CALCULATE(SUM(Gastos[monto]), Gastos[escenario] = "ppto")
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'Margen Real' = [Venta Real] - [Costo Real]
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'Margen Ppto' = [Venta Ppto] - [Costo Ppto]
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'EBITDA Real' = [Margen Real] - [Gastos Real]
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'EBITDA Ppto' = [Margen Ppto] - [Gastos Ppto]
+		formatString: \$#,0
+		displayFolder: 1 Base
+
+	measure 'Cumplimiento Venta %' = DIVIDE([Venta Real], [Venta Ppto])
+		formatString: 0.0%
+		displayFolder: 2 Ratios
+
+	measure 'Margen Real %' = DIVIDE([Margen Real], [Venta Real])
+		formatString: 0.0%
+		displayFolder: 2 Ratios
+
+	measure 'Margen Ppto %' = DIVIDE([Margen Ppto], [Venta Ppto])
+		formatString: 0.0%
+		displayFolder: 2 Ratios
+
+	measure 'Cumplimiento EBITDA %' = DIVIDE([EBITDA Real], [EBITDA Ppto])
+		formatString: 0.0%
+		displayFolder: 2 Ratios
+
+	measure 'EBITDA % Venta' = DIVIDE([EBITDA Real], [Venta Real])
+		formatString: 0.0%
+		displayFolder: 2 Ratios
+
+	measure 'Venta Real Año Anterior' = CALCULATE([Venta Real], SAMEPERIODLASTYEAR(Calendario[Fecha]))
+		formatString: \$#,0
+		displayFolder: 2 Ratios
+
+	measure 'Crecimiento vs Año Anterior %' = DIVIDE([Venta Real], [Venta Real Año Anterior]) - 1
+		formatString: 0.0%
+		displayFolder: 2 Ratios
+
+	measure 'Último Mes Cerrado' =
+			VAR ult = CALCULATE(MAX(Ventas[fecha]), REMOVEFILTERS())
+			RETURN IF(ult = EOMONTH(ult, 0), ult, EOMONTH(ult, -1))
+		formatString: dd-mm-yyyy
+		displayFolder: 3 Año a la fecha
+
+	measure 'Venta Real YTD' =
+			VAR f = [Último Mes Cerrado]
+			RETURN CALCULATE([Venta Real], REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f)
+		formatString: \$#,0
+		displayFolder: 3 Año a la fecha
+
+	measure 'Venta Ppto YTD' =
+			VAR f = [Último Mes Cerrado]
+			RETURN CALCULATE([Venta Ppto], REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f)
+		formatString: \$#,0
+		displayFolder: 3 Año a la fecha
+
+	measure 'Margen Real YTD' =
+			VAR f = [Último Mes Cerrado]
+			RETURN CALCULATE([Margen Real], REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f)
+		formatString: \$#,0
+		displayFolder: 3 Año a la fecha
+
+	measure 'EBITDA Real YTD' =
+			VAR f = [Último Mes Cerrado]
+			RETURN CALCULATE([EBITDA Real], REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f)
+		formatString: \$#,0
+		displayFolder: 3 Año a la fecha
+
+	measure 'EBITDA Ppto YTD' =
+			VAR f = [Último Mes Cerrado]
+			RETURN CALCULATE([EBITDA Ppto], REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f)
+		formatString: \$#,0
+		displayFolder: 3 Año a la fecha
+
+	measure 'Cumplimiento Venta YTD %' = DIVIDE([Venta Real YTD], [Venta Ppto YTD])
+		formatString: 0.0%
+		displayFolder: 3 Año a la fecha
+
+	measure 'Margen Real YTD %' = DIVIDE([Margen Real YTD], [Venta Real YTD])
+		formatString: 0.0%
+		displayFolder: 3 Año a la fecha
+
+	measure 'Cumplimiento EBITDA YTD %' = DIVIDE([EBITDA Real YTD], [EBITDA Ppto YTD])
+		formatString: 0.0%
+		displayFolder: 3 Año a la fecha
+
+	measure 'Desviación EBITDA YTD' = [EBITDA Real YTD] - [EBITDA Ppto YTD]
+		formatString: \$#,0
+		displayFolder: 3 Año a la fecha
+
+	measure 'Venta YTD (MM$)' = DIVIDE([Venta Real YTD], 1e6)
+		formatString: \$#,0" MM"
+		displayFolder: 3 Año a la fecha
+
+	measure 'EBITDA YTD (MM$)' = DIVIDE([EBITDA Real YTD], 1e6)
+		formatString: \$#,0" MM"
+		displayFolder: 3 Año a la fecha
+
+	measure 'Desv. EBITDA YTD (MM$)' = DIVIDE([Desviación EBITDA YTD], 1e6)
+		formatString: \$#,0" MM"
+		displayFolder: 3 Año a la fecha
+
+	measure 'Efecto Precio' =
+			SUMX(
+			    ADDCOLUMNS(
+			        SUMMARIZE(Presupuesto, Tiendas[tienda_id], Categorias[categoria_id], Calendario[AñoMes]),
+			        "@qr", [Unidades Real], "@vr", [Venta Real], "@qp", [Unidades Ppto], "@vp", [Venta Ppto]
+			    ),
+			    IF([@qr] > 0 && [@qp] > 0, (DIVIDE([@vr], [@qr]) - DIVIDE([@vp], [@qp])) * [@qr])
+			)
+		formatString: \$#,0
+		displayFolder: 4 Desviaciones
+
+	measure 'Efecto Volumen y Mix' = ([Venta Real] - [Venta Ppto]) - [Efecto Precio]
+		formatString: \$#,0
+		displayFolder: 4 Desviaciones
+
+	measure 'Efecto Precio YTD (MM$)' =
+			VAR f = [Último Mes Cerrado]
+			RETURN DIVIDE(CALCULATE([Efecto Precio], REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f), 1e6)
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'Efecto Volumen y Mix YTD (MM$)' =
+			VAR f = [Último Mes Cerrado]
+			RETURN DIVIDE(CALCULATE([Efecto Volumen y Mix], REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f), 1e6)
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'Δ Venta vs Ppto (MM$)' = IF(MAX(Calendario[Fecha]) <= [Último Mes Cerrado] && [Venta Real] > 0, DIVIDE([Venta Real] - [Venta Ppto], 1e6))
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'Δ Favorable (MM$)' = VAR d = [Δ Venta vs Ppto (MM$)] RETURN IF(d >= 0, d)
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'Δ Desfavorable (MM$)' = VAR d = [Δ Venta vs Ppto (MM$)] RETURN IF(d < 0, d)
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'Venta Real (MM$)' = IF(MAX(Calendario[Fecha]) <= [Último Mes Cerrado] && [Venta Real] > 0, DIVIDE([Venta Real], 1e6))
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'Venta Ppto (MM$)' = IF(MAX(Calendario[Fecha]) <= [Último Mes Cerrado] && [Venta Real] > 0, DIVIDE([Venta Ppto], 1e6))
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'Venta Año Ant. (MM$)' = IF(MAX(Calendario[Fecha]) <= [Último Mes Cerrado] && [Venta Real] > 0 && NOT ISBLANK([Venta Real Año Anterior]), DIVIDE([Venta Real Año Anterior], 1e6))
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'Crecimiento mensual vs AA %' = IF(NOT ISBLANK([Venta Año Ant. (MM$)]), DIVIDE([Venta Real (MM$)], [Venta Año Ant. (MM$)]) - 1)
+		formatString: 0.0%
+		displayFolder: 4 Desviaciones
+
+	measure 'Crecimiento YTD vs AA %' =
+			VAR f = [Último Mes Cerrado]
+			RETURN DIVIDE([Venta Real YTD], CALCULATE([Venta Real], REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f) - 1, Calendario[Fecha] <= EDATE(f, -12))) - 1
+		formatString: 0.0%
+		displayFolder: 3 Año a la fecha
+
+	measure 'Δ Venta YTD vs Ppto (MM$)' = DIVIDE([Venta Real YTD] - [Venta Ppto YTD], 1e6)
+		formatString: \$#,0" MM"
+		displayFolder: 3 Año a la fecha
+
+	measure 'Δ Favorable YTD (MM$)' = VAR d = [Δ Venta YTD vs Ppto (MM$)] RETURN IF(d >= 0, d)
+		formatString: \$#,0" MM"
+		displayFolder: 3 Año a la fecha
+
+	measure 'Δ Desfavorable YTD (MM$)' = VAR d = [Δ Venta YTD vs Ppto (MM$)] RETURN IF(d < 0, d)
+		formatString: \$#,0" MM"
+		displayFolder: 3 Año a la fecha
+
+	measure 'Paso Puente (MM$)' = IF(SELECTEDVALUE(PuenteEBITDA[Concepto]) = "EBITDA real", BLANK(), SUM(PuenteEBITDA[MM$]))
+		formatString: \$#,0" MM"
+		displayFolder: 4 Desviaciones
+
+	measure 'P&L Real' =
+			VAR f = [Último Mes Cerrado]
+			VAR l = SELECTEDVALUE(LineasPnL[Linea])
+			VAR r = CALCULATE(
+			    SWITCH(l, "Venta", [Venta Real], "Costo de venta", -[Costo Real], "Margen bruto", [Margen Real], "EBITDA", [EBITDA Real],
+			        -CALCULATE([Gastos Real], Gastos[cuenta] = l)),
+			    REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f)
+			RETURN DIVIDE(r, 1e6)
+		formatString: #,0
+		displayFolder: 6 Estado de resultados
+
+	measure 'P&L Ppto' =
+			VAR f = [Último Mes Cerrado]
+			VAR l = SELECTEDVALUE(LineasPnL[Linea])
+			VAR r = CALCULATE(
+			    SWITCH(l, "Venta", [Venta Ppto], "Costo de venta", -[Costo Ppto], "Margen bruto", [Margen Ppto], "EBITDA", [EBITDA Ppto],
+			        -CALCULATE([Gastos Ppto], Gastos[cuenta] = l)),
+			    REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f), Calendario[Fecha] <= f)
+			RETURN DIVIDE(r, 1e6)
+		formatString: #,0
+		displayFolder: 6 Estado de resultados
+
+	measure 'P&L Año Anterior' =
+			VAR f = [Último Mes Cerrado]
+			VAR l = SELECTEDVALUE(LineasPnL[Linea])
+			VAR r = CALCULATE(
+			    SWITCH(l, "Venta", [Venta Real], "Costo de venta", -[Costo Real], "Margen bruto", [Margen Real], "EBITDA", [EBITDA Real],
+			        -CALCULATE([Gastos Real], Gastos[cuenta] = l)),
+			    REMOVEFILTERS(Calendario), Calendario[Año] = YEAR(f) - 1, Calendario[Fecha] <= EDATE(f, -12))
+			RETURN DIVIDE(r, 1e6)
+		formatString: #,0
+		displayFolder: 6 Estado de resultados
+
+	measure 'Δ Ppto' = [P&L Real] - [P&L Ppto]
+		formatString: +#,0;-#,0;0
+		displayFolder: 6 Estado de resultados
+
+	measure 'Δ Ppto %' = DIVIDE([Δ Ppto], ABS([P&L Ppto]))
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 6 Estado de resultados
+
+	measure 'Δ AA %' = DIVIDE([P&L Real] - [P&L Año Anterior], ABS([P&L Año Anterior]))
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 6 Estado de resultados
+
+	measure 'Color Δ AA' = IF([Δ AA %] >= 0, "#3B9A52", "#D6453D")
+		displayFolder: 6 Estado de resultados
+
+	measure 'Color Desv Tienda' = IF([Desviación EBITDA YTD] >= 0, "#3B9A52", "#D6453D")
+		displayFolder: 6 Estado de resultados
+
+	measure 'Color Δ' = IF([Δ Ppto] >= 0, "#3B9A52", "#D6453D")
+		displayFolder: 6 Estado de resultados
+
+	measure 'Alertas' = COUNTROWS(Alertas)
+		formatString: #,0
+		displayFolder: 5 Alertas
+
+	measure 'Alertas Recurrentes' = CALCULATE(COUNTROWS(Alertas), Alertas[tipo] = "Recurrente")
+		formatString: #,0
+		displayFolder: 5 Alertas
+
+	column x
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: x
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				    Vacia = #table(type table [x = text], {})
+				in
+				    Vacia
+

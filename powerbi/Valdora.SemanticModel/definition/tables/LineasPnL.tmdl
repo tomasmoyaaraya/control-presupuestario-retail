@@ -1,0 +1,34 @@
+table LineasPnL
+
+	column Linea
+		dataType: string
+		sortByColumn: Orden
+		summarizeBy: none
+		sourceColumn: Linea
+
+	column Orden
+		dataType: int64
+		formatString: 0
+		isHidden
+		summarizeBy: none
+		sourceColumn: Orden
+
+	partition LineasPnL = m
+		mode: import
+		source =
+				let
+				    Lineas = #table(type table [Linea = text, Orden = Int64.Type], {
+				        {"Venta", 0},
+				        {"Costo de venta", 1},
+				        {"Margen bruto", 2},
+				        {"Remuneraciones", 3},
+				        {"Arriendo", 4},
+				        {"Comisiones", 5},
+				        {"Servicios básicos", 6},
+				        {"Mermas", 7},
+				        {"Insumos y otros", 8},
+				        {"EBITDA", 9}
+				    })
+				in
+				    Lineas
+

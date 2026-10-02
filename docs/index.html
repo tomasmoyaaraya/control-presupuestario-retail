@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Control de Gestión · Tiendas Valdora</title>
+<meta name="description" content="Informe de control de gestión con estándar IBCS: presupuesto vs real, estado de resultados, puente de EBITDA, proyección de cierre y alertas automáticas. Empresa ficticia con indicadores macro reales de Chile.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="data.js"></script>
+<style>
+/* Notación IBCS: real = sólido oscuro · presupuesto = contorno · año anterior = gris claro · proyección = rayado
+   El color se usa SOLO para desviaciones: verde = favorable, rojo = desfavorable. */
+:root{
+  --bg:#ffffff; --panel:#ffffff; --ink:#1a1a1a; --muted:#6b6b6b; --line:#e6e6e6; --soft:#f6f6f6;
+  --ac:#3a3a3a; --py:#b5b5b5; --pos:#3b9a52; --neg:#d6453d; --accent:#1a1a1a;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121212; --panel:#121212; --ink:#ececec; --muted:#9a9a9a; --line:#2c2c2c; --soft:#1b1b1b;
+    --ac:#d9d9d9; --py:#6a6a6a; --pos:#5cc274; --neg:#ff6b61; --accent:#ececec;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:13.5px/1.45 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1280px;margin:0 auto;padding:28px 20px 56px}
+/* Título IBCS: quién · qué · cuándo */
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:16px;border-bottom:2px solid var(--accent);padding-bottom:14px}
+.who{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+h1{font-size:24px;margin:2px 0 4px;letter-spacing:-.015em;font-weight:700}
+.when{font-size:13px;color:var(--muted)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:14px;height:10px;margin-right:5px;vertical-align:-1px}
+.lg-ac{background:var(--ac)} .lg-pl{border:1.5px solid var(--ac)} .lg-py{background:var(--py)}
+.lg-fc{background:repeating-linear-gradient(135deg,var(--ac) 0 2px,transparent 2px 5px);border:1px solid var(--ac)}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{border:0;border-right:1px solid var(--line);background:var(--panel);color:var(--muted);font:inherit;font-weight:500;padding:7px 14px;cursor:pointer}
+.seg button:last-child{border-right:0}
+.seg button.on{background:var(--accent);color:var(--bg)}
+.mensaje{font-size:19px;font-weight:600;letter-spacing:-.01em;line-height:1.35;margin:20px 0 18px;max-width:1000px}
+.mensaje small{display:block;font-size:12.5px;font-weight:400;color:var(--muted);margin-top:6px;letter-spacing:0}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:26px}
+.kpi{padding:14px 16px;border-right:1px solid var(--line);min-width:0}
+.kpi:last-child{border-right:0}
+.kpi .lbl{font-size:12px;color:var(--muted);font-weight:500}
+.kpi .val{font-size:24px;font-weight:700;letter-spacing:-.02em;margin:3px 0 6px;font-variant-numeric:tabular-nums}
+.kpi .d{font-size:12px;display:flex;justify-content:space-between;gap:6px;font-variant-numeric:tabular-nums}
+.kpi .d span:first-child{color:var(--muted)}
+.pos{color:var(--pos)} .neg{color:var(--neg)}
+.g2{display:grid;grid-template-columns:1.15fr 1fr;gap:32px;margin-bottom:30px}
+.g2b{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-bottom:30px}
+.g2>*,.g2b>*{min-width:0}
+h2{font-size:14px;margin:0;font-weight:700}
+.sub{font-size:12px;color:var(--muted);margin:2px 0 10px}
+.chart{position:relative;height:250px}
+.chart.var{height:110px;margin-top:-4px}
+.chart.wf{height:330px}
+.sm{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 22px}
+.sm .chart{height:120px}
+.sm h3{font-size:12.5px;margin:0 0 2px;font-weight:600}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{font-size:11.5px;color:var(--muted);font-weight:600;text-align:right;padding:6px 8px;border-bottom:1.5px solid var(--accent);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+tr.tot td{font-weight:700;border-top:1.5px solid var(--accent)}
+td.barcell{width:120px;padding:4px 8px}
+.vbar{position:relative;height:12px}
+.vbar::before{content:"";position:absolute;left:50%;top:-4px;bottom:-4px;border-left:1px solid var(--muted)}
+.vbar i{position:absolute;top:0;height:12px}
+.scroll{overflow-x:auto}
+.maxh{max-height:400px;overflow:auto}
+.pill{display:inline-block;border-radius:3px;padding:0 6px;font-size:10.5px;font-weight:600;border:1px solid currentColor}
+.pill.rec{color:var(--neg)} .pill.pun{color:var(--muted)} .pill.new{color:var(--muted)}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.toolbar .seg button{padding:4px 10px;font-size:12px}
+.alert td{white-space:normal;text-align:left;vertical-align:top}
+.alert td.n{text-align:right;white-space:nowrap}
+.cierre{display:grid;grid-template-columns:auto 1fr;gap:4px 18px;font-size:13px;margin-top:8px;font-variant-numeric:tabular-nums}
+.cierre b{text-align:right}
+.method{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;border-top:1px solid var(--line);padding-top:18px}
+.method p{margin:4px 0 0;color:var(--muted);font-size:12.5px}
+footer{color:var(--muted);font-size:12px;margin-top:22px}
+footer a{color:var(--ink)}
+@media (max-width:1050px){.kpis{grid-template-columns:repeat(3,1fr)}.kpi:nth-child(3){border-right:0}.g2,.g2b,.method{grid-template-columns:1fr}}
+@media (max-width:600px){.kpis{grid-template-columns:repeat(2,1fr)}.kpi{border-right:0;border-bottom:1px solid var(--line)}.kpi .val{font-size:20px}
+  .mensaje{font-size:16px}.sm{grid-template-columns:1fr}.wrap{padding:20px 16px 44px}h1{font-size:20px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <div class="who" id="who"></div>
+      <h1>Informe de control de gestión</h1>
+      <div class="when" id="when"></div>
+      <div class="legend"><span><i class="lg-ac"></i>Real</span><span><i class="lg-pl"></i>Presupuesto</span>
+        <span><i class="lg-py"></i>Año anterior</span><span><i class="lg-fc"></i>Proyección</span>
+        <span><b class="pos">■</b> favorable · <b class="neg">■</b> desfavorable</span></div>
+    </div>
+    <div class="seg" id="zonas"></div>
+  </div>
+
+  <p class="mensaje" id="mensaje"></p>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="g2">
+    <div>
+      <h2>Venta mensual</h2>
+      <div class="sub">MM$ · real, presupuesto y proyección del mes en curso</div>
+      <div class="chart"><canvas id="cVenta"></canvas></div>
+      <div class="sub" style="margin:10px 0 0"><b>Desviación vs presupuesto</b> (MM$)</div>
+      <div class="chart var"><canvas id="cDesv"></canvas></div>
+    </div>
+    <div>
+      <h2>Estado de resultados</h2>
+      <div class="sub" id="pnlSub"></div>
+      <div class="scroll"><table id="tPnl"></table></div>
+      <div id="cierre"></div>
+    </div>
+  </section>
+
+  <section class="g2b">
+    <div>
+      <h2>Puente de EBITDA: del presupuesto al real</h2>
+      <div class="sub">MM$ · año a la fecha · toda la cadena · cuadra al peso</div>
+      <div class="chart wf"><canvas id="cPuente"></canvas></div>
+    </div>
+    <div>
+      <h2>Desviación de venta por zona</h2>
+      <div class="sub" id="smSub"></div>
+      <div class="sm" id="sm"></div>
+    </div>
+  </section>
+
+  <section style="margin-bottom:30px">
+    <h2>Resultado por tienda</h2>
+    <div class="sub">Año a la fecha · ordenado por desviación de EBITDA vs presupuesto</div>
+    <div class="scroll maxh"><table id="tTiendas"></table></div>
+  </section>
+
+  <section class="g2b">
+    <div>
+      <h2>Alertas automáticas</h2>
+      <div class="sub">Gasto atípico (presupuesto flexible + z-score robusto) · venta bajo presupuesto 3 meses seguidos · precio/margen bajo presupuesto 2 meses seguidos</div>
+      <div class="toolbar"><div class="seg" id="fTipo"></div><div class="seg" id="fRegla"></div></div>
+      <div class="scroll maxh"><table id="tAlertas" class="alert"></table></div>
+    </div>
+    <div>
+      <h2>¿El sistema detecta los problemas?</h2>
+      <div class="sub">Escondí 5 problemas en los datos. El sistema no los conoce: tiene que encontrarlos solo.</div>
+      <table id="tVerif" class="alert"></table>
+      <p class="sub" id="falsos" style="margin-top:12px"></p>
+    </div>
+  </section>
+
+  <section class="method">
+    <div><h2>Datos</h2><p>Cadena ficticia de 30 tiendas en 4 zonas y 6 categorías. Precios reajustados con la UF real, demanda según el IMACEC real y costo de importados según el dólar observado real (Banco Central vía mindicador.cl).</p></div>
+    <div><h2>Modelo</h2><p>SQLite en esquema estrella con vistas SQL. Puente de margen en precio, costo unitario, volumen, mix de categorías y mix de tiendas. Gastos variables con presupuesto flexible.</p></div>
+    <div><h2>Notación</h2><p>Estándar IBCS: real en sólido, presupuesto en contorno, proyección rayada y color reservado para las desviaciones. Proyección de cierre medida contra 20 meses pasados.</p></div>
+  </section>
+
+  <footer>Proyecto de portafolio de <b>Tomás Moya Araya</b> · código y metodología en
+    <a href="https://github.com/tomasmoyaaraya/control-presupuestario-retail">GitHub</a> · cifras de la empresa simuladas; indicadores macro reales.</footer>
+</div>
+
+<script>
+const D = window.DATA;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const nf0 = new Intl.NumberFormat("es-CL", {maximumFractionDigits: 0});
+const nf1 = new Intl.NumberFormat("es-CL", {minimumFractionDigits: 1, maximumFractionDigits: 1});
+const MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const mes = s => { const [a, m] = s.split("-"); return MESES[+m - 1] + " " + a.slice(2); };
+const sg = (v, f = nf0) => (v > 0 ? "+" : v < 0 ? "−" : "±") + f.format(Math.abs(v));
+const cls = v => v > 0 ? "pos" : v < 0 ? "neg" : "";
+let zona = "Todas", fTipo = "Recurrente", fRegla = "Todas";
+const charts = {};
+
+function hatch(color) {
+  const c = document.createElement("canvas"); c.width = c.height = 6;
+  const x = c.getContext("2d"); x.strokeStyle = color; x.lineWidth = 1.4;
+  x.beginPath(); x.moveTo(0, 6); x.lineTo(6, 0); x.stroke();
+  return x.createPattern(c, "repeat");
+}
+function dibujar(id, cfg) { if (charts[id]) charts[id].destroy(); charts[id] = new Chart(document.getElementById(id), cfg); }
+function seg(id, ops, act, fn) {
+  const el = document.getElementById(id);
+  el.innerHTML = ops.map(o => `<button class="${o === act ? "on" : ""}" data-v="${o}">${o}</button>`).join("");
+  el.onclick = e => { const b = e.target.closest("button"); if (b) fn(b.dataset.v); };
+}
+const ejes = (extra = {}) => ({
+  responsive: true, maintainAspectRatio: false, animation: {duration: 200},
+  plugins: {legend: {display: false}, tooltip: {mode: "index", intersect: false}},
+  scales: {x: {grid: {display: false}, border: {color: css("--muted")}, ticks: {color: css("--muted"), maxRotation: 0, autoSkip: true, font: {size: 11}}},
+           y: {grid: {color: css("--line")}, border: {display: false}, ticks: {color: css("--muted"), font: {size: 11}, callback: v => nf0.format(v)}}},
+  ...extra
+});
+
+// ---------- encabezado y mensaje ----------
+document.getElementById("who").textContent = D.empresa + " · empresa ficticia";
+document.getElementById("when").innerHTML = `Año a la fecha <b>${D.ytd_label}</b> · datos al ${D.fecha_datos.split("-").reverse().join("-")} · millones de pesos (MM$)`;
+document.getElementById("mensaje").innerHTML = D.titular +
+  `<small>Venta ${nf1.format(D.ytd.Todas.kpis["Cumplimiento venta %"])}% del presupuesto · cierre proyectado de septiembre al ${nf1.format(D.cierre.proyeccion / D.cierre.ppto * 100)}% · ${D.alertas.filter(a => a.tipo === "Recurrente").length} alertas recurrentes en el periodo.</small>`;
+
+// ---------- KPIs (valor real + desviaciones vs presupuesto y año anterior) ----------
+function kpis() {
+  const p = Object.fromEntries(D.pnl[zona].map(r => [r.linea, r]));
+  const fila = (lbl, ac, pl, py, unidad = "MM") => {
+    const dpl = ac - pl, dpy = ac - py;
+    const fmtv = unidad === "%" ? nf1.format(ac) + "%" : "$" + nf0.format(ac);
+    const d = (v, base) => unidad === "%" ? `${sg(v, nf1)} pp` : `${sg(v)} · ${sg(v / Math.abs(base) * 100, nf1)}%`;
+    return `<div class="kpi"><div class="lbl">${lbl}</div><div class="val">${fmtv}</div>
+      <div class="d"><span>Δ presupuesto</span><b class="${cls(dpl)}">${d(dpl, pl)}</b></div>
+      <div class="d"><span>Δ año anterior</span><b class="${cls(dpy)}">${d(dpy, py)}</b></div></div>`;
+  };
+  const m = r => r.ac / p.Venta.ac * 100, mp = r => r.pl / p.Venta.pl * 100, my = r => r.py / p.Venta.py * 100;
+  const mesAct = D.mensual[zona].find(x => x.parcial);
+  const c = mesAct ? `<div class="kpi"><div class="lbl">Cierre proyectado ${mes(mesAct.mes)}</div>
+      <div class="val">$${nf0.format(mesAct.proyeccion)}</div>
+      <div class="d"><span>Δ presupuesto</span><b class="${cls(mesAct.proyeccion - mesAct.venta_ppto)}">${sg(mesAct.proyeccion - mesAct.venta_ppto)} · ${sg((mesAct.proyeccion / mesAct.venta_ppto - 1) * 100, nf1)}%</b></div>
+      <div class="d"><span>Avance real</span><b>${D.cierre.dia} de ${D.cierre.dias_mes} días</b></div></div>` : "";
+  document.getElementById("kpis").innerHTML =
+    fila("Venta", p.Venta.ac, p.Venta.pl, p.Venta.py) +
+    fila("Margen bruto %", m(p["Margen bruto"]), mp(p["Margen bruto"]), my(p["Margen bruto"]), "%") +
+    fila("EBITDA", p.EBITDA.ac, p.EBITDA.pl, p.EBITDA.py) +
+    fila("EBITDA % venta", m(p.EBITDA), mp(p.EBITDA), my(p.EBITDA), "%") + c;
+}
+
+// ---------- venta mensual: AC sólido · PL contorno · FC rayado + desviaciones ----------
+function venta() {
+  const m = D.mensual[zona], ac = css("--ac");
+  const real = m.map(x => x.parcial ? null : x.venta_real);
+  const fc = m.map(x => x.parcial ? x.proyeccion : null);
+  dibujar("cVenta", {type: "bar", data: {labels: m.map(x => mes(x.mes)), datasets: [
+      {label: "Presupuesto", data: m.map(x => x.venta_ppto), backgroundColor: "transparent", borderColor: ac, borderWidth: 1.3, grouped: false, order: 0, barPercentage: .78},
+      {label: "Real", data: real, backgroundColor: ac, grouped: false, order: 1, barPercentage: .78},
+      {label: "Proyección", data: fc, backgroundColor: hatch(ac), borderColor: ac, borderWidth: 1, grouped: false, order: 1, barPercentage: .78},
+    ]}, options: ejes({plugins: {legend: {display: false}, tooltip: {mode: "index", intersect: false,
+      callbacks: {label: c => c.raw == null ? null : `${c.dataset.label}: $${nf0.format(c.raw)} MM`}}}})});
+  const desv = m.map(x => (x.parcial ? x.proyeccion : x.venta_real) - x.venta_ppto);
+  const pos = css("--pos"), neg = css("--neg");
+  dibujar("cDesv", {type: "bar", data: {labels: m.map(x => mes(x.mes)), datasets: [{label: "Δ presupuesto", data: desv, barPercentage: .78,
+      backgroundColor: desv.map((v, i) => m[i].parcial ? hatch(v >= 0 ? pos : neg) : (v >= 0 ? pos : neg)),
+      borderColor: desv.map(v => v >= 0 ? pos : neg), borderWidth: m.map(x => x.parcial ? 1 : 0)}]},
+    options: ejes({plugins: {legend: {display: false}, tooltip: {callbacks: {label: c => `Δ presupuesto: ${sg(c.raw)} MM`}}},
+      scales: {x: {display: false}, y: {grid: {color: c => c.tick.value === 0 ? css("--muted") : css("--line")}, border: {display: false},
+               ticks: {color: css("--muted"), font: {size: 10}, maxTicksLimit: 4, callback: v => nf0.format(v)}}}})});
+}
+
+// ---------- estado de resultados con barras de desviación ----------
+function pnl() {
+  const filas = D.pnl[zona];
+  const max = Math.max(...filas.map(r => Math.abs(r.ac - r.pl)));
+  document.getElementById("pnlSub").textContent = `MM$ · ${D.ytd_label} · ${zona === "Todas" ? "toda la cadena" : "zona " + zona}`;
+  document.getElementById("tPnl").innerHTML =
+    `<tr><th></th><th>Año ant.</th><th>Ppto</th><th>Real</th><th>Δ Ppto</th><th></th><th>Δ%</th></tr>` +
+    filas.map(r => {
+      const d = r.ac - r.pl, w = Math.abs(d) / max * 50, pct = r.pl ? d / Math.abs(r.pl) * 100 : 0;
+      const col = d >= 0 ? "var(--pos)" : "var(--neg)";
+      const bar = `<div class="vbar"><i style="background:${col};width:${w}%;${d >= 0 ? "left:50%" : `left:${50 - w}%`}"></i></div>`;
+      return `<tr class="${r.linea === "EBITDA" || r.linea === "Margen bruto" ? "tot" : ""}"><td>${r.linea}</td>
+        <td style="color:var(--muted)">${nf0.format(r.py)}</td><td>${nf0.format(r.pl)}</td><td><b>${nf0.format(r.ac)}</b></td>
+        <td class="${cls(d)}">${sg(d)}</td><td class="barcell">${bar}</td><td class="${cls(d)}">${sg(pct, nf1)}%</td></tr>`;
+    }).join("");
+  const c = D.cierre;
+  const e = c.error.find(x => x.dia === 10);
+  document.getElementById("cierre").innerHTML = `<div class="sub" style="margin-top:18px"><b>Proyección de cierre de ${mes(c.mes)}</b> · cadena completa</div>
+    <div class="cierre"><span>Venta al día ${c.dia}</span><b>$${nf0.format(c.mtd)}</b>
+    <span>Proyección al cierre</span><b>$${nf0.format(c.proyeccion)}</b>
+    <span>Presupuesto del mes</span><b>$${nf0.format(c.ppto)}</b>
+    <span>Brecha proyectada</span><b class="${cls(c.proyeccion - c.ppto)}">${sg(c.proyeccion - c.ppto)}</b>
+    <span>Error típico del método (corte día 10)</span><b>${nf1.format(e.metodo)}% <span style="color:var(--muted);font-weight:400">vs ${nf1.format(e.lineal)}% lineal</span></b></div>`;
+}
+
+// ---------- puente de EBITDA (cascada horizontal) ----------
+function puente() {
+  let acc = 0;
+  const rows = D.puente.map(p => {
+    if (p.tipo === "total") { acc = p.valor; return {...p, r: [0, p.valor]}; }
+    const ini = acc; acc += p.valor; return {...p, r: [ini, acc]};
+  }).filter(p => p.tipo === "total" || Math.abs(p.valor) >= 1);
+  const pos = css("--pos"), neg = css("--neg"), ac = css("--ac");
+  dibujar("cPuente", {type: "bar",
+    data: {labels: rows.map(r => r.concepto), datasets: [{data: rows.map(r => r.r), barPercentage: .7,
+      backgroundColor: rows.map((r, i) => r.tipo === "total" ? (i === 0 ? "transparent" : ac) : r.valor >= 0 ? pos : neg),
+      borderColor: rows.map(r => r.tipo === "total" ? ac : "transparent"), borderWidth: rows.map((r, i) => i === 0 ? 1.3 : 0)}]},
+    options: {...ejes(), indexAxis: "y",
+      plugins: {legend: {display: false}, tooltip: {callbacks: {label: c => {
+        const r = rows[c.dataIndex]; return r.tipo === "total" ? `$${nf0.format(r.valor)} MM` : `${sg(r.valor)} MM`; }}}},
+      scales: {x: {min: Math.floor(Math.min(...rows.flatMap(r => r.r)) * .85 / 500) * 500, grid: {color: css("--line")}, border: {display: false},
+                   ticks: {color: css("--muted"), font: {size: 11}, callback: v => nf0.format(v)}},
+               y: {grid: {display: false}, border: {color: css("--muted")}, ticks: {color: css("--ink"), font: {size: 11.5}}}}}});
+}
+
+// ---------- small multiples: Δ% vs presupuesto por zona (pines) ----------
+function multiples() {
+  const zonas = ["Norte", "Centro", "RM", "Sur"], año = String(D.año);
+  document.getElementById("smSub").textContent = `Δ% venta vs presupuesto por mes, ${año} · misma escala en las cuatro zonas`;
+  const series = Object.fromEntries(zonas.map(z => [z, D.mensual[z].filter(x => x.mes.startsWith(año))
+      .map(x => ({m: mes(x.mes).slice(0, 3), v: ((x.parcial ? x.proyeccion : x.venta_real) / x.venta_ppto - 1) * 100, p: x.parcial}))]));
+  const lim = Math.ceil(Math.max(...Object.values(series).flat().map(s => Math.abs(s.v))) / 5) * 5;
+  document.getElementById("sm").innerHTML = zonas.map(z => `<div><h3>${z}</h3><div class="chart"><canvas id="sm${z}"></canvas></div></div>`).join("");
+  const pos = css("--pos"), neg = css("--neg");
+  zonas.forEach(z => {
+    const s = series[z], col = s.map(x => x.v >= 0 ? pos : neg);
+    dibujar("sm" + z, {type: "bar", data: {labels: s.map(x => x.m), datasets: [
+        {type: "line", data: s.map(x => x.v), showLine: false, pointRadius: 4, pointBackgroundColor: s.map((x, i) => x.p ? "transparent" : col[i]), pointBorderColor: col, pointBorderWidth: 1.5},
+        {data: s.map(x => x.v), backgroundColor: col, barThickness: 2}]},
+      options: ejes({plugins: {legend: {display: false}, tooltip: {callbacks: {label: c => `${sg(c.raw, nf1)}%`}}},
+        scales: {x: {grid: {display: false}, border: {display: false}, ticks: {color: css("--muted"), font: {size: 9.5}, autoSkip: false, maxRotation: 0}},
+                 y: {min: -lim, max: lim, grid: {color: c => c.tick.value === 0 ? css("--muted") : "transparent"}, border: {display: false},
+                     ticks: {color: css("--muted"), font: {size: 9.5}, stepSize: lim, callback: v => v + "%"}}}})});
+  });
+}
+
+// ---------- tiendas ----------
+function tiendas() {
+  const t = D.tiendas.filter(x => zona === "Todas" || x.zona === zona).sort((a, b) => a.desv_ebitda - b.desv_ebitda);
+  const max = Math.max(...t.map(x => Math.abs(x.desv_ebitda)));
+  document.getElementById("tTiendas").innerHTML =
+    `<tr><th>Tienda</th><th style="text-align:left">Zona</th><th>Venta</th><th>Cumpl. venta</th><th>EBITDA</th><th>EBITDA % venta</th><th>Δ EBITDA vs ppto</th><th></th></tr>` +
+    t.map(x => {
+      const w = Math.abs(x.desv_ebitda) / max * 50, col = x.desv_ebitda >= 0 ? "var(--pos)" : "var(--neg)";
+      return `<tr><td>${x.tienda} ${x.nueva ? '<span class="pill new">nueva</span>' : ""}</td><td style="text-align:left;color:var(--muted)">${x.zona}</td>
+        <td>${nf0.format(x.venta)}</td><td class="${cls(x.cumplimiento - 100)}">${nf1.format(x.cumplimiento)}%</td>
+        <td>${nf0.format(x.ebitda)}</td><td>${nf1.format(x.ebitda_pct)}%</td><td class="${cls(x.desv_ebitda)}">${sg(x.desv_ebitda)}</td>
+        <td class="barcell"><div class="vbar"><i style="background:${col};width:${w}%;${x.desv_ebitda >= 0 ? "left:50%" : `left:${50 - w}%`}"></i></div></td></tr>`;
+    }).join("");
+}
+
+// ---------- alertas y verificación ----------
+function alertas() {
+  const reglas = {"Todas": null, "Gastos": "R1", "Venta": "R2", "Precio/margen": "R3"};
+  seg("fTipo", ["Recurrente", "Todas"], fTipo, v => { fTipo = v; alertas(); });
+  seg("fRegla", Object.keys(reglas), fRegla, v => { fRegla = v; alertas(); });
+  const a = D.alertas.filter(x => (fTipo === "Todas" || x.tipo === fTipo) && (fRegla === "Todas" || x.regla.startsWith(reglas[fRegla]))
+      && (zona === "Todas" || x.zona === zona || x.zona === "Todas")).reverse();
+  document.getElementById("tAlertas").innerHTML = `<tr><th>Mes</th><th style="text-align:left">Dónde</th><th style="text-align:left">Qué pasó</th><th>Impacto MM$</th></tr>` +
+    (a.length ? a.map(x => {
+      const imp = x.regla.startsWith("R1") ? -x.impacto : x.impacto;
+      return `<tr><td>${mes(x.periodo)}<br><span class="pill ${x.tipo === "Recurrente" ? "rec" : "pun"}">${x.tipo.toLowerCase()}</span></td>
+        <td>${x.tienda || x.zona}${x.categoria ? " · " + x.categoria : ""}</td><td>${x.detalle}</td><td class="n ${cls(imp)}">${sg(imp, nf1)}</td></tr>`;
+    }).join("") : `<tr><td colspan="4" style="color:var(--muted)">Sin alertas para este filtro.</td></tr>`);
+}
+function verificacion() {
+  document.getElementById("tVerif").innerHTML = `<tr><th style="text-align:left">Problema</th><th style="text-align:left">1ª alerta</th><th>Demora</th></tr>` +
+    D.verificacion.map(v => {
+      const real = v["Anomalía"].startsWith("E"), ok = v["1ª alerta puntual"] !== "no detectada";
+      const dem = v["Demora puntual (meses)"];
+      return `<tr><td>${ok ? '<b class="pos">✓</b>' : '<b class="neg">✗</b>'} ${v["Anomalía"].replace(/^[AE]\d /, "")}${real ? ' <span class="pill new">evento real</span>' : ""}</td>
+        <td>${ok ? mes(v["1ª alerta puntual"]) : "—"}</td><td class="n">${ok ? dem + (dem === 1 ? " mes" : " meses") : "—"}</td></tr>`;
+    }).join("");
+  document.getElementById("falsos").innerHTML = `<b>Falsos positivos:</b> ${D.falsos.recurrente} recurrentes y ${D.falsos.puntual} puntuales en 33 meses (meses aislados fuera de rango). El alza del dólar de 2024 no fue plantada: el sistema la encontró en los datos reales.`;
+}
+
+function render() {
+  seg("zonas", Object.keys(D.ytd), zona, v => { zona = v; render(); });
+  kpis(); venta(); pnl(); tiendas(); alertas();
+}
+function todo() { render(); puente(); multiples(); verificacion(); }
+todo();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", todo);
+</script>
+</body>
+</html>

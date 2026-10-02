@@ -1,0 +1,22 @@
+table Categorias
+
+	column categoria_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: categoria_id
+
+	column categoria
+		dataType: string
+		summarizeBy: none
+		sourceColumn: categoria
+
+	partition Categorias = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(CarpetaDatos & "\categorias.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"categoria_id", type text}, {"categoria", type text}}, "en-US")
+				in
+				    Tipos
+

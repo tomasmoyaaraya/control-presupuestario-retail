@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "explica",
+  "position": {
+    "x": 20,
+    "y": 70,
+    "z": 0,
+    "width": 900,
+    "height": 50
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Reglas fijas: gasto atípico (presupuesto flexible + z-score robusto), venta bajo presupuesto 3 meses seguidos y precio/margen bajo presupuesto 2 meses seguidos. Recurrente = se repite en 2 de los últimos 3 meses.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#6B6B6B",
+                      "fontFamily": "Segoe UI"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

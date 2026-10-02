@@ -1,0 +1,31 @@
+tienda_id,tienda,comuna,zona,formato,apertura,dotacion,arriendo_uf
+T01,Valdora Arica,Arica,Norte,Grande,2018-01-01,32,728.0
+T02,Valdora Iquique,Iquique,Norte,Mediana,2018-01-01,20,431.0
+T03,Valdora Antofagasta,Antofagasta,Norte,Mediana,2018-01-01,20,461.0
+T04,Valdora Calama,Calama,Norte,Mediana,2018-01-01,20,550.0
+T05,Valdora La Serena,La Serena,Norte,Mediana,2018-01-01,20,368.0
+T06,Valdora Copiapó,Copiapó,Norte,Pequeña,2018-01-01,12,295.0
+T07,Valdora Valparaíso,Valparaíso,Centro,Pequeña,2018-01-01,12,241.0
+T08,Valdora Viña del Mar,Viña del Mar,Centro,Grande,2018-01-01,32,738.0
+T09,Valdora Rancagua,Rancagua,Centro,Mediana,2018-01-01,20,550.0
+T10,Valdora Talca,Talca,Centro,Mediana,2018-01-01,20,562.0
+T11,Valdora Curicó,Curicó,Centro,Pequeña,2018-01-01,12,284.0
+T12,Valdora San Antonio,San Antonio,Centro,Pequeña,2026-04-01,12,214.0
+T13,Valdora Providencia,Providencia,RM,Mediana,2018-01-01,20,583.75
+T14,Valdora Las Condes,Las Condes,RM,Mediana,2018-01-01,20,536.25
+T15,Valdora Maipú,Maipú,RM,Mediana,2018-01-01,20,546.25
+T16,Valdora La Florida,La Florida,RM,Pequeña,2018-01-01,12,330.0
+T17,Valdora Puente Alto,Puente Alto,RM,Mediana,2018-01-01,20,763.75
+T18,Valdora Ñuñoa,Ñuñoa,RM,Grande,2018-01-01,32,796.25
+T19,Valdora Santiago Centro,Santiago Centro,RM,Grande,2018-01-01,32,1013.75
+T20,Valdora Quilicura,Quilicura,RM,Grande,2025-09-01,32,1048.75
+T21,Valdora Peñalolén,Peñalolén,RM,Mediana,2018-01-01,20,696.25
+T22,Valdora San Bernardo,San Bernardo,RM,Mediana,2018-01-01,20,606.25
+T23,Valdora Concepción,Concepción,Sur,Mediana,2018-01-01,20,423.0
+T24,Valdora Temuco,Temuco,Sur,Grande,2018-01-01,32,814.0
+T25,Valdora Valdivia,Valdivia,Sur,Mediana,2018-01-01,20,480.0
+T26,Valdora Osorno,Osorno,Sur,Mediana,2018-01-01,20,510.0
+T27,Valdora Puerto Montt,Puerto Montt,Sur,Grande,2018-01-01,32,601.0
+T28,Valdora Chillán,Chillán,Sur,Mediana,2025-03-01,20,533.0
+T29,Valdora Los Ángeles,Los Ángeles,Sur,Mediana,2018-01-01,20,571.0
+T30,Valdora Punta Arenas,Punta Arenas,Sur,Mediana,2018-01-01,20,434.0

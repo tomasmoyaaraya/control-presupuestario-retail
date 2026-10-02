@@ -1,0 +1,32 @@
+relationship r1
+	fromColumn: Ventas.fecha
+	toColumn: Calendario.Fecha
+
+relationship r2
+	fromColumn: Presupuesto.Fecha
+	toColumn: Calendario.Fecha
+
+relationship r3
+	fromColumn: Gastos.Fecha
+	toColumn: Calendario.Fecha
+
+relationship r4
+	fromColumn: Ventas.tienda_id
+	toColumn: Tiendas.tienda_id
+
+relationship r5
+	fromColumn: Presupuesto.tienda_id
+	toColumn: Tiendas.tienda_id
+
+relationship r6
+	fromColumn: Gastos.tienda_id
+	toColumn: Tiendas.tienda_id
+
+relationship r7
+	fromColumn: Ventas.categoria_id
+	toColumn: Categorias.categoria_id
+
+relationship r8
+	fromColumn: Presupuesto.categoria_id
+	toColumn: Categorias.categoria_id
+

@@ -1,0 +1,51 @@
+{
+  "fecha_datos": "2026-09-28",
+  "top3_concentracion_pct": 22.0,
+  "verificacion": [
+    {
+      "Anomalía": "A1 Competidor en Electro Norte",
+      "1ª alerta puntual": "2026-04",
+      "Demora puntual (meses)": 2,
+      "1ª alerta recurrente": "2026-04",
+      "Demora recurrente (meses)": 2
+    },
+    {
+      "Anomalía": "A2 Liquidaciones Vestuario",
+      "1ª alerta puntual": "2026-02",
+      "Demora puntual (meses)": 1,
+      "1ª alerta recurrente": "2026-02",
+      "Demora recurrente (meses)": 1
+    },
+    {
+      "Anomalía": "A3 Merma anormal T07",
+      "1ª alerta puntual": "2025-07",
+      "Demora puntual (meses)": 0,
+      "1ª alerta recurrente": "2025-08",
+      "Demora recurrente (meses)": 1
+    },
+    {
+      "Anomalía": "A4 Insumos irregulares T19",
+      "1ª alerta puntual": "2025-10",
+      "Demora puntual (meses)": 0,
+      "1ª alerta recurrente": "2025-12",
+      "Demora recurrente (meses)": 2
+    },
+    {
+      "Anomalía": "A5 Tarifas eléctricas Sur",
+      "1ª alerta puntual": "2026-05",
+      "Demora puntual (meses)": 0,
+      "1ª alerta recurrente": "2026-06",
+      "Demora recurrente (meses)": 1
+    },
+    {
+      "Anomalía": "E1 Alza real del dólar (no plantada)",
+      "1ª alerta puntual": "2024-05",
+      "Demora puntual (meses)": 4,
+      "1ª alerta recurrente": "2024-05",
+      "Demora recurrente (meses)": 4
+    }
+  ],
+  "falsos_positivos": {
+    "Puntual": 22
+  }
+}

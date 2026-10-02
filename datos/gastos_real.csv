@@ -1,0 +1,5575 @@
+año,mes,tienda_id,cuenta,monto
+2024,1,T01,Arriendo,26788682
+2024,1,T01,Remuneraciones,33054782
+2024,1,T01,Comisiones,1994306
+2024,1,T01,Servicios básicos,4381183
+2024,1,T01,Mermas,2876450
+2024,1,T01,Insumos y otros,1542346
+2024,1,T02,Arriendo,15859783
+2024,1,T02,Remuneraciones,20897081
+2024,1,T02,Comisiones,1724586
+2024,1,T02,Servicios básicos,3195235
+2024,1,T02,Mermas,2166351
+2024,1,T02,Insumos y otros,1184131
+2024,1,T03,Arriendo,16963712
+2024,1,T03,Remuneraciones,19930556
+2024,1,T03,Comisiones,1586374
+2024,1,T03,Servicios básicos,2894546
+2024,1,T03,Mermas,1561113
+2024,1,T03,Insumos y otros,1436200
+2024,1,T04,Arriendo,20238702
+2024,1,T04,Remuneraciones,20193845
+2024,1,T04,Comisiones,1730276
+2024,1,T04,Servicios básicos,2650541
+2024,1,T04,Mermas,1575207
+2024,1,T04,Insumos y otros,1783524
+2024,1,T05,Arriendo,13541532
+2024,1,T05,Remuneraciones,20764878
+2024,1,T05,Comisiones,1286360
+2024,1,T05,Servicios básicos,2867416
+2024,1,T05,Mermas,1597251
+2024,1,T05,Insumos y otros,939322
+2024,1,T06,Arriendo,10855304
+2024,1,T06,Remuneraciones,12455805
+2024,1,T06,Comisiones,937550
+2024,1,T06,Servicios básicos,1629318
+2024,1,T06,Mermas,954080
+2024,1,T06,Insumos y otros,979105
+2024,1,T07,Arriendo,8868231
+2024,1,T07,Remuneraciones,11879625
+2024,1,T07,Comisiones,799169
+2024,1,T07,Servicios básicos,1354570
+2024,1,T07,Mermas,849904
+2024,1,T07,Insumos y otros,677868
+2024,1,T08,Arriendo,27156658
+2024,1,T08,Remuneraciones,31496456
+2024,1,T08,Comisiones,2205951
+2024,1,T08,Servicios básicos,4340031
+2024,1,T08,Mermas,3138137
+2024,1,T08,Insumos y otros,2280752
+2024,1,T09,Arriendo,20238702
+2024,1,T09,Remuneraciones,20680823
+2024,1,T09,Comisiones,1517088
+2024,1,T09,Servicios básicos,3149722
+2024,1,T09,Mermas,2193771
+2024,1,T09,Insumos y otros,1122510
+2024,1,T10,Arriendo,20680274
+2024,1,T10,Remuneraciones,19518379
+2024,1,T10,Comisiones,1647062
+2024,1,T10,Servicios básicos,2850568
+2024,1,T10,Mermas,1816723
+2024,1,T10,Insumos y otros,1369260
+2024,1,T11,Arriendo,10450530
+2024,1,T11,Remuneraciones,11957086
+2024,1,T11,Comisiones,887792
+2024,1,T11,Servicios básicos,1626197
+2024,1,T11,Mermas,1015032
+2024,1,T11,Insumos y otros,812892
+2024,1,T13,Arriendo,21480622
+2024,1,T13,Remuneraciones,20118731
+2024,1,T13,Comisiones,1317627
+2024,1,T13,Servicios básicos,2080357
+2024,1,T13,Mermas,2157267
+2024,1,T13,Insumos y otros,1109292
+2024,1,T14,Arriendo,19732734
+2024,1,T14,Remuneraciones,19716309
+2024,1,T14,Comisiones,1671870
+2024,1,T14,Servicios básicos,3077644
+2024,1,T14,Mermas,2559960
+2024,1,T14,Insumos y otros,1347890
+2024,1,T15,Arriendo,20100711
+2024,1,T15,Remuneraciones,19456665
+2024,1,T15,Comisiones,1499406
+2024,1,T15,Servicios básicos,2905737
+2024,1,T15,Mermas,1508129
+2024,1,T15,Insumos y otros,1237384
+2024,1,T16,Arriendo,12143221
+2024,1,T16,Remuneraciones,11897256
+2024,1,T16,Comisiones,980300
+2024,1,T16,Servicios básicos,1592365
+2024,1,T16,Mermas,1487888
+2024,1,T16,Insumos y otros,794227
+2024,1,T17,Arriendo,28104198
+2024,1,T17,Remuneraciones,19368910
+2024,1,T17,Comisiones,1923201
+2024,1,T17,Servicios básicos,4127733
+2024,1,T17,Mermas,2006373
+2024,1,T17,Insumos y otros,1758693
+2024,1,T18,Arriendo,29300121
+2024,1,T18,Remuneraciones,31579271
+2024,1,T18,Comisiones,2150207
+2024,1,T18,Servicios básicos,4230911
+2024,1,T18,Mermas,2833589
+2024,1,T18,Insumos y otros,1833025
+2024,1,T19,Arriendo,37303608
+2024,1,T19,Remuneraciones,33173829
+2024,1,T19,Comisiones,3156704
+2024,1,T19,Servicios básicos,5132931
+2024,1,T19,Mermas,4098353
+2024,1,T19,Insumos y otros,2697839
+2024,1,T21,Arriendo,25620357
+2024,1,T21,Remuneraciones,21237907
+2024,1,T21,Comisiones,1727278
+2024,1,T21,Servicios básicos,3393086
+2024,1,T21,Mermas,2495393
+2024,1,T21,Insumos y otros,1261679
+2024,1,T22,Arriendo,22308569
+2024,1,T22,Remuneraciones,20105799
+2024,1,T22,Comisiones,1607660
+2024,1,T22,Servicios básicos,2998414
+2024,1,T22,Mermas,1529996
+2024,1,T22,Insumos y otros,1181206
+2024,1,T23,Arriendo,15565402
+2024,1,T23,Remuneraciones,19511625
+2024,1,T23,Comisiones,1313207
+2024,1,T23,Servicios básicos,2710882
+2024,1,T23,Mermas,1350505
+2024,1,T23,Insumos y otros,897151
+2024,1,T24,Arriendo,29953279
+2024,1,T24,Remuneraciones,32923763
+2024,1,T24,Comisiones,2644989
+2024,1,T24,Servicios básicos,4315107
+2024,1,T24,Mermas,2976644
+2024,1,T24,Insumos y otros,2208026
+2024,1,T25,Arriendo,17662867
+2024,1,T25,Remuneraciones,19425858
+2024,1,T25,Comisiones,1378129
+2024,1,T25,Servicios básicos,2650721
+2024,1,T25,Mermas,1374370
+2024,1,T25,Insumos y otros,977932
+2024,1,T26,Arriendo,18766796
+2024,1,T26,Remuneraciones,19294204
+2024,1,T26,Comisiones,1420033
+2024,1,T26,Servicios básicos,2558737
+2024,1,T26,Mermas,1483900
+2024,1,T26,Insumos y otros,1255364
+2024,1,T27,Arriendo,22115382
+2024,1,T27,Remuneraciones,30773260
+2024,1,T27,Comisiones,2232894
+2024,1,T27,Servicios básicos,4718336
+2024,1,T27,Mermas,2163095
+2024,1,T27,Insumos y otros,2063196
+2024,1,T29,Arriendo,21011452
+2024,1,T29,Remuneraciones,19896517
+2024,1,T29,Comisiones,1739499
+2024,1,T29,Servicios básicos,3045982
+2024,1,T29,Mermas,2351624
+2024,1,T29,Insumos y otros,1525357
+2024,1,T30,Arriendo,15970176
+2024,1,T30,Remuneraciones,19557172
+2024,1,T30,Comisiones,1367114
+2024,1,T30,Servicios básicos,2577237
+2024,1,T30,Mermas,1830278
+2024,1,T30,Insumos y otros,1303458
+2024,2,T01,Arriendo,26737329
+2024,2,T01,Remuneraciones,32423013
+2024,2,T01,Comisiones,1849719
+2024,2,T01,Servicios básicos,3454580
+2024,2,T01,Mermas,2947153
+2024,2,T01,Insumos y otros,1479661
+2024,2,T02,Arriendo,15829380
+2024,2,T02,Remuneraciones,19796469
+2024,2,T02,Comisiones,1640374
+2024,2,T02,Servicios básicos,3436948
+2024,2,T02,Mermas,1826320
+2024,2,T02,Insumos y otros,1363161
+2024,2,T03,Arriendo,16931193
+2024,2,T03,Remuneraciones,21824612
+2024,2,T03,Comisiones,1497329
+2024,2,T03,Servicios básicos,2716851
+2024,2,T03,Mermas,1146315
+2024,2,T03,Insumos y otros,1135251
+2024,2,T04,Arriendo,20199905
+2024,2,T04,Remuneraciones,19469889
+2024,2,T04,Comisiones,1600103
+2024,2,T04,Servicios básicos,3061404
+2024,2,T04,Mermas,2615274
+2024,2,T04,Insumos y otros,1166959
+2024,2,T05,Arriendo,13515573
+2024,2,T05,Remuneraciones,20226421
+2024,2,T05,Comisiones,1170246
+2024,2,T05,Servicios básicos,2459853
+2024,2,T05,Mermas,1448418
+2024,2,T05,Insumos y otros,836941
+2024,2,T06,Arriendo,10834494
+2024,2,T06,Remuneraciones,12412112
+2024,2,T06,Comisiones,852039
+2024,2,T06,Servicios básicos,1660761
+2024,2,T06,Mermas,931961
+2024,2,T06,Insumos y otros,741496
+2024,2,T07,Arriendo,8851231
+2024,2,T07,Remuneraciones,11121516
+2024,2,T07,Comisiones,738781
+2024,2,T07,Servicios básicos,1547935
+2024,2,T07,Mermas,756488
+2024,2,T07,Insumos y otros,542408
+2024,2,T08,Arriendo,27104600
+2024,2,T08,Remuneraciones,30121177
+2024,2,T08,Comisiones,2081357
+2024,2,T08,Servicios básicos,3952482
+2024,2,T08,Mermas,3007167
+2024,2,T08,Insumos y otros,1260044
+2024,2,T09,Arriendo,20199905
+2024,2,T09,Remuneraciones,19274065
+2024,2,T09,Comisiones,1407659
+2024,2,T09,Servicios básicos,2798638
+2024,2,T09,Mermas,1621633
+2024,2,T09,Insumos y otros,1111889
+2024,2,T10,Arriendo,20640630
+2024,2,T10,Remuneraciones,18822485
+2024,2,T10,Comisiones,1520471
+2024,2,T10,Servicios básicos,2867164
+2024,2,T10,Mermas,1918407
+2024,2,T10,Insumos y otros,1175245
+2024,2,T11,Arriendo,10430496
+2024,2,T11,Remuneraciones,11871309
+2024,2,T11,Comisiones,821734
+2024,2,T11,Servicios básicos,1688495
+2024,2,T11,Mermas,951332
+2024,2,T11,Insumos y otros,666831
+2024,2,T13,Arriendo,21439445
+2024,2,T13,Remuneraciones,19636844
+2024,2,T13,Comisiones,1224007
+2024,2,T13,Servicios básicos,2352169
+2024,2,T13,Mermas,1131403
+2024,2,T13,Insumos y otros,1172972
+2024,2,T14,Arriendo,19694907
+2024,2,T14,Remuneraciones,20148780
+2024,2,T14,Comisiones,1529539
+2024,2,T14,Servicios básicos,3297005
+2024,2,T14,Mermas,1726332
+2024,2,T14,Insumos y otros,1200927
+2024,2,T15,Arriendo,20062178
+2024,2,T15,Remuneraciones,20457447
+2024,2,T15,Comisiones,1480550
+2024,2,T15,Servicios básicos,2874362
+2024,2,T15,Mermas,1772097
+2024,2,T15,Insumos y otros,1258521
+2024,2,T16,Arriendo,12119943
+2024,2,T16,Remuneraciones,11671241
+2024,2,T16,Comisiones,922838
+2024,2,T16,Servicios básicos,1744040
+2024,2,T16,Mermas,1159079
+2024,2,T16,Insumos y otros,591397
+2024,2,T17,Arriendo,28050323
+2024,2,T17,Remuneraciones,20648380
+2024,2,T17,Comisiones,1813313
+2024,2,T17,Servicios básicos,2916326
+2024,2,T17,Mermas,2746968
+2024,2,T17,Insumos y otros,1656097
+2024,2,T18,Arriendo,29243953
+2024,2,T18,Remuneraciones,31139094
+2024,2,T18,Comisiones,2041490
+2024,2,T18,Servicios básicos,4138261
+2024,2,T18,Mermas,2668116
+2024,2,T18,Insumos y otros,1634457
+2024,2,T19,Arriendo,37232098
+2024,2,T19,Remuneraciones,31087904
+2024,2,T19,Comisiones,2874153
+2024,2,T19,Servicios básicos,5410723
+2024,2,T19,Mermas,4981964
+2024,2,T19,Insumos y otros,2021248
+2024,2,T21,Arriendo,25571243
+2024,2,T21,Remuneraciones,20211123
+2024,2,T21,Comisiones,1678930
+2024,2,T21,Servicios básicos,3234054
+2024,2,T21,Mermas,1508550
+2024,2,T21,Insumos y otros,1435516
+2024,2,T22,Arriendo,22265804
+2024,2,T22,Remuneraciones,20439164
+2024,2,T22,Comisiones,1493781
+2024,2,T22,Servicios básicos,2592459
+2024,2,T22,Mermas,1354876
+2024,2,T22,Insumos y otros,1368045
+2024,2,T23,Arriendo,15535563
+2024,2,T23,Remuneraciones,19145533
+2024,2,T23,Comisiones,1203859
+2024,2,T23,Servicios básicos,2104658
+2024,2,T23,Mermas,1342807
+2024,2,T23,Insumos y otros,840048
+2024,2,T24,Arriendo,29895859
+2024,2,T24,Remuneraciones,31192818
+2024,2,T24,Comisiones,2465678
+2024,2,T24,Servicios básicos,5257224
+2024,2,T24,Mermas,3371939
+2024,2,T24,Insumos y otros,2017126
+2024,2,T25,Arriendo,17629008
+2024,2,T25,Remuneraciones,19642283
+2024,2,T25,Comisiones,1282018
+2024,2,T25,Servicios básicos,2332033
+2024,2,T25,Mermas,1632872
+2024,2,T25,Insumos y otros,993732
+2024,2,T26,Arriendo,18730821
+2024,2,T26,Remuneraciones,19266877
+2024,2,T26,Comisiones,1353027
+2024,2,T26,Servicios básicos,2645664
+2024,2,T26,Mermas,1610674
+2024,2,T26,Insumos y otros,1195418
+2024,2,T27,Arriendo,22072987
+2024,2,T27,Remuneraciones,31955922
+2024,2,T27,Comisiones,2072362
+2024,2,T27,Servicios básicos,3947859
+2024,2,T27,Mermas,3208753
+2024,2,T27,Insumos y otros,1302618
+2024,2,T29,Arriendo,20971174
+2024,2,T29,Remuneraciones,20396197
+2024,2,T29,Comisiones,1560687
+2024,2,T29,Servicios básicos,2721432
+2024,2,T29,Mermas,1808310
+2024,2,T29,Insumos y otros,1428822
+2024,2,T30,Arriendo,15939561
+2024,2,T30,Remuneraciones,19315209
+2024,2,T30,Comisiones,1245968
+2024,2,T30,Servicios básicos,2421250
+2024,2,T30,Mermas,1356376
+2024,2,T30,Insumos y otros,1257542
+2024,3,T01,Arriendo,26837989
+2024,3,T01,Remuneraciones,31607694
+2024,3,T01,Comisiones,2214661
+2024,3,T01,Servicios básicos,3738311
+2024,3,T01,Mermas,2303511
+2024,3,T01,Insumos y otros,1948153
+2024,3,T02,Arriendo,15888974
+2024,3,T02,Remuneraciones,20727498
+2024,3,T02,Comisiones,2005486
+2024,3,T02,Servicios básicos,3118631
+2024,3,T02,Mermas,2552098
+2024,3,T02,Insumos y otros,1609860
+2024,3,T03,Arriendo,16994936
+2024,3,T03,Remuneraciones,19785348
+2024,3,T03,Comisiones,1748949
+2024,3,T03,Servicios básicos,2710147
+2024,3,T03,Mermas,2157666
+2024,3,T03,Insumos y otros,1591875
+2024,3,T04,Arriendo,20275954
+2024,3,T04,Remuneraciones,20218315
+2024,3,T04,Comisiones,1851178
+2024,3,T04,Servicios básicos,3173110
+2024,3,T04,Mermas,2223637
+2024,3,T04,Insumos y otros,1701748
+2024,3,T05,Arriendo,13566456
+2024,3,T05,Remuneraciones,20223247
+2024,3,T05,Comisiones,1455503
+2024,3,T05,Servicios básicos,2262521
+2024,3,T05,Mermas,1583148
+2024,3,T05,Insumos y otros,1526891
+2024,3,T06,Arriendo,10875284
+2024,3,T06,Remuneraciones,12097875
+2024,3,T06,Comisiones,1037809
+2024,3,T06,Servicios básicos,1563823
+2024,3,T06,Mermas,1471088
+2024,3,T06,Insumos y otros,1005115
+2024,3,T07,Arriendo,8884554
+2024,3,T07,Remuneraciones,11811501
+2024,3,T07,Comisiones,884386
+2024,3,T07,Servicios básicos,1719408
+2024,3,T07,Mermas,1474261
+2024,3,T07,Insumos y otros,802183
+2024,3,T08,Arriendo,27206643
+2024,3,T08,Remuneraciones,31928244
+2024,3,T08,Comisiones,2464193
+2024,3,T08,Servicios básicos,3852360
+2024,3,T08,Mermas,3100950
+2024,3,T08,Insumos y otros,1659813
+2024,3,T09,Arriendo,20275954
+2024,3,T09,Remuneraciones,19925066
+2024,3,T09,Comisiones,1662083
+2024,3,T09,Servicios básicos,2849685
+2024,3,T09,Mermas,2017968
+2024,3,T09,Insumos y otros,1389606
+2024,3,T10,Arriendo,20718338
+2024,3,T10,Remuneraciones,20378571
+2024,3,T10,Comisiones,1758812
+2024,3,T10,Servicios básicos,2949660
+2024,3,T10,Mermas,2076868
+2024,3,T10,Insumos y otros,1190153
+2024,3,T11,Arriendo,10469765
+2024,3,T11,Remuneraciones,12134809
+2024,3,T11,Comisiones,938221
+2024,3,T11,Servicios básicos,1759891
+2024,3,T11,Mermas,1400564
+2024,3,T11,Insumos y otros,837769
+2024,3,T13,Arriendo,21520160
+2024,3,T13,Remuneraciones,19970388
+2024,3,T13,Comisiones,1469977
+2024,3,T13,Servicios básicos,2342613
+2024,3,T13,Mermas,1254741
+2024,3,T13,Insumos y otros,1023389
+2024,3,T14,Arriendo,19769055
+2024,3,T14,Remuneraciones,19745891
+2024,3,T14,Comisiones,1849300
+2024,3,T14,Servicios básicos,3212436
+2024,3,T14,Mermas,2163089
+2024,3,T14,Insumos y otros,1370143
+2024,3,T15,Arriendo,20137708
+2024,3,T15,Remuneraciones,19150748
+2024,3,T15,Comisiones,1720356
+2024,3,T15,Servicios básicos,2562174
+2024,3,T15,Mermas,1827602
+2024,3,T15,Insumos y otros,1606221
+2024,3,T16,Arriendo,12165572
+2024,3,T16,Remuneraciones,11647576
+2024,3,T16,Comisiones,1059789
+2024,3,T16,Servicios básicos,1667693
+2024,3,T16,Mermas,1064069
+2024,3,T16,Insumos y otros,940649
+2024,3,T17,Arriendo,28155926
+2024,3,T17,Remuneraciones,19749878
+2024,3,T17,Comisiones,2147605
+2024,3,T17,Servicios básicos,3589976
+2024,3,T17,Mermas,2205898
+2024,3,T17,Insumos y otros,1738666
+2024,3,T18,Arriendo,29354051
+2024,3,T18,Remuneraciones,30553874
+2024,3,T18,Comisiones,2427783
+2024,3,T18,Servicios básicos,3880068
+2024,3,T18,Mermas,2855137
+2024,3,T18,Insumos y otros,1766283
+2024,3,T19,Arriendo,37372269
+2024,3,T19,Remuneraciones,31660823
+2024,3,T19,Comisiones,3418759
+2024,3,T19,Servicios básicos,5700364
+2024,3,T19,Mermas,4842586
+2024,3,T19,Insumos y otros,3176023
+2024,3,T21,Arriendo,25667514
+2024,3,T21,Remuneraciones,19381369
+2024,3,T21,Comisiones,1896927
+2024,3,T21,Servicios básicos,3677065
+2024,3,T21,Mermas,2444730
+2024,3,T21,Insumos y otros,1475142
+2024,3,T22,Arriendo,22349631
+2024,3,T22,Remuneraciones,19288764
+2024,3,T22,Comisiones,1840970
+2024,3,T22,Servicios básicos,3342857
+2024,3,T22,Mermas,1934006
+2024,3,T22,Insumos y otros,1248154
+2024,3,T23,Arriendo,15594052
+2024,3,T23,Remuneraciones,20434222
+2024,3,T23,Comisiones,1475634
+2024,3,T23,Servicios básicos,2515430
+2024,3,T23,Mermas,1279742
+2024,3,T23,Insumos y otros,1420373
+2024,3,T24,Arriendo,30008411
+2024,3,T24,Remuneraciones,31324214
+2024,3,T24,Comisiones,2912974
+2024,3,T24,Servicios básicos,4833770
+2024,3,T24,Mermas,3326977
+2024,3,T24,Insumos y otros,2331080
+2024,3,T25,Arriendo,17695378
+2024,3,T25,Remuneraciones,20337558
+2024,3,T25,Comisiones,1537846
+2024,3,T25,Servicios básicos,2841904
+2024,3,T25,Mermas,1866593
+2024,3,T25,Insumos y otros,1609404
+2024,3,T26,Arriendo,18801339
+2024,3,T26,Remuneraciones,19469973
+2024,3,T26,Comisiones,1598232
+2024,3,T26,Servicios básicos,2289949
+2024,3,T26,Mermas,2585317
+2024,3,T26,Insumos y otros,1227035
+2024,3,T27,Arriendo,22156087
+2024,3,T27,Remuneraciones,31687980
+2024,3,T27,Comisiones,2498853
+2024,3,T27,Servicios básicos,3905044
+2024,3,T27,Mermas,3600248
+2024,3,T27,Insumos y otros,2153720
+2024,3,T29,Arriendo,21050126
+2024,3,T29,Remuneraciones,19180765
+2024,3,T29,Comisiones,1869653
+2024,3,T29,Servicios básicos,2802545
+2024,3,T29,Mermas,2252130
+2024,3,T29,Insumos y otros,1522269
+2024,3,T30,Arriendo,15999571
+2024,3,T30,Remuneraciones,19724914
+2024,3,T30,Comisiones,1493462
+2024,3,T30,Servicios básicos,2573595
+2024,3,T30,Mermas,2388183
+2024,3,T30,Insumos y otros,1119294
+2024,4,T01,Arriendo,27009295
+2024,4,T01,Remuneraciones,31260526
+2024,4,T01,Comisiones,1998877
+2024,4,T01,Servicios básicos,4016904
+2024,4,T01,Mermas,2718273
+2024,4,T01,Insumos y otros,1855311
+2024,4,T02,Arriendo,15990393
+2024,4,T02,Remuneraciones,20262570
+2024,4,T02,Comisiones,1722057
+2024,4,T02,Servicios básicos,3296335
+2024,4,T02,Mermas,1856756
+2024,4,T02,Insumos y otros,1440783
+2024,4,T03,Arriendo,17103413
+2024,4,T03,Remuneraciones,20365329
+2024,4,T03,Comisiones,1574792
+2024,4,T03,Servicios básicos,3043102
+2024,4,T03,Mermas,1613112
+2024,4,T03,Insumos y otros,1080857
+2024,4,T04,Arriendo,20405374
+2024,4,T04,Remuneraciones,20510630
+2024,4,T04,Comisiones,1686988
+2024,4,T04,Servicios básicos,3001948
+2024,4,T04,Mermas,2212153
+2024,4,T04,Insumos y otros,1381096
+2024,4,T05,Arriendo,13653050
+2024,4,T05,Remuneraciones,19117431
+2024,4,T05,Comisiones,1268587
+2024,4,T05,Servicios básicos,1915177
+2024,4,T05,Mermas,1532744
+2024,4,T05,Insumos y otros,868881
+2024,4,T06,Arriendo,10944701
+2024,4,T06,Remuneraciones,12542420
+2024,4,T06,Comisiones,953554
+2024,4,T06,Servicios básicos,1637806
+2024,4,T06,Mermas,947604
+2024,4,T06,Insumos y otros,794553
+2024,4,T07,Arriendo,8941264
+2024,4,T07,Remuneraciones,11452997
+2024,4,T07,Comisiones,792987
+2024,4,T07,Servicios básicos,1513812
+2024,4,T07,Mermas,982966
+2024,4,T07,Insumos y otros,647788
+2024,4,T08,Arriendo,27380302
+2024,4,T08,Remuneraciones,30993357
+2024,4,T08,Comisiones,2284234
+2024,4,T08,Servicios básicos,4593337
+2024,4,T08,Mermas,3117803
+2024,4,T08,Insumos y otros,1759028
+2024,4,T09,Arriendo,20405374
+2024,4,T09,Remuneraciones,19838638
+2024,4,T09,Comisiones,1564756
+2024,4,T09,Servicios básicos,2571678
+2024,4,T09,Mermas,1377383
+2024,4,T09,Insumos y otros,1205427
+2024,4,T10,Arriendo,20850582
+2024,4,T10,Remuneraciones,20287250
+2024,4,T10,Comisiones,1621059
+2024,4,T10,Servicios básicos,2761681
+2024,4,T10,Mermas,1760530
+2024,4,T10,Insumos y otros,1405707
+2024,4,T11,Arriendo,10536593
+2024,4,T11,Remuneraciones,11718837
+2024,4,T11,Comisiones,918749
+2024,4,T11,Servicios básicos,1548100
+2024,4,T11,Mermas,1148784
+2024,4,T11,Insumos y otros,743419
+2024,4,T13,Arriendo,21657522
+2024,4,T13,Remuneraciones,20086351
+2024,4,T13,Comisiones,1356711
+2024,4,T13,Servicios básicos,2651309
+2024,4,T13,Mermas,1338275
+2024,4,T13,Insumos y otros,1119317
+2024,4,T14,Arriendo,19895240
+2024,4,T14,Remuneraciones,20020856
+2024,4,T14,Comisiones,1779604
+2024,4,T14,Servicios básicos,3106110
+2024,4,T14,Mermas,2270286
+2024,4,T14,Insumos y otros,1998515
+2024,4,T15,Arriendo,20266246
+2024,4,T15,Remuneraciones,19466757
+2024,4,T15,Comisiones,1578760
+2024,4,T15,Servicios básicos,3302569
+2024,4,T15,Mermas,1735000
+2024,4,T15,Insumos y otros,1131848
+2024,4,T16,Arriendo,12243224
+2024,4,T16,Remuneraciones,12712051
+2024,4,T16,Comisiones,1036229
+2024,4,T16,Servicios básicos,1614393
+2024,4,T16,Mermas,1169701
+2024,4,T16,Insumos y otros,690974
+2024,4,T17,Arriendo,28335644
+2024,4,T17,Remuneraciones,19890741
+2024,4,T17,Comisiones,1950816
+2024,4,T17,Servicios básicos,4193830
+2024,4,T17,Mermas,2325685
+2024,4,T17,Insumos y otros,1341878
+2024,4,T18,Arriendo,29541416
+2024,4,T18,Remuneraciones,32746608
+2024,4,T18,Comisiones,2193748
+2024,4,T18,Servicios básicos,3642467
+2024,4,T18,Mermas,2598773
+2024,4,T18,Insumos y otros,1632369
+2024,4,T19,Arriendo,37610814
+2024,4,T19,Remuneraciones,31139601
+2024,4,T19,Comisiones,3087716
+2024,4,T19,Servicios básicos,5013354
+2024,4,T19,Mermas,3004974
+2024,4,T19,Insumos y otros,2634520
+2024,4,T21,Arriendo,25831348
+2024,4,T21,Remuneraciones,19660377
+2024,4,T21,Comisiones,1744680
+2024,4,T21,Servicios básicos,3049309
+2024,4,T21,Mermas,1840762
+2024,4,T21,Insumos y otros,1514979
+2024,4,T22,Arriendo,22492287
+2024,4,T22,Remuneraciones,19392409
+2024,4,T22,Comisiones,1613112
+2024,4,T22,Servicios básicos,2946576
+2024,4,T22,Mermas,2079765
+2024,4,T22,Insumos y otros,1321084
+2024,4,T23,Arriendo,15693588
+2024,4,T23,Remuneraciones,19951917
+2024,4,T23,Comisiones,1333845
+2024,4,T23,Servicios básicos,2258194
+2024,4,T23,Mermas,1613193
+2024,4,T23,Insumos y otros,914784
+2024,4,T24,Arriendo,30199954
+2024,4,T24,Remuneraciones,32253404
+2024,4,T24,Comisiones,2731369
+2024,4,T24,Servicios básicos,4897996
+2024,4,T24,Mermas,2838691
+2024,4,T24,Insumos y otros,2382221
+2024,4,T25,Arriendo,17808326
+2024,4,T25,Remuneraciones,19502059
+2024,4,T25,Comisiones,1407167
+2024,4,T25,Servicios básicos,2566430
+2024,4,T25,Mermas,1715275
+2024,4,T25,Insumos y otros,1190437
+2024,4,T26,Arriendo,18921347
+2024,4,T26,Remuneraciones,19802923
+2024,4,T26,Comisiones,1496737
+2024,4,T26,Servicios básicos,2542260
+2024,4,T26,Mermas,1929296
+2024,4,T26,Insumos y otros,1238718
+2024,4,T27,Arriendo,22297509
+2024,4,T27,Remuneraciones,30836594
+2024,4,T27,Comisiones,2261713
+2024,4,T27,Servicios básicos,4196751
+2024,4,T27,Mermas,2248138
+2024,4,T27,Insumos y otros,1657702
+2024,4,T29,Arriendo,21184488
+2024,4,T29,Remuneraciones,19666426
+2024,4,T29,Comisiones,1698010
+2024,4,T29,Servicios básicos,3796267
+2024,4,T29,Mermas,2549521
+2024,4,T29,Insumos y otros,1488643
+2024,4,T30,Arriendo,16101695
+2024,4,T30,Remuneraciones,20524656
+2024,4,T30,Comisiones,1385780
+2024,4,T30,Servicios básicos,2587953
+2024,4,T30,Mermas,1561744
+2024,4,T30,Insumos y otros,1208729
+2024,5,T01,Arriendo,27130332
+2024,5,T01,Remuneraciones,31458371
+2024,5,T01,Comisiones,2308913
+2024,5,T01,Servicios básicos,3495610
+2024,5,T01,Mermas,2431691
+2024,5,T01,Insumos y otros,1868174
+2024,5,T02,Arriendo,16062051
+2024,5,T02,Remuneraciones,20067900
+2024,5,T02,Comisiones,1887715
+2024,5,T02,Servicios básicos,2756687
+2024,5,T02,Mermas,1957550
+2024,5,T02,Insumos y otros,1485149
+2024,5,T03,Arriendo,17180059
+2024,5,T03,Remuneraciones,19436957
+2024,5,T03,Comisiones,1771194
+2024,5,T03,Servicios básicos,2970102
+2024,5,T03,Mermas,2049950
+2024,5,T03,Insumos y otros,1486030
+2024,5,T04,Arriendo,20496817
+2024,5,T04,Remuneraciones,19197552
+2024,5,T04,Comisiones,1844941
+2024,5,T04,Servicios básicos,2955344
+2024,5,T04,Mermas,3296795
+2024,5,T04,Insumos y otros,1498636
+2024,5,T05,Arriendo,13714234
+2024,5,T05,Remuneraciones,20055444
+2024,5,T05,Comisiones,1435410
+2024,5,T05,Servicios básicos,2108668
+2024,5,T05,Mermas,1580169
+2024,5,T05,Insumos y otros,1270287
+2024,5,T06,Arriendo,10993747
+2024,5,T06,Remuneraciones,11506719
+2024,5,T06,Comisiones,1060748
+2024,5,T06,Servicios básicos,2050804
+2024,5,T06,Mermas,1435321
+2024,5,T06,Insumos y otros,973661
+2024,5,T07,Arriendo,8981333
+2024,5,T07,Remuneraciones,11843504
+2024,5,T07,Comisiones,905191
+2024,5,T07,Servicios básicos,1412537
+2024,5,T07,Mermas,1052589
+2024,5,T07,Insumos y otros,757786
+2024,5,T08,Arriendo,27503002
+2024,5,T08,Remuneraciones,32737854
+2024,5,T08,Comisiones,2514019
+2024,5,T08,Servicios básicos,4341332
+2024,5,T08,Mermas,3249735
+2024,5,T08,Insumos y otros,1981905
+2024,5,T09,Arriendo,20496817
+2024,5,T09,Remuneraciones,19614436
+2024,5,T09,Comisiones,1699752
+2024,5,T09,Servicios básicos,2781664
+2024,5,T09,Mermas,2048703
+2024,5,T09,Insumos y otros,1330684
+2024,5,T10,Arriendo,20944020
+2024,5,T10,Remuneraciones,19987030
+2024,5,T10,Comisiones,1822890
+2024,5,T10,Servicios básicos,2667192
+2024,5,T10,Mermas,2109568
+2024,5,T10,Insumos y otros,1373238
+2024,5,T11,Arriendo,10583811
+2024,5,T11,Remuneraciones,12075217
+2024,5,T11,Comisiones,993278
+2024,5,T11,Servicios básicos,1606690
+2024,5,T11,Mermas,996064
+2024,5,T11,Insumos y otros,827230
+2024,5,T13,Arriendo,21754576
+2024,5,T13,Remuneraciones,19810716
+2024,5,T13,Comisiones,1516534
+2024,5,T13,Servicios básicos,2517856
+2024,5,T13,Mermas,1741794
+2024,5,T13,Insumos y otros,1039845
+2024,5,T14,Arriendo,19984397
+2024,5,T14,Remuneraciones,20668589
+2024,5,T14,Comisiones,1862047
+2024,5,T14,Servicios básicos,3053078
+2024,5,T14,Mermas,2260395
+2024,5,T14,Insumos y otros,1810230
+2024,5,T15,Arriendo,20357066
+2024,5,T15,Remuneraciones,20309644
+2024,5,T15,Comisiones,1692968
+2024,5,T15,Servicios básicos,2730553
+2024,5,T15,Mermas,1471069
+2024,5,T15,Insumos y otros,1181348
+2024,5,T16,Arriendo,12298090
+2024,5,T16,Remuneraciones,12178412
+2024,5,T16,Comisiones,1093402
+2024,5,T16,Servicios básicos,1578780
+2024,5,T16,Mermas,1145116
+2024,5,T16,Insumos y otros,895947
+2024,5,T17,Arriendo,28462625
+2024,5,T17,Remuneraciones,20310219
+2024,5,T17,Comisiones,2215609
+2024,5,T17,Servicios básicos,3552957
+2024,5,T17,Mermas,2928994
+2024,5,T17,Insumos y otros,1692966
+2024,5,T18,Arriendo,29673801
+2024,5,T18,Remuneraciones,33972332
+2024,5,T18,Comisiones,2467616
+2024,5,T18,Servicios básicos,4364722
+2024,5,T18,Mermas,3332506
+2024,5,T18,Insumos y otros,2225004
+2024,5,T19,Arriendo,37779360
+2024,5,T19,Remuneraciones,30205455
+2024,5,T19,Comisiones,3571901
+2024,5,T19,Servicios básicos,5924110
+2024,5,T19,Mermas,4511116
+2024,5,T19,Insumos y otros,2503228
+2024,5,T21,Arriendo,25947107
+2024,5,T21,Remuneraciones,21109490
+2024,5,T21,Comisiones,1944850
+2024,5,T21,Servicios básicos,3202896
+2024,5,T21,Mermas,2002370
+2024,5,T21,Insumos y otros,1579380
+2024,5,T22,Arriendo,22593082
+2024,5,T22,Remuneraciones,18922983
+2024,5,T22,Comisiones,1808758
+2024,5,T22,Servicios básicos,3025257
+2024,5,T22,Mermas,2428747
+2024,5,T22,Insumos y otros,1563393
+2024,5,T23,Arriendo,15763916
+2024,5,T23,Remuneraciones,18982525
+2024,5,T23,Comisiones,1482871
+2024,5,T23,Servicios básicos,2514309
+2024,5,T23,Mermas,1776953
+2024,5,T23,Insumos y otros,1580364
+2024,5,T24,Arriendo,30335289
+2024,5,T24,Remuneraciones,31794954
+2024,5,T24,Comisiones,2972345
+2024,5,T24,Servicios básicos,5194121
+2024,5,T24,Mermas,4043499
+2024,5,T24,Insumos y otros,2519616
+2024,5,T25,Arriendo,17888131
+2024,5,T25,Remuneraciones,19266446
+2024,5,T25,Comisiones,1597734
+2024,5,T25,Servicios básicos,2509617
+2024,5,T25,Mermas,2018107
+2024,5,T25,Insumos y otros,1195445
+2024,5,T26,Arriendo,19006139
+2024,5,T26,Remuneraciones,18970630
+2024,5,T26,Comisiones,1678759
+2024,5,T26,Servicios básicos,2709265
+2024,5,T26,Mermas,2365874
+2024,5,T26,Insumos y otros,1152799
+2024,5,T27,Arriendo,22397431
+2024,5,T27,Remuneraciones,30890640
+2024,5,T27,Comisiones,2488111
+2024,5,T27,Servicios básicos,4898875
+2024,5,T27,Mermas,2831543
+2024,5,T27,Insumos y otros,2063814
+2024,5,T29,Arriendo,21279423
+2024,5,T29,Remuneraciones,20516863
+2024,5,T29,Comisiones,1870101
+2024,5,T29,Servicios básicos,4029061
+2024,5,T29,Mermas,2017710
+2024,5,T29,Insumos y otros,1549776
+2024,5,T30,Arriendo,16173852
+2024,5,T30,Remuneraciones,20061103
+2024,5,T30,Comisiones,1528015
+2024,5,T30,Servicios básicos,2515692
+2024,5,T30,Mermas,1856338
+2024,5,T30,Insumos y otros,1476258
+2024,6,T01,Arriendo,27259916
+2024,6,T01,Remuneraciones,31609345
+2024,6,T01,Comisiones,2043928
+2024,6,T01,Servicios básicos,4607359
+2024,6,T01,Mermas,2043186
+2024,6,T01,Insumos y otros,1493668
+2024,6,T02,Arriendo,16138769
+2024,6,T02,Remuneraciones,20533995
+2024,6,T02,Comisiones,1850922
+2024,6,T02,Servicios básicos,3717303
+2024,6,T02,Mermas,2681286
+2024,6,T02,Insumos y otros,1234866
+2024,6,T03,Arriendo,17262117
+2024,6,T03,Remuneraciones,18946990
+2024,6,T03,Comisiones,1676663
+2024,6,T03,Servicios básicos,3713733
+2024,6,T03,Mermas,1554424
+2024,6,T03,Insumos y otros,1176766
+2024,6,T04,Arriendo,20594717
+2024,6,T04,Remuneraciones,19500237
+2024,6,T04,Comisiones,1765619
+2024,6,T04,Servicios básicos,3516104
+2024,6,T04,Mermas,2165969
+2024,6,T04,Insumos y otros,1915185
+2024,6,T05,Arriendo,13779738
+2024,6,T05,Remuneraciones,19874994
+2024,6,T05,Comisiones,1343080
+2024,6,T05,Servicios básicos,2253738
+2024,6,T05,Mermas,1889130
+2024,6,T05,Insumos y otros,969381
+2024,6,T06,Arriendo,11046257
+2024,6,T06,Remuneraciones,11877053
+2024,6,T06,Comisiones,1021569
+2024,6,T06,Servicios básicos,2139877
+2024,6,T06,Mermas,822210
+2024,6,T06,Insumos y otros,939615
+2024,6,T07,Arriendo,9024231
+2024,6,T07,Remuneraciones,11720781
+2024,6,T07,Comisiones,829478
+2024,6,T07,Servicios básicos,1803703
+2024,6,T07,Mermas,914589
+2024,6,T07,Insumos y otros,609110
+2024,6,T08,Arriendo,27634366
+2024,6,T08,Remuneraciones,31490446
+2024,6,T08,Comisiones,2388519
+2024,6,T08,Servicios básicos,4948827
+2024,6,T08,Mermas,2939657
+2024,6,T08,Insumos y otros,1854897
+2024,6,T09,Arriendo,20594717
+2024,6,T09,Remuneraciones,19448823
+2024,6,T09,Comisiones,1603192
+2024,6,T09,Servicios básicos,3128698
+2024,6,T09,Mermas,1690732
+2024,6,T09,Insumos y otros,1637777
+2024,6,T10,Arriendo,21044056
+2024,6,T10,Remuneraciones,19531689
+2024,6,T10,Comisiones,1732970
+2024,6,T10,Servicios básicos,4043430
+2024,6,T10,Mermas,1956877
+2024,6,T10,Insumos y otros,1221926
+2024,6,T11,Arriendo,10634363
+2024,6,T11,Remuneraciones,12021317
+2024,6,T11,Comisiones,940014
+2024,6,T11,Servicios básicos,1895819
+2024,6,T11,Mermas,920254
+2024,6,T11,Insumos y otros,760157
+2024,6,T13,Arriendo,21858484
+2024,6,T13,Remuneraciones,20442700
+2024,6,T13,Comisiones,1366340
+2024,6,T13,Servicios básicos,2926758
+2024,6,T13,Mermas,1915879
+2024,6,T13,Insumos y otros,829872
+2024,6,T14,Arriendo,20079849
+2024,6,T14,Remuneraciones,20058287
+2024,6,T14,Comisiones,1775522
+2024,6,T14,Servicios básicos,3852690
+2024,6,T14,Mermas,2067434
+2024,6,T14,Insumos y otros,1429385
+2024,6,T15,Arriendo,20454298
+2024,6,T15,Remuneraciones,19909422
+2024,6,T15,Comisiones,1591496
+2024,6,T15,Servicios básicos,3815037
+2024,6,T15,Mermas,1789338
+2024,6,T15,Insumos y otros,1355079
+2024,6,T16,Arriendo,12356830
+2024,6,T16,Remuneraciones,12233861
+2024,6,T16,Comisiones,1067395
+2024,6,T16,Servicios básicos,2087360
+2024,6,T16,Mermas,1253123
+2024,6,T16,Insumos y otros,918229
+2024,6,T17,Arriendo,28598573
+2024,6,T17,Remuneraciones,20453913
+2024,6,T17,Comisiones,2038836
+2024,6,T17,Servicios básicos,4577518
+2024,6,T17,Mermas,2527648
+2024,6,T17,Insumos y otros,1733466
+2024,6,T18,Arriendo,29815533
+2024,6,T18,Remuneraciones,32076415
+2024,6,T18,Comisiones,2372410
+2024,6,T18,Servicios básicos,4814198
+2024,6,T18,Mermas,2336920
+2024,6,T18,Insumos y otros,2242272
+2024,6,T19,Arriendo,37959808
+2024,6,T19,Remuneraciones,31545161
+2024,6,T19,Comisiones,3206035
+2024,6,T19,Servicios básicos,7581641
+2024,6,T19,Mermas,4008504
+2024,6,T19,Insumos y otros,2162361
+2024,6,T21,Arriendo,26071039
+2024,6,T21,Remuneraciones,21152153
+2024,6,T21,Comisiones,1930951
+2024,6,T21,Servicios básicos,3853343
+2024,6,T21,Mermas,2692792
+2024,6,T21,Insumos y otros,1707966
+2024,6,T22,Arriendo,22700995
+2024,6,T22,Remuneraciones,19875931
+2024,6,T22,Comisiones,1654508
+2024,6,T22,Servicios básicos,3945210
+2024,6,T22,Mermas,1667014
+2024,6,T22,Insumos y otros,1347315
+2024,6,T23,Arriendo,15839210
+2024,6,T23,Remuneraciones,20058952
+2024,6,T23,Comisiones,1405974
+2024,6,T23,Servicios básicos,2942887
+2024,6,T23,Mermas,1119248
+2024,6,T23,Insumos y otros,1082492
+2024,6,T24,Arriendo,30480181
+2024,6,T24,Remuneraciones,31376959
+2024,6,T24,Comisiones,2758192
+2024,6,T24,Servicios básicos,6383093
+2024,6,T24,Mermas,3215155
+2024,6,T24,Insumos y otros,2751763
+2024,6,T25,Arriendo,17973571
+2024,6,T25,Remuneraciones,19364737
+2024,6,T25,Comisiones,1462978
+2024,6,T25,Servicios básicos,2842944
+2024,6,T25,Mermas,1806663
+2024,6,T25,Insumos y otros,1033815
+2024,6,T26,Arriendo,19096919
+2024,6,T26,Remuneraciones,19874443
+2024,6,T26,Comisiones,1499052
+2024,6,T26,Servicios básicos,3689073
+2024,6,T26,Mermas,2102829
+2024,6,T26,Insumos y otros,1242231
+2024,6,T27,Arriendo,22504409
+2024,6,T27,Remuneraciones,30319724
+2024,6,T27,Comisiones,2307407
+2024,6,T27,Servicios básicos,4503824
+2024,6,T27,Mermas,2389235
+2024,6,T27,Insumos y otros,1262922
+2024,6,T29,Arriendo,21381061
+2024,6,T29,Remuneraciones,18499092
+2024,6,T29,Comisiones,1765610
+2024,6,T29,Servicios básicos,3899480
+2024,6,T29,Mermas,2519152
+2024,6,T29,Insumos y otros,1199088
+2024,6,T30,Arriendo,16251104
+2024,6,T30,Remuneraciones,20239261
+2024,6,T30,Comisiones,1431516
+2024,6,T30,Servicios básicos,2637646
+2024,6,T30,Mermas,1828138
+2024,6,T30,Insumos y otros,1014003
+2024,7,T01,Arriendo,27355044
+2024,7,T01,Remuneraciones,31131829
+2024,7,T01,Comisiones,2225570
+2024,7,T01,Servicios básicos,5054343
+2024,7,T01,Mermas,2754872
+2024,7,T01,Insumos y otros,1740406
+2024,7,T02,Arriendo,16195088
+2024,7,T02,Remuneraciones,19613588
+2024,7,T02,Comisiones,1920789
+2024,7,T02,Servicios básicos,3569675
+2024,7,T02,Mermas,2139627
+2024,7,T02,Insumos y otros,1644859
+2024,7,T03,Arriendo,17322356
+2024,7,T03,Remuneraciones,20525875
+2024,7,T03,Comisiones,1732875
+2024,7,T03,Servicios básicos,3237606
+2024,7,T03,Mermas,1848788
+2024,7,T03,Insumos y otros,1450034
+2024,7,T04,Arriendo,20666586
+2024,7,T04,Remuneraciones,18958484
+2024,7,T04,Comisiones,1859238
+2024,7,T04,Servicios básicos,4175591
+2024,7,T04,Mermas,1989881
+2024,7,T04,Insumos y otros,1569421
+2024,7,T05,Arriendo,13827824
+2024,7,T05,Remuneraciones,19792248
+2024,7,T05,Comisiones,1377787
+2024,7,T05,Servicios básicos,3201923
+2024,7,T05,Mermas,1645455
+2024,7,T05,Insumos y otros,1044225
+2024,7,T06,Arriendo,11084805
+2024,7,T06,Remuneraciones,12547098
+2024,7,T06,Comisiones,1050640
+2024,7,T06,Servicios básicos,1845232
+2024,7,T06,Mermas,1557218
+2024,7,T06,Insumos y otros,941148
+2024,7,T07,Arriendo,9055722
+2024,7,T07,Remuneraciones,11966043
+2024,7,T07,Comisiones,880789
+2024,7,T07,Servicios básicos,2037753
+2024,7,T07,Mermas,1100134
+2024,7,T07,Insumos y otros,678475
+2024,7,T08,Arriendo,27730800
+2024,7,T08,Remuneraciones,31491659
+2024,7,T08,Comisiones,2426253
+2024,7,T08,Servicios básicos,4740377
+2024,7,T08,Mermas,2916933
+2024,7,T08,Insumos y otros,2041249
+2024,7,T09,Arriendo,20666586
+2024,7,T09,Remuneraciones,20977321
+2024,7,T09,Comisiones,1668933
+2024,7,T09,Servicios básicos,3626615
+2024,7,T09,Mermas,1928411
+2024,7,T09,Insumos y otros,1118735
+2024,7,T10,Arriendo,21117493
+2024,7,T10,Remuneraciones,20489325
+2024,7,T10,Comisiones,1829036
+2024,7,T10,Servicios básicos,3826756
+2024,7,T10,Mermas,2415052
+2024,7,T10,Insumos y otros,1459077
+2024,7,T11,Arriendo,10671473
+2024,7,T11,Remuneraciones,12003050
+2024,7,T11,Comisiones,981511
+2024,7,T11,Servicios básicos,1841234
+2024,7,T11,Mermas,1262696
+2024,7,T11,Insumos y otros,903180
+2024,7,T13,Arriendo,21934762
+2024,7,T13,Remuneraciones,19739701
+2024,7,T13,Comisiones,1435284
+2024,7,T13,Servicios básicos,3015822
+2024,7,T13,Mermas,1887178
+2024,7,T13,Insumos y otros,1092235
+2024,7,T14,Arriendo,20149921
+2024,7,T14,Remuneraciones,19851472
+2024,7,T14,Comisiones,1824036
+2024,7,T14,Servicios básicos,3649552
+2024,7,T14,Mermas,2572268
+2024,7,T14,Insumos y otros,1506133
+2024,7,T15,Arriendo,20525677
+2024,7,T15,Remuneraciones,19108986
+2024,7,T15,Comisiones,1684217
+2024,7,T15,Servicios básicos,2806960
+2024,7,T15,Mermas,1788672
+2024,7,T15,Insumos y otros,1334618
+2024,7,T16,Arriendo,12399951
+2024,7,T16,Remuneraciones,11554875
+2024,7,T16,Comisiones,1079021
+2024,7,T16,Servicios básicos,2207016
+2024,7,T16,Mermas,1369665
+2024,7,T16,Insumos y otros,1158928
+2024,7,T17,Arriendo,28698372
+2024,7,T17,Remuneraciones,20131332
+2024,7,T17,Comisiones,2153744
+2024,7,T17,Servicios básicos,4301474
+2024,7,T17,Mermas,2386909
+2024,7,T17,Insumos y otros,2058820
+2024,7,T18,Arriendo,29919579
+2024,7,T18,Remuneraciones,30268592
+2024,7,T18,Comisiones,2385809
+2024,7,T18,Servicios básicos,5014522
+2024,7,T18,Mermas,2649510
+2024,7,T18,Insumos y otros,1811015
+2024,7,T19,Arriendo,38092275
+2024,7,T19,Remuneraciones,31533254
+2024,7,T19,Comisiones,3474012
+2024,7,T19,Servicios básicos,6780407
+2024,7,T19,Mermas,4923426
+2024,7,T19,Insumos y otros,2902892
+2024,7,T21,Arriendo,26162018
+2024,7,T21,Remuneraciones,20709601
+2024,7,T21,Comisiones,1929977
+2024,7,T21,Servicios básicos,4344303
+2024,7,T21,Mermas,2763593
+2024,7,T21,Insumos y otros,1781371
+2024,7,T22,Arriendo,22780214
+2024,7,T22,Remuneraciones,20972779
+2024,7,T22,Comisiones,1756228
+2024,7,T22,Servicios básicos,4165168
+2024,7,T22,Mermas,2594201
+2024,7,T22,Insumos y otros,1412168
+2024,7,T23,Arriendo,15894483
+2024,7,T23,Remuneraciones,20139081
+2024,7,T23,Comisiones,1487279
+2024,7,T23,Servicios básicos,3436774
+2024,7,T23,Mermas,2000048
+2024,7,T23,Insumos y otros,1148467
+2024,7,T24,Arriendo,30586547
+2024,7,T24,Remuneraciones,31298178
+2024,7,T24,Comisiones,2975453
+2024,7,T24,Servicios básicos,5700817
+2024,7,T24,Mermas,3069545
+2024,7,T24,Insumos y otros,2280442
+2024,7,T25,Arriendo,18036293
+2024,7,T25,Remuneraciones,19170729
+2024,7,T25,Comisiones,1583046
+2024,7,T25,Servicios básicos,3508497
+2024,7,T25,Mermas,1839542
+2024,7,T25,Insumos y otros,1238888
+2024,7,T26,Arriendo,19163561
+2024,7,T26,Remuneraciones,20628871
+2024,7,T26,Comisiones,1644244
+2024,7,T26,Servicios básicos,3196237
+2024,7,T26,Mermas,2137372
+2024,7,T26,Insumos y otros,1381147
+2024,7,T27,Arriendo,22582942
+2024,7,T27,Remuneraciones,31433443
+2024,7,T27,Comisiones,2484959
+2024,7,T27,Servicios básicos,5309034
+2024,7,T27,Mermas,3677256
+2024,7,T27,Insumos y otros,2014116
+2024,7,T29,Arriendo,21455673
+2024,7,T29,Remuneraciones,20064081
+2024,7,T29,Comisiones,1863243
+2024,7,T29,Servicios básicos,4110312
+2024,7,T29,Mermas,1953786
+2024,7,T29,Insumos y otros,1364114
+2024,7,T30,Arriendo,16307815
+2024,7,T30,Remuneraciones,20647075
+2024,7,T30,Comisiones,1462651
+2024,7,T30,Servicios básicos,3113151
+2024,7,T30,Mermas,1929271
+2024,7,T30,Insumos y otros,1120059
+2024,8,T01,Arriendo,27356595
+2024,8,T01,Remuneraciones,31771412
+2024,8,T01,Comisiones,2169853
+2024,8,T01,Servicios básicos,5001178
+2024,8,T01,Mermas,3296561
+2024,8,T01,Insumos y otros,1889461
+2024,8,T02,Arriendo,16196006
+2024,8,T02,Remuneraciones,19615208
+2024,8,T02,Comisiones,1876573
+2024,8,T02,Servicios básicos,4171455
+2024,8,T02,Mermas,2147780
+2024,8,T02,Insumos y otros,1638170
+2024,8,T03,Arriendo,17323338
+2024,8,T03,Remuneraciones,20131592
+2024,8,T03,Comisiones,1791838
+2024,8,T03,Servicios básicos,3886106
+2024,8,T03,Mermas,1781619
+2024,8,T03,Insumos y otros,1571501
+2024,8,T04,Arriendo,20667757
+2024,8,T04,Remuneraciones,20420793
+2024,8,T04,Comisiones,1890337
+2024,8,T04,Servicios básicos,3772564
+2024,8,T04,Mermas,2009860
+2024,8,T04,Insumos y otros,1511899
+2024,8,T05,Arriendo,13828608
+2024,8,T05,Remuneraciones,20039781
+2024,8,T05,Comisiones,1387561
+2024,8,T05,Servicios básicos,2966973
+2024,8,T05,Mermas,1656569
+2024,8,T05,Insumos y otros,929315
+2024,8,T06,Arriendo,11085433
+2024,8,T06,Remuneraciones,11801663
+2024,8,T06,Comisiones,1067299
+2024,8,T06,Servicios básicos,2427795
+2024,8,T06,Mermas,1153053
+2024,8,T06,Insumos y otros,892030
+2024,8,T07,Arriendo,9056235
+2024,8,T07,Remuneraciones,12239788
+2024,8,T07,Comisiones,875328
+2024,8,T07,Servicios básicos,1998588
+2024,8,T07,Mermas,908097
+2024,8,T07,Insumos y otros,799889
+2024,8,T08,Arriendo,27732372
+2024,8,T08,Remuneraciones,32554639
+2024,8,T08,Comisiones,2462503
+2024,8,T08,Servicios básicos,5327132
+2024,8,T08,Mermas,2908030
+2024,8,T08,Insumos y otros,1947948
+2024,8,T09,Arriendo,20667757
+2024,8,T09,Remuneraciones,19310036
+2024,8,T09,Comisiones,1624695
+2024,8,T09,Servicios básicos,3550624
+2024,8,T09,Mermas,1906648
+2024,8,T09,Insumos y otros,1317740
+2024,8,T10,Arriendo,21118690
+2024,8,T10,Remuneraciones,19640469
+2024,8,T10,Comisiones,1795955
+2024,8,T10,Servicios básicos,3564281
+2024,8,T10,Mermas,2517503
+2024,8,T10,Insumos y otros,1297193
+2024,8,T11,Arriendo,10672078
+2024,8,T11,Remuneraciones,11609076
+2024,8,T11,Comisiones,1021722
+2024,8,T11,Servicios básicos,2064192
+2024,8,T11,Mermas,1194278
+2024,8,T11,Insumos y otros,808160
+2024,8,T13,Arriendo,21936006
+2024,8,T13,Remuneraciones,20708050
+2024,8,T13,Comisiones,1440289
+2024,8,T13,Servicios básicos,3710469
+2024,8,T13,Mermas,1378395
+2024,8,T13,Insumos y otros,1249691
+2024,8,T14,Arriendo,20151063
+2024,8,T14,Remuneraciones,19335177
+2024,8,T14,Comisiones,1824976
+2024,8,T14,Servicios básicos,3778002
+2024,8,T14,Mermas,2267925
+2024,8,T14,Insumos y otros,1258309
+2024,8,T15,Arriendo,20526840
+2024,8,T15,Remuneraciones,20739430
+2024,8,T15,Comisiones,1688314
+2024,8,T15,Servicios básicos,3697010
+2024,8,T15,Mermas,1774592
+2024,8,T15,Insumos y otros,1529257
+2024,8,T16,Arriendo,12400654
+2024,8,T16,Remuneraciones,12352124
+2024,8,T16,Comisiones,1117467
+2024,8,T16,Servicios básicos,2097053
+2024,8,T16,Mermas,1235984
+2024,8,T16,Insumos y otros,724521
+2024,8,T17,Arriendo,28699999
+2024,8,T17,Remuneraciones,19412876
+2024,8,T17,Comisiones,2144695
+2024,8,T17,Servicios básicos,4346004
+2024,8,T17,Mermas,2580437
+2024,8,T17,Insumos y otros,1847314
+2024,8,T18,Arriendo,29921275
+2024,8,T18,Remuneraciones,31159253
+2024,8,T18,Comisiones,2501142
+2024,8,T18,Servicios básicos,4467861
+2024,8,T18,Mermas,2257496
+2024,8,T18,Insumos y otros,2004113
+2024,8,T19,Arriendo,38094434
+2024,8,T19,Remuneraciones,32403285
+2024,8,T19,Comisiones,3495160
+2024,8,T19,Servicios básicos,8153408
+2024,8,T19,Mermas,5382173
+2024,8,T19,Insumos y otros,2165630
+2024,8,T21,Arriendo,26163501
+2024,8,T21,Remuneraciones,19332477
+2024,8,T21,Comisiones,1928766
+2024,8,T21,Servicios básicos,3419292
+2024,8,T21,Mermas,1952014
+2024,8,T21,Insumos y otros,1564364
+2024,8,T22,Arriendo,22781505
+2024,8,T22,Remuneraciones,19687919
+2024,8,T22,Comisiones,1760671
+2024,8,T22,Servicios básicos,3808131
+2024,8,T22,Mermas,2362389
+2024,8,T22,Insumos y otros,1325245
+2024,8,T23,Arriendo,15895384
+2024,8,T23,Remuneraciones,19238165
+2024,8,T23,Comisiones,1427510
+2024,8,T23,Servicios básicos,2903866
+2024,8,T23,Mermas,1911486
+2024,8,T23,Insumos y otros,1469881
+2024,8,T24,Arriendo,30588280
+2024,8,T24,Remuneraciones,31124417
+2024,8,T24,Comisiones,2936437
+2024,8,T24,Servicios básicos,6225056
+2024,8,T24,Mermas,2929470
+2024,8,T24,Insumos y otros,2009478
+2024,8,T25,Arriendo,18037315
+2024,8,T25,Remuneraciones,19789825
+2024,8,T25,Comisiones,1548247
+2024,8,T25,Servicios básicos,3671396
+2024,8,T25,Mermas,1935232
+2024,8,T25,Insumos y otros,1144170
+2024,8,T26,Arriendo,19164647
+2024,8,T26,Remuneraciones,19806023
+2024,8,T26,Comisiones,1647937
+2024,8,T26,Servicios básicos,4160770
+2024,8,T26,Mermas,1947026
+2024,8,T26,Insumos y otros,1039482
+2024,8,T27,Arriendo,22584222
+2024,8,T27,Remuneraciones,32752299
+2024,8,T27,Comisiones,2413501
+2024,8,T27,Servicios básicos,5722947
+2024,8,T27,Mermas,3091944
+2024,8,T27,Insumos y otros,2241359
+2024,8,T29,Arriendo,21456890
+2024,8,T29,Remuneraciones,20353118
+2024,8,T29,Comisiones,1871185
+2024,8,T29,Servicios básicos,3871617
+2024,8,T29,Mermas,2936804
+2024,8,T29,Insumos y otros,1915160
+2024,8,T30,Arriendo,16308739
+2024,8,T30,Remuneraciones,20487347
+2024,8,T30,Comisiones,1497909
+2024,8,T30,Servicios básicos,2740734
+2024,8,T30,Mermas,1666938
+2024,8,T30,Insumos y otros,1383844
+2024,9,T01,Arriendo,27491442
+2024,9,T01,Remuneraciones,32861806
+2024,9,T01,Comisiones,2124832
+2024,9,T01,Servicios básicos,4007085
+2024,9,T01,Mermas,2151306
+2024,9,T01,Insumos y otros,1459402
+2024,9,T02,Arriendo,16275840
+2024,9,T02,Remuneraciones,19685013
+2024,9,T02,Comisiones,1936404
+2024,9,T02,Servicios básicos,3179073
+2024,9,T02,Mermas,2131133
+2024,9,T02,Insumos y otros,1344337
+2024,9,T03,Arriendo,17408729
+2024,9,T03,Remuneraciones,20446220
+2024,9,T03,Comisiones,1730521
+2024,9,T03,Servicios básicos,3030861
+2024,9,T03,Mermas,2015261
+2024,9,T03,Insumos y otros,1025425
+2024,9,T04,Arriendo,20769634
+2024,9,T04,Remuneraciones,19698881
+2024,9,T04,Comisiones,1832982
+2024,9,T04,Servicios básicos,2745084
+2024,9,T04,Mermas,2424486
+2024,9,T04,Insumos y otros,1611377
+2024,9,T05,Arriendo,13896773
+2024,9,T05,Remuneraciones,19901238
+2024,9,T05,Comisiones,1351549
+2024,9,T05,Servicios básicos,2173533
+2024,9,T05,Mermas,1522693
+2024,9,T05,Insumos y otros,1130425
+2024,9,T06,Arriendo,11140076
+2024,9,T06,Remuneraciones,12123975
+2024,9,T06,Comisiones,1006820
+2024,9,T06,Servicios básicos,1628012
+2024,9,T06,Mermas,1042220
+2024,9,T06,Insumos y otros,799183
+2024,9,T07,Arriendo,9100876
+2024,9,T07,Remuneraciones,11716505
+2024,9,T07,Comisiones,881005
+2024,9,T07,Servicios básicos,1425168
+2024,9,T07,Mermas,1016853
+2024,9,T07,Insumos y otros,777922
+2024,9,T08,Arriendo,27869072
+2024,9,T08,Remuneraciones,30914420
+2024,9,T08,Comisiones,2427723
+2024,9,T08,Servicios básicos,4511852
+2024,9,T08,Mermas,3418865
+2024,9,T08,Insumos y otros,1848658
+2024,9,T09,Arriendo,20769634
+2024,9,T09,Remuneraciones,20660808
+2024,9,T09,Comisiones,1564929
+2024,9,T09,Servicios básicos,2809909
+2024,9,T09,Mermas,1788241
+2024,9,T09,Insumos y otros,1289157
+2024,9,T10,Arriendo,21222789
+2024,9,T10,Remuneraciones,19366841
+2024,9,T10,Comisiones,1812835
+2024,9,T10,Servicios básicos,3065617
+2024,9,T10,Mermas,1885433
+2024,9,T10,Insumos y otros,1430987
+2024,9,T11,Arriendo,10724683
+2024,9,T11,Remuneraciones,11889268
+2024,9,T11,Comisiones,973606
+2024,9,T11,Servicios básicos,1627131
+2024,9,T11,Mermas,1083748
+2024,9,T11,Insumos y otros,568033
+2024,9,T13,Arriendo,22044134
+2024,9,T13,Remuneraciones,20226784
+2024,9,T13,Comisiones,1402767
+2024,9,T13,Servicios básicos,2955699
+2024,9,T13,Mermas,2325288
+2024,9,T13,Insumos y otros,1240645
+2024,9,T14,Arriendo,20250393
+2024,9,T14,Remuneraciones,20508312
+2024,9,T14,Comisiones,1811685
+2024,9,T14,Servicios básicos,3332801
+2024,9,T14,Mermas,1983641
+2024,9,T14,Insumos y otros,1658898
+2024,9,T15,Arriendo,20628022
+2024,9,T15,Remuneraciones,19852334
+2024,9,T15,Comisiones,1668638
+2024,9,T15,Servicios básicos,2628443
+2024,9,T15,Mermas,1880353
+2024,9,T15,Insumos y otros,1392952
+2024,9,T16,Arriendo,12461780
+2024,9,T16,Remuneraciones,12254453
+2024,9,T16,Comisiones,1074464
+2024,9,T16,Servicios básicos,1726063
+2024,9,T16,Mermas,1379073
+2024,9,T16,Insumos y otros,864748
+2024,9,T17,Arriendo,28841468
+2024,9,T17,Remuneraciones,19021212
+2024,9,T17,Comisiones,2103870
+2024,9,T17,Servicios básicos,3421225
+2024,9,T17,Mermas,2511140
+2024,9,T17,Insumos y otros,1762858
+2024,9,T18,Arriendo,30068765
+2024,9,T18,Remuneraciones,32559588
+2024,9,T18,Comisiones,2406067
+2024,9,T18,Servicios básicos,4457900
+2024,9,T18,Mermas,2962325
+2024,9,T18,Insumos y otros,1914588
+2024,9,T19,Arriendo,38282211
+2024,9,T19,Remuneraciones,32610332
+2024,9,T19,Comisiones,3382733
+2024,9,T19,Servicios básicos,6858730
+2024,9,T19,Mermas,4465409
+2024,9,T19,Insumos y otros,2465734
+2024,9,T21,Arriendo,26292468
+2024,9,T21,Remuneraciones,19771723
+2024,9,T21,Comisiones,1869515
+2024,9,T21,Servicios básicos,3827734
+2024,9,T21,Mermas,2312740
+2024,9,T21,Insumos y otros,1389392
+2024,9,T22,Arriendo,22893801
+2024,9,T22,Remuneraciones,18948439
+2024,9,T22,Comisiones,1723946
+2024,9,T22,Servicios básicos,2861474
+2024,9,T22,Mermas,2125571
+2024,9,T22,Insumos y otros,1270439
+2024,9,T23,Arriendo,15973736
+2024,9,T23,Remuneraciones,20862685
+2024,9,T23,Comisiones,1336953
+2024,9,T23,Servicios básicos,2565926
+2024,9,T23,Mermas,1396622
+2024,9,T23,Insumos y otros,995124
+2024,9,T24,Arriendo,30739058
+2024,9,T24,Remuneraciones,32113544
+2024,9,T24,Comisiones,2901703
+2024,9,T24,Servicios básicos,5206047
+2024,9,T24,Mermas,3064609
+2024,9,T24,Insumos y otros,2377040
+2024,9,T25,Arriendo,18126226
+2024,9,T25,Remuneraciones,20531977
+2024,9,T25,Comisiones,1498074
+2024,9,T25,Servicios básicos,2390448
+2024,9,T25,Mermas,1489442
+2024,9,T25,Insumos y otros,1442123
+2024,9,T26,Arriendo,19259115
+2024,9,T26,Remuneraciones,19706815
+2024,9,T26,Comisiones,1617877
+2024,9,T26,Servicios básicos,2672022
+2024,9,T26,Mermas,2019878
+2024,9,T26,Insumos y otros,1513459
+2024,9,T27,Arriendo,22695545
+2024,9,T27,Remuneraciones,31952062
+2024,9,T27,Comisiones,2473347
+2024,9,T27,Servicios básicos,4182852
+2024,9,T27,Mermas,2267274
+2024,9,T27,Insumos y otros,1972422
+2024,9,T29,Arriendo,21562656
+2024,9,T29,Remuneraciones,19138367
+2024,9,T29,Comisiones,1782025
+2024,9,T29,Servicios básicos,3141227
+2024,9,T29,Mermas,1724749
+2024,9,T29,Insumos y otros,1780664
+2024,9,T30,Arriendo,16389129
+2024,9,T30,Remuneraciones,20467962
+2024,9,T30,Comisiones,1541364
+2024,9,T30,Servicios básicos,2265650
+2024,9,T30,Mermas,2066631
+2024,9,T30,Insumos y otros,1081937
+2024,10,T01,Arriendo,27601538
+2024,10,T01,Remuneraciones,32790012
+2024,10,T01,Comisiones,2324833
+2024,10,T01,Servicios básicos,3536375
+2024,10,T01,Mermas,2184326
+2024,10,T01,Insumos y otros,2218008
+2024,10,T02,Arriendo,16341020
+2024,10,T02,Remuneraciones,19192324
+2024,10,T02,Comisiones,2056249
+2024,10,T02,Servicios básicos,2846872
+2024,10,T02,Mermas,2714434
+2024,10,T02,Insumos y otros,1596962
+2024,10,T03,Arriendo,17478446
+2024,10,T03,Remuneraciones,19431931
+2024,10,T03,Comisiones,1811996
+2024,10,T03,Servicios básicos,3056041
+2024,10,T03,Mermas,2252283
+2024,10,T03,Insumos y otros,1209034
+2024,10,T04,Arriendo,20852810
+2024,10,T04,Remuneraciones,20467835
+2024,10,T04,Comisiones,1989856
+2024,10,T04,Servicios básicos,2994580
+2024,10,T04,Mermas,2180649
+2024,10,T04,Insumos y otros,1736459
+2024,10,T05,Arriendo,13952426
+2024,10,T05,Remuneraciones,19788530
+2024,10,T05,Comisiones,1447926
+2024,10,T05,Servicios básicos,2452758
+2024,10,T05,Mermas,1875721
+2024,10,T05,Insumos y otros,1167640
+2024,10,T06,Arriendo,11184689
+2024,10,T06,Remuneraciones,12109524
+2024,10,T06,Comisiones,1111012
+2024,10,T06,Servicios básicos,1630015
+2024,10,T06,Mermas,1347927
+2024,10,T06,Insumos y otros,868797
+2024,10,T07,Arriendo,9137322
+2024,10,T07,Remuneraciones,12059063
+2024,10,T07,Comisiones,918303
+2024,10,T07,Servicios básicos,1730821
+2024,10,T07,Mermas,1300890
+2024,10,T07,Insumos y otros,706927
+2024,10,T08,Arriendo,27980680
+2024,10,T08,Remuneraciones,32265154
+2024,10,T08,Comisiones,2548184
+2024,10,T08,Servicios básicos,4732173
+2024,10,T08,Mermas,2915611
+2024,10,T08,Insumos y otros,2120563
+2024,10,T09,Arriendo,20852810
+2024,10,T09,Remuneraciones,19302632
+2024,10,T09,Comisiones,1737639
+2024,10,T09,Servicios básicos,2866928
+2024,10,T09,Mermas,2088865
+2024,10,T09,Insumos y otros,1198566
+2024,10,T10,Arriendo,21307780
+2024,10,T10,Remuneraciones,20116047
+2024,10,T10,Comisiones,1985780
+2024,10,T10,Servicios básicos,2993731
+2024,10,T10,Mermas,2400663
+2024,10,T10,Insumos y otros,1536861
+2024,10,T11,Arriendo,10767633
+2024,10,T11,Remuneraciones,11921672
+2024,10,T11,Comisiones,1048885
+2024,10,T11,Servicios básicos,1632187
+2024,10,T11,Mermas,1075420
+2024,10,T11,Insumos y otros,664799
+2024,10,T13,Arriendo,22132414
+2024,10,T13,Remuneraciones,20133400
+2024,10,T13,Comisiones,1548010
+2024,10,T13,Servicios básicos,2088020
+2024,10,T13,Mermas,2300290
+2024,10,T13,Insumos y otros,1175136
+2024,10,T14,Arriendo,20331490
+2024,10,T14,Remuneraciones,19852719
+2024,10,T14,Comisiones,1966533
+2024,10,T14,Servicios básicos,3501217
+2024,10,T14,Mermas,2608093
+2024,10,T14,Insumos y otros,1818750
+2024,10,T15,Arriendo,20710632
+2024,10,T15,Remuneraciones,19055108
+2024,10,T15,Comisiones,1784254
+2024,10,T15,Servicios básicos,2679561
+2024,10,T15,Mermas,2036778
+2024,10,T15,Insumos y otros,1274869
+2024,10,T16,Arriendo,12511686
+2024,10,T16,Remuneraciones,11549963
+2024,10,T16,Comisiones,1174909
+2024,10,T16,Servicios básicos,1900031
+2024,10,T16,Mermas,1331306
+2024,10,T16,Insumos y otros,956382
+2024,10,T17,Arriendo,28956970
+2024,10,T17,Remuneraciones,20272800
+2024,10,T17,Comisiones,2294644
+2024,10,T17,Servicios básicos,3767601
+2024,10,T17,Mermas,2570154
+2024,10,T17,Insumos y otros,2435594
+2024,10,T18,Arriendo,30189182
+2024,10,T18,Remuneraciones,30624601
+2024,10,T18,Comisiones,2658315
+2024,10,T18,Servicios básicos,3575890
+2024,10,T18,Mermas,3400488
+2024,10,T18,Insumos y otros,2119656
+2024,10,T19,Arriendo,38435520
+2024,10,T19,Remuneraciones,33242823
+2024,10,T19,Comisiones,3693055
+2024,10,T19,Servicios básicos,5786515
+2024,10,T19,Mermas,4923449
+2024,10,T19,Insumos y otros,2751322
+2024,10,T21,Arriendo,26397762
+2024,10,T21,Remuneraciones,19373199
+2024,10,T21,Comisiones,2059943
+2024,10,T21,Servicios básicos,3407628
+2024,10,T21,Mermas,2075631
+2024,10,T21,Insumos y otros,1853291
+2024,10,T22,Arriendo,22985484
+2024,10,T22,Remuneraciones,20857505
+2024,10,T22,Comisiones,1873313
+2024,10,T22,Servicios básicos,2652773
+2024,10,T22,Mermas,1738402
+2024,10,T22,Insumos y otros,1877288
+2024,10,T23,Arriendo,16037707
+2024,10,T23,Remuneraciones,20254571
+2024,10,T23,Comisiones,1531689
+2024,10,T23,Servicios básicos,2670567
+2024,10,T23,Mermas,1737133
+2024,10,T23,Insumos y otros,1207279
+2024,10,T24,Arriendo,30862159
+2024,10,T24,Remuneraciones,31672665
+2024,10,T24,Comisiones,3115400
+2024,10,T24,Servicios básicos,4617053
+2024,10,T24,Mermas,3512355
+2024,10,T24,Insumos y otros,3128504
+2024,10,T25,Arriendo,18198816
+2024,10,T25,Remuneraciones,19843261
+2024,10,T25,Comisiones,1660259
+2024,10,T25,Servicios básicos,2232449
+2024,10,T25,Mermas,1761367
+2024,10,T25,Insumos y otros,1369058
+2024,10,T26,Arriendo,19336242
+2024,10,T26,Remuneraciones,19844761
+2024,10,T26,Comisiones,1806924
+2024,10,T26,Servicios básicos,2810627
+2024,10,T26,Mermas,2324423
+2024,10,T26,Insumos y otros,1190313
+2024,10,T27,Arriendo,22786434
+2024,10,T27,Remuneraciones,31291640
+2024,10,T27,Comisiones,2619935
+2024,10,T27,Servicios básicos,4483138
+2024,10,T27,Mermas,3435337
+2024,10,T27,Insumos y otros,2341264
+2024,10,T29,Arriendo,21649008
+2024,10,T29,Remuneraciones,19413893
+2024,10,T29,Comisiones,2091863
+2024,10,T29,Servicios básicos,3205117
+2024,10,T29,Mermas,2226258
+2024,10,T29,Insumos y otros,1883184
+2024,10,T30,Arriendo,16454763
+2024,10,T30,Remuneraciones,19285301
+2024,10,T30,Comisiones,1611912
+2024,10,T30,Servicios básicos,2244860
+2024,10,T30,Mermas,2113675
+2024,10,T30,Insumos y otros,1602695
+2024,11,T01,Arriendo,27644089
+2024,11,T01,Remuneraciones,32187953
+2024,11,T01,Comisiones,2510146
+2024,11,T01,Servicios básicos,3757722
+2024,11,T01,Mermas,3185246
+2024,11,T01,Insumos y otros,2068822
+2024,11,T02,Arriendo,16366212
+2024,11,T02,Remuneraciones,20274839
+2024,11,T02,Comisiones,2323113
+2024,11,T02,Servicios básicos,3343305
+2024,11,T02,Mermas,2949058
+2024,11,T02,Insumos y otros,1757416
+2024,11,T03,Arriendo,17505392
+2024,11,T03,Remuneraciones,19589821
+2024,11,T03,Comisiones,2063140
+2024,11,T03,Servicios básicos,2922614
+2024,11,T03,Mermas,2371630
+2024,11,T03,Insumos y otros,1692464
+2024,11,T04,Arriendo,20884958
+2024,11,T04,Remuneraciones,20511319
+2024,11,T04,Comisiones,2237156
+2024,11,T04,Servicios básicos,3278159
+2024,11,T04,Mermas,2906912
+2024,11,T04,Insumos y otros,1819408
+2024,11,T05,Arriendo,13973935
+2024,11,T05,Remuneraciones,20047831
+2024,11,T05,Comisiones,1614282
+2024,11,T05,Servicios básicos,2445659
+2024,11,T05,Mermas,1662570
+2024,11,T05,Insumos y otros,1344650
+2024,11,T06,Arriendo,11201932
+2024,11,T06,Remuneraciones,12004882
+2024,11,T06,Comisiones,1219515
+2024,11,T06,Servicios básicos,1656177
+2024,11,T06,Mermas,1313724
+2024,11,T06,Insumos y otros,924562
+2024,11,T07,Arriendo,9151409
+2024,11,T07,Remuneraciones,12042068
+2024,11,T07,Comisiones,1041471
+2024,11,T07,Servicios básicos,1675220
+2024,11,T07,Mermas,1068954
+2024,11,T07,Insumos y otros,911391
+2024,11,T08,Arriendo,28023816
+2024,11,T08,Remuneraciones,33588904
+2024,11,T08,Comisiones,2910704
+2024,11,T08,Servicios básicos,3915815
+2024,11,T08,Mermas,3689752
+2024,11,T08,Insumos y otros,2238551
+2024,11,T09,Arriendo,20884958
+2024,11,T09,Remuneraciones,19957416
+2024,11,T09,Comisiones,2006886
+2024,11,T09,Servicios básicos,3045956
+2024,11,T09,Mermas,2697007
+2024,11,T09,Insumos y otros,2118194
+2024,11,T10,Arriendo,21340629
+2024,11,T10,Remuneraciones,19711869
+2024,11,T10,Comisiones,2144447
+2024,11,T10,Servicios básicos,3034934
+2024,11,T10,Mermas,2493334
+2024,11,T10,Insumos y otros,2010746
+2024,11,T11,Arriendo,10784233
+2024,11,T11,Remuneraciones,12285539
+2024,11,T11,Comisiones,1191073
+2024,11,T11,Servicios básicos,1723630
+2024,11,T11,Mermas,1644569
+2024,11,T11,Insumos y otros,837209
+2024,11,T13,Arriendo,22166534
+2024,11,T13,Remuneraciones,20162980
+2024,11,T13,Comisiones,1677391
+2024,11,T13,Servicios básicos,2299825
+2024,11,T13,Mermas,2047564
+2024,11,T13,Insumos y otros,1333780
+2024,11,T14,Arriendo,20362834
+2024,11,T14,Remuneraciones,20088873
+2024,11,T14,Comisiones,2132328
+2024,11,T14,Servicios básicos,3231428
+2024,11,T14,Mermas,3195621
+2024,11,T14,Insumos y otros,1846395
+2024,11,T15,Arriendo,20742560
+2024,11,T15,Remuneraciones,19645228
+2024,11,T15,Comisiones,1972316
+2024,11,T15,Servicios básicos,2692798
+2024,11,T15,Mermas,2333417
+2024,11,T15,Insumos y otros,1879597
+2024,11,T16,Arriendo,12530974
+2024,11,T16,Remuneraciones,11818845
+2024,11,T16,Comisiones,1332847
+2024,11,T16,Servicios básicos,1921141
+2024,11,T16,Mermas,1363794
+2024,11,T16,Insumos y otros,1180193
+2024,11,T17,Arriendo,29001611
+2024,11,T17,Remuneraciones,20314163
+2024,11,T17,Comisiones,2516073
+2024,11,T17,Servicios básicos,4073051
+2024,11,T17,Mermas,2798963
+2024,11,T17,Insumos y otros,1845109
+2024,11,T18,Arriendo,30235723
+2024,11,T18,Remuneraciones,31638921
+2024,11,T18,Comisiones,2908322
+2024,11,T18,Servicios básicos,3984339
+2024,11,T18,Mermas,3531160
+2024,11,T18,Insumos y otros,2237196
+2024,11,T19,Arriendo,38494774
+2024,11,T19,Remuneraciones,33011254
+2024,11,T19,Comisiones,4148232
+2024,11,T19,Servicios básicos,5461629
+2024,11,T19,Mermas,4753871
+2024,11,T19,Insumos y otros,3439481
+2024,11,T21,Arriendo,26438458
+2024,11,T21,Remuneraciones,19810284
+2024,11,T21,Comisiones,2282447
+2024,11,T21,Servicios básicos,3250619
+2024,11,T21,Mermas,2597612
+2024,11,T21,Insumos y otros,1968765
+2024,11,T22,Arriendo,23020919
+2024,11,T22,Remuneraciones,19988947
+2024,11,T22,Comisiones,2037497
+2024,11,T22,Servicios básicos,2877425
+2024,11,T22,Mermas,2023439
+2024,11,T22,Insumos y otros,1743691
+2024,11,T23,Arriendo,16062431
+2024,11,T23,Remuneraciones,19636823
+2024,11,T23,Comisiones,1729949
+2024,11,T23,Servicios básicos,2010697
+2024,11,T23,Mermas,2095222
+2024,11,T23,Insumos y otros,1353489
+2024,11,T24,Arriendo,30909737
+2024,11,T24,Remuneraciones,32992412
+2024,11,T24,Comisiones,3410899
+2024,11,T24,Servicios básicos,4675926
+2024,11,T24,Mermas,4084203
+2024,11,T24,Insumos y otros,2768511
+2024,11,T25,Arriendo,18226872
+2024,11,T25,Remuneraciones,19250531
+2024,11,T25,Comisiones,1899494
+2024,11,T25,Servicios básicos,2770148
+2024,11,T25,Mermas,2183521
+2024,11,T25,Insumos y otros,1440817
+2024,11,T26,Arriendo,19366052
+2024,11,T26,Remuneraciones,19663208
+2024,11,T26,Comisiones,1985648
+2024,11,T26,Servicios básicos,2732527
+2024,11,T26,Mermas,2221315
+2024,11,T26,Insumos y otros,1580113
+2024,11,T27,Arriendo,22821563
+2024,11,T27,Remuneraciones,29318661
+2024,11,T27,Comisiones,2867870
+2024,11,T27,Servicios básicos,3968028
+2024,11,T27,Mermas,3972740
+2024,11,T27,Insumos y otros,2072905
+2024,11,T29,Arriendo,21682383
+2024,11,T29,Remuneraciones,19210654
+2024,11,T29,Comisiones,2232759
+2024,11,T29,Servicios básicos,2893104
+2024,11,T29,Mermas,3209727
+2024,11,T29,Insumos y otros,1802306
+2024,11,T30,Arriendo,16480130
+2024,11,T30,Remuneraciones,19543810
+2024,11,T30,Comisiones,1789053
+2024,11,T30,Servicios básicos,2555326
+2024,11,T30,Mermas,2373013
+2024,11,T30,Insumos y otros,1408777
+2024,12,T01,Arriendo,27853724
+2024,12,T01,Remuneraciones,31363886
+2024,12,T01,Comisiones,3605159
+2024,12,T01,Servicios básicos,4275930
+2024,12,T01,Mermas,3763235
+2024,12,T01,Insumos y otros,2873481
+2024,12,T02,Arriendo,16490323
+2024,12,T02,Remuneraciones,20195920
+2024,12,T02,Comisiones,3249384
+2024,12,T02,Servicios básicos,2885311
+2024,12,T02,Mermas,4313603
+2024,12,T02,Insumos y otros,2678814
+2024,12,T03,Arriendo,17638141
+2024,12,T03,Remuneraciones,19633513
+2024,12,T03,Comisiones,2963608
+2024,12,T03,Servicios básicos,2884694
+2024,12,T03,Mermas,2982255
+2024,12,T03,Insumos y otros,2464526
+2024,12,T04,Arriendo,21043336
+2024,12,T04,Remuneraciones,19884893
+2024,12,T04,Comisiones,3137172
+2024,12,T04,Servicios básicos,2675948
+2024,12,T04,Mermas,3206612
+2024,12,T04,Insumos y otros,2599204
+2024,12,T05,Arriendo,14079904
+2024,12,T05,Remuneraciones,20589296
+2024,12,T05,Comisiones,2281669
+2024,12,T05,Servicios básicos,2376987
+2024,12,T05,Mermas,2139167
+2024,12,T05,Insumos y otros,2258644
+2024,12,T06,Arriendo,11286880
+2024,12,T06,Remuneraciones,11895208
+2024,12,T06,Comisiones,1735363
+2024,12,T06,Servicios básicos,1736691
+2024,12,T06,Mermas,2016025
+2024,12,T06,Insumos y otros,1448495
+2024,12,T07,Arriendo,9220807
+2024,12,T07,Remuneraciones,11898640
+2024,12,T07,Comisiones,1451161
+2024,12,T07,Servicios básicos,1638407
+2024,12,T07,Mermas,1542519
+2024,12,T07,Insumos y otros,1231166
+2024,12,T08,Arriendo,28236330
+2024,12,T08,Remuneraciones,31995367
+2024,12,T08,Comisiones,4043582
+2024,12,T08,Servicios básicos,3937007
+2024,12,T08,Mermas,3988181
+2024,12,T08,Insumos y otros,3521463
+2024,12,T09,Arriendo,21043336
+2024,12,T09,Remuneraciones,20506241
+2024,12,T09,Comisiones,2667428
+2024,12,T09,Servicios básicos,3019030
+2024,12,T09,Mermas,2928725
+2024,12,T09,Insumos y otros,2166925
+2024,12,T10,Arriendo,21502463
+2024,12,T10,Remuneraciones,21043985
+2024,12,T10,Comisiones,3058298
+2024,12,T10,Servicios básicos,3422422
+2024,12,T10,Mermas,4141100
+2024,12,T10,Insumos y otros,2325559
+2024,12,T11,Arriendo,10866013
+2024,12,T11,Remuneraciones,11502845
+2024,12,T11,Comisiones,1571288
+2024,12,T11,Servicios básicos,1715979
+2024,12,T11,Mermas,1930409
+2024,12,T11,Insumos y otros,1229442
+2024,12,T13,Arriendo,22334631
+2024,12,T13,Remuneraciones,20540792
+2024,12,T13,Comisiones,2446855
+2024,12,T13,Servicios básicos,2612882
+2024,12,T13,Mermas,3043504
+2024,12,T13,Insumos y otros,1876399
+2024,12,T14,Arriendo,20517252
+2024,12,T14,Remuneraciones,19240942
+2024,12,T14,Comisiones,3074266
+2024,12,T14,Servicios básicos,3126050
+2024,12,T14,Mermas,3238097
+2024,12,T14,Insumos y otros,2728488
+2024,12,T15,Arriendo,20899858
+2024,12,T15,Remuneraciones,19300915
+2024,12,T15,Comisiones,2785978
+2024,12,T15,Servicios básicos,2891662
+2024,12,T15,Mermas,2704516
+2024,12,T15,Insumos y otros,1971518
+2024,12,T16,Arriendo,12626001
+2024,12,T16,Remuneraciones,11965724
+2024,12,T16,Comisiones,1904449
+2024,12,T16,Servicios básicos,1854523
+2024,12,T16,Mermas,2702662
+2024,12,T16,Insumos y otros,1393887
+2024,12,T17,Arriendo,29221541
+2024,12,T17,Remuneraciones,19934099
+2024,12,T17,Comisiones,3553222
+2024,12,T17,Servicios básicos,3658039
+2024,12,T17,Mermas,3405396
+2024,12,T17,Insumos y otros,2900366
+2024,12,T18,Arriendo,30465011
+2024,12,T18,Remuneraciones,32153674
+2024,12,T18,Comisiones,4097382
+2024,12,T18,Servicios básicos,3887345
+2024,12,T18,Mermas,5601023
+2024,12,T18,Insumos y otros,3200222
+2024,12,T19,Arriendo,38786693
+2024,12,T19,Remuneraciones,33607973
+2024,12,T19,Comisiones,5684339
+2024,12,T19,Servicios básicos,5764564
+2024,12,T19,Mermas,5955911
+2024,12,T19,Insumos y otros,5410243
+2024,12,T21,Arriendo,26638950
+2024,12,T21,Remuneraciones,19978476
+2024,12,T21,Comisiones,3255496
+2024,12,T21,Servicios básicos,3274730
+2024,12,T21,Mermas,4835802
+2024,12,T21,Insumos y otros,2627084
+2024,12,T22,Arriendo,23195495
+2024,12,T22,Remuneraciones,20423700
+2024,12,T22,Comisiones,2925612
+2024,12,T22,Servicios básicos,2845665
+2024,12,T22,Mermas,3330095
+2024,12,T22,Insumos y otros,2576950
+2024,12,T23,Arriendo,16184238
+2024,12,T23,Remuneraciones,20135698
+2024,12,T23,Comisiones,2355400
+2024,12,T23,Servicios básicos,2355877
+2024,12,T23,Mermas,3268788
+2024,12,T23,Insumos y otros,1771709
+2024,12,T24,Arriendo,31144137
+2024,12,T24,Remuneraciones,31280111
+2024,12,T24,Comisiones,4808323
+2024,12,T24,Servicios básicos,4326884
+2024,12,T24,Mermas,7555114
+2024,12,T24,Insumos y otros,4025187
+2024,12,T25,Arriendo,18365093
+2024,12,T25,Remuneraciones,19939576
+2024,12,T25,Comisiones,2637805
+2024,12,T25,Servicios básicos,2474228
+2024,12,T25,Mermas,2964891
+2024,12,T25,Insumos y otros,2563828
+2024,12,T26,Arriendo,19512911
+2024,12,T26,Remuneraciones,19406260
+2024,12,T26,Comisiones,2769005
+2024,12,T26,Servicios básicos,2822099
+2024,12,T26,Mermas,3261081
+2024,12,T26,Insumos y otros,2368397
+2024,12,T27,Arriendo,22994627
+2024,12,T27,Remuneraciones,30696476
+2024,12,T27,Comisiones,4086520
+2024,12,T27,Servicios básicos,4355681
+2024,12,T27,Mermas,6264559
+2024,12,T27,Insumos y otros,4295117
+2024,12,T29,Arriendo,21846808
+2024,12,T29,Remuneraciones,21820203
+2024,12,T29,Comisiones,3043288
+2024,12,T29,Servicios básicos,3301709
+2024,12,T29,Mermas,3365989
+2024,12,T29,Insumos y otros,2656062
+2024,12,T30,Arriendo,16605105
+2024,12,T30,Remuneraciones,20625282
+2024,12,T30,Comisiones,2433790
+2024,12,T30,Servicios básicos,2355006
+2024,12,T30,Mermas,2070266
+2024,12,T30,Insumos y otros,1823017
+2025,1,T01,Arriendo,27969156
+2025,1,T01,Remuneraciones,33975866
+2025,1,T01,Comisiones,2191560
+2025,1,T01,Servicios básicos,4322880
+2025,1,T01,Mermas,2195401
+2025,1,T01,Insumos y otros,1498188
+2025,1,T02,Arriendo,16558662
+2025,1,T02,Remuneraciones,20769854
+2025,1,T02,Comisiones,1913135
+2025,1,T02,Servicios básicos,2821296
+2025,1,T02,Mermas,2514100
+2025,1,T02,Insumos y otros,2004232
+2025,1,T03,Arriendo,17711237
+2025,1,T03,Remuneraciones,20239132
+2025,1,T03,Comisiones,1716586
+2025,1,T03,Servicios básicos,2626523
+2025,1,T03,Mermas,1752414
+2025,1,T03,Insumos y otros,1596919
+2025,1,T04,Arriendo,21130544
+2025,1,T04,Remuneraciones,19718032
+2025,1,T04,Comisiones,1832987
+2025,1,T04,Servicios básicos,2911713
+2025,1,T04,Mermas,1891590
+2025,1,T04,Insumos y otros,1429357
+2025,1,T05,Arriendo,14138255
+2025,1,T05,Remuneraciones,21329990
+2025,1,T05,Comisiones,1327994
+2025,1,T05,Servicios básicos,2522244
+2025,1,T05,Mermas,1893549
+2025,1,T05,Insumos y otros,1169782
+2025,1,T06,Arriendo,11333655
+2025,1,T06,Remuneraciones,11750839
+2025,1,T06,Comisiones,1027092
+2025,1,T06,Servicios básicos,1524714
+2025,1,T06,Mermas,1313707
+2025,1,T06,Insumos y otros,779299
+2025,1,T07,Arriendo,9259020
+2025,1,T07,Remuneraciones,12216064
+2025,1,T07,Comisiones,854573
+2025,1,T07,Servicios básicos,1525699
+2025,1,T07,Mermas,1039688
+2025,1,T07,Insumos y otros,758496
+2025,1,T08,Arriendo,28353347
+2025,1,T08,Remuneraciones,32670693
+2025,1,T08,Comisiones,2472321
+2025,1,T08,Servicios básicos,4281916
+2025,1,T08,Mermas,2640081
+2025,1,T08,Insumos y otros,1649779
+2025,1,T09,Arriendo,21130544
+2025,1,T09,Remuneraciones,20008731
+2025,1,T09,Comisiones,1643099
+2025,1,T09,Servicios básicos,2605209
+2025,1,T09,Mermas,2146378
+2025,1,T09,Insumos y otros,1407984
+2025,1,T10,Arriendo,21591574
+2025,1,T10,Remuneraciones,19660884
+2025,1,T10,Comisiones,1842567
+2025,1,T10,Servicios básicos,3251873
+2025,1,T10,Mermas,3416878
+2025,1,T10,Insumos y otros,1660082
+2025,1,T11,Arriendo,10911044
+2025,1,T11,Remuneraciones,12602785
+2025,1,T11,Comisiones,1002459
+2025,1,T11,Servicios básicos,1552564
+2025,1,T11,Mermas,1227574
+2025,1,T11,Insumos y otros,701917
+2025,1,T13,Arriendo,22427190
+2025,1,T13,Remuneraciones,20154273
+2025,1,T13,Comisiones,1399709
+2025,1,T13,Servicios básicos,2673112
+2025,1,T13,Mermas,1999595
+2025,1,T13,Insumos y otros,1085791
+2025,1,T14,Arriendo,20602280
+2025,1,T14,Remuneraciones,20299132
+2025,1,T14,Comisiones,1772870
+2025,1,T14,Servicios básicos,3411851
+2025,1,T14,Mermas,1929347
+2025,1,T14,Insumos y otros,1525351
+2025,1,T15,Arriendo,20986472
+2025,1,T15,Remuneraciones,21358881
+2025,1,T15,Comisiones,1660885
+2025,1,T15,Servicios básicos,2761246
+2025,1,T15,Mermas,1767570
+2025,1,T15,Insumos y otros,1219514
+2025,1,T16,Arriendo,12678326
+2025,1,T16,Remuneraciones,12279883
+2025,1,T16,Comisiones,1124501
+2025,1,T16,Servicios básicos,1821598
+2025,1,T16,Mermas,1253874
+2025,1,T16,Insumos y otros,886600
+2025,1,T17,Arriendo,29342641
+2025,1,T17,Remuneraciones,21146137
+2025,1,T17,Comisiones,2108854
+2025,1,T17,Servicios básicos,3939917
+2025,1,T17,Mermas,3263854
+2025,1,T17,Insumos y otros,1524052
+2025,1,T18,Arriendo,30591264
+2025,1,T18,Remuneraciones,32127552
+2025,1,T18,Comisiones,2452655
+2025,1,T18,Servicios básicos,3767329
+2025,1,T18,Mermas,3346269
+2025,1,T18,Insumos y otros,2074723
+2025,1,T19,Arriendo,38947434
+2025,1,T19,Remuneraciones,32256564
+2025,1,T19,Comisiones,3413184
+2025,1,T19,Servicios básicos,5647432
+2025,1,T19,Mermas,4419495
+2025,1,T19,Insumos y otros,2357245
+2025,1,T21,Arriendo,26749347
+2025,1,T21,Remuneraciones,21152862
+2025,1,T21,Comisiones,1936034
+2025,1,T21,Servicios básicos,3073063
+2025,1,T21,Mermas,2772279
+2025,1,T21,Insumos y otros,1488013
+2025,1,T22,Arriendo,23291622
+2025,1,T22,Remuneraciones,20486931
+2025,1,T22,Comisiones,1716321
+2025,1,T22,Servicios básicos,2879083
+2025,1,T22,Mermas,2123590
+2025,1,T22,Insumos y otros,1394817
+2025,1,T23,Arriendo,16251309
+2025,1,T23,Remuneraciones,19736853
+2025,1,T23,Comisiones,1408141
+2025,1,T23,Servicios básicos,2276017
+2025,1,T23,Mermas,1577559
+2025,1,T23,Insumos y otros,1087996
+2025,1,T24,Arriendo,31273204
+2025,1,T24,Remuneraciones,32785929
+2025,1,T24,Comisiones,2887605
+2025,1,T24,Servicios básicos,4695237
+2025,1,T24,Mermas,2804712
+2025,1,T24,Insumos y otros,2468748
+2025,1,T25,Arriendo,18441202
+2025,1,T25,Remuneraciones,21936131
+2025,1,T25,Comisiones,1554447
+2025,1,T25,Servicios básicos,2783454
+2025,1,T25,Mermas,1673291
+2025,1,T25,Insumos y otros,1503899
+2025,1,T26,Arriendo,19593777
+2025,1,T26,Remuneraciones,19868755
+2025,1,T26,Comisiones,1657652
+2025,1,T26,Servicios básicos,2857570
+2025,1,T26,Mermas,2770454
+2025,1,T26,Insumos y otros,1196637
+2025,1,T27,Arriendo,23089921
+2025,1,T27,Remuneraciones,33380676
+2025,1,T27,Comisiones,2424776
+2025,1,T27,Servicios básicos,5178506
+2025,1,T27,Mermas,3394983
+2025,1,T27,Insumos y otros,2299212
+2025,1,T29,Arriendo,21937346
+2025,1,T29,Remuneraciones,20264659
+2025,1,T29,Comisiones,1805371
+2025,1,T29,Servicios básicos,3394425
+2025,1,T29,Mermas,2069157
+2025,1,T29,Insumos y otros,1541958
+2025,1,T30,Arriendo,16673920
+2025,1,T30,Remuneraciones,20059340
+2025,1,T30,Comisiones,1467667
+2025,1,T30,Servicios básicos,2672377
+2025,1,T30,Mermas,2082597
+2025,1,T30,Insumos y otros,909509
+2025,2,T01,Arriendo,27942045
+2025,2,T01,Remuneraciones,33242481
+2025,2,T01,Comisiones,1784478
+2025,2,T01,Servicios básicos,3886589
+2025,2,T01,Mermas,2432774
+2025,2,T01,Insumos y otros,1287101
+2025,2,T02,Arriendo,16542612
+2025,2,T02,Remuneraciones,19047021
+2025,2,T02,Comisiones,1618995
+2025,2,T02,Servicios básicos,3144300
+2025,2,T02,Mermas,1727932
+2025,2,T02,Insumos y otros,1111233
+2025,2,T03,Arriendo,17694070
+2025,2,T03,Remuneraciones,19890081
+2025,2,T03,Comisiones,1504132
+2025,2,T03,Servicios básicos,2792338
+2025,2,T03,Mermas,2308343
+2025,2,T03,Insumos y otros,939884
+2025,2,T04,Arriendo,21110062
+2025,2,T04,Remuneraciones,21574878
+2025,2,T04,Comisiones,1595504
+2025,2,T04,Servicios básicos,3020173
+2025,2,T04,Mermas,1725849
+2025,2,T04,Insumos y otros,1618032
+2025,2,T05,Arriendo,14124550
+2025,2,T05,Remuneraciones,20820623
+2025,2,T05,Comisiones,1194384
+2025,2,T05,Servicios básicos,2456550
+2025,2,T05,Mermas,1324879
+2025,2,T05,Insumos y otros,1022542
+2025,2,T06,Arriendo,11322669
+2025,2,T06,Remuneraciones,13105493
+2025,2,T06,Comisiones,872866
+2025,2,T06,Servicios básicos,1619334
+2025,2,T06,Mermas,850265
+2025,2,T06,Insumos y otros,774266
+2025,2,T07,Arriendo,9250045
+2025,2,T07,Remuneraciones,13252666
+2025,2,T07,Comisiones,784852
+2025,2,T07,Servicios básicos,1616481
+2025,2,T07,Mermas,1022677
+2025,2,T07,Insumos y otros,635947
+2025,2,T08,Arriendo,28325864
+2025,2,T08,Remuneraciones,32505641
+2025,2,T08,Comisiones,2082532
+2025,2,T08,Servicios básicos,4193990
+2025,2,T08,Mermas,2362944
+2025,2,T08,Insumos y otros,1556375
+2025,2,T09,Arriendo,21110062
+2025,2,T09,Remuneraciones,19886542
+2025,2,T09,Comisiones,1365202
+2025,2,T09,Servicios básicos,2863213
+2025,2,T09,Mermas,1686232
+2025,2,T09,Insumos y otros,1120751
+2025,2,T10,Arriendo,21570645
+2025,2,T10,Remuneraciones,21397667
+2025,2,T10,Comisiones,1486089
+2025,2,T10,Servicios básicos,3224592
+2025,2,T10,Mermas,1768640
+2025,2,T10,Insumos y otros,1235878
+2025,2,T11,Arriendo,10900468
+2025,2,T11,Remuneraciones,12778983
+2025,2,T11,Comisiones,833851
+2025,2,T11,Servicios básicos,1608695
+2025,2,T11,Mermas,936215
+2025,2,T11,Insumos y otros,665552
+2025,2,T13,Arriendo,22405452
+2025,2,T13,Remuneraciones,20357210
+2025,2,T13,Comisiones,1206614
+2025,2,T13,Servicios básicos,2248606
+2025,2,T13,Mermas,1545847
+2025,2,T13,Insumos y otros,887874
+2025,2,T14,Arriendo,20582310
+2025,2,T14,Remuneraciones,20270975
+2025,2,T14,Comisiones,1501840
+2025,2,T14,Servicios básicos,3847405
+2025,2,T14,Mermas,1860068
+2025,2,T14,Insumos y otros,1095069
+2025,2,T15,Arriendo,20966129
+2025,2,T15,Remuneraciones,19975265
+2025,2,T15,Comisiones,1368750
+2025,2,T15,Servicios básicos,3098778
+2025,2,T15,Mermas,1892357
+2025,2,T15,Insumos y otros,1202921
+2025,2,T16,Arriendo,12666037
+2025,2,T16,Remuneraciones,12401879
+2025,2,T16,Comisiones,941324
+2025,2,T16,Servicios básicos,1633735
+2025,2,T16,Mermas,974834
+2025,2,T16,Insumos y otros,754215
+2025,2,T17,Arriendo,29314199
+2025,2,T17,Remuneraciones,20644061
+2025,2,T17,Comisiones,1823370
+2025,2,T17,Servicios básicos,3867298
+2025,2,T17,Mermas,3002281
+2025,2,T17,Insumos y otros,1495821
+2025,2,T18,Arriendo,30561612
+2025,2,T18,Remuneraciones,33438991
+2025,2,T18,Comisiones,2058578
+2025,2,T18,Servicios básicos,4592176
+2025,2,T18,Mermas,3740452
+2025,2,T18,Insumos y otros,1638825
+2025,2,T19,Arriendo,38909682
+2025,2,T19,Remuneraciones,32392539
+2025,2,T19,Comisiones,2785451
+2025,2,T19,Servicios básicos,6232417
+2025,2,T19,Mermas,4004641
+2025,2,T19,Insumos y otros,2341127
+2025,2,T21,Arriendo,26723419
+2025,2,T21,Remuneraciones,20838672
+2025,2,T21,Comisiones,1627659
+2025,2,T21,Servicios básicos,3665497
+2025,2,T21,Mermas,1922884
+2025,2,T21,Insumos y otros,1272250
+2025,2,T22,Arriendo,23269045
+2025,2,T22,Remuneraciones,20624138
+2025,2,T22,Comisiones,1486698
+2025,2,T22,Servicios básicos,2892971
+2025,2,T22,Mermas,1756655
+2025,2,T22,Insumos y otros,1156795
+2025,2,T23,Arriendo,16235556
+2025,2,T23,Remuneraciones,21026604
+2025,2,T23,Comisiones,1247961
+2025,2,T23,Servicios básicos,2351902
+2025,2,T23,Mermas,1311017
+2025,2,T23,Insumos y otros,1005168
+2025,2,T24,Arriendo,31242891
+2025,2,T24,Remuneraciones,33269422
+2025,2,T24,Comisiones,2534964
+2025,2,T24,Servicios básicos,4428690
+2025,2,T24,Mermas,2345243
+2025,2,T24,Insumos y otros,2128658
+2025,2,T25,Arriendo,18423326
+2025,2,T25,Remuneraciones,20426695
+2025,2,T25,Comisiones,1347604
+2025,2,T25,Servicios básicos,2521493
+2025,2,T25,Mermas,1669930
+2025,2,T25,Insumos y otros,1316883
+2025,2,T26,Arriendo,19574784
+2025,2,T26,Remuneraciones,20398205
+2025,2,T26,Comisiones,1417392
+2025,2,T26,Servicios básicos,2355458
+2025,2,T26,Mermas,1753277
+2025,2,T26,Insumos y otros,1040766
+2025,2,T27,Arriendo,23067540
+2025,2,T27,Remuneraciones,34357823
+2025,2,T27,Comisiones,2021256
+2025,2,T27,Servicios básicos,4544939
+2025,2,T27,Mermas,1698784
+2025,2,T27,Insumos y otros,1595267
+2025,2,T29,Arriendo,21916082
+2025,2,T29,Remuneraciones,19865311
+2025,2,T29,Comisiones,1607186
+2025,2,T29,Servicios básicos,3153389
+2025,2,T29,Mermas,2355060
+2025,2,T29,Insumos y otros,1612250
+2025,2,T30,Arriendo,16657758
+2025,2,T30,Remuneraciones,20552033
+2025,2,T30,Comisiones,1312469
+2025,2,T30,Servicios básicos,2666344
+2025,2,T30,Mermas,1069477
+2025,2,T30,Insumos y otros,1259477
+2025,3,T01,Arriendo,28146700
+2025,3,T01,Remuneraciones,33030153
+2025,3,T01,Comisiones,2397223
+2025,3,T01,Servicios básicos,3741334
+2025,3,T01,Mermas,3140482
+2025,3,T01,Insumos y otros,2237646
+2025,3,T02,Arriendo,16663775
+2025,3,T02,Remuneraciones,20782081
+2025,3,T02,Comisiones,2153040
+2025,3,T02,Servicios básicos,2975977
+2025,3,T02,Mermas,3557263
+2025,3,T02,Insumos y otros,1919363
+2025,3,T03,Arriendo,17823666
+2025,3,T03,Remuneraciones,20631247
+2025,3,T03,Comisiones,1964072
+2025,3,T03,Servicios básicos,3370920
+2025,3,T03,Mermas,2888454
+2025,3,T03,Insumos y otros,1717893
+2025,3,T04,Arriendo,21264678
+2025,3,T04,Remuneraciones,20423188
+2025,3,T04,Comisiones,2143259
+2025,3,T04,Servicios básicos,2981351
+2025,3,T04,Mermas,2379048
+2025,3,T04,Insumos y otros,1675445
+2025,3,T05,Arriendo,14228002
+2025,3,T05,Remuneraciones,20088271
+2025,3,T05,Comisiones,1538328
+2025,3,T05,Servicios básicos,2480709
+2025,3,T05,Mermas,1616368
+2025,3,T05,Insumos y otros,1121363
+2025,3,T06,Arriendo,11405600
+2025,3,T06,Remuneraciones,12770258
+2025,3,T06,Comisiones,1126250
+2025,3,T06,Servicios básicos,1745731
+2025,3,T06,Mermas,1274812
+2025,3,T06,Insumos y otros,881745
+2025,3,T07,Arriendo,9317795
+2025,3,T07,Remuneraciones,12533610
+2025,3,T07,Comisiones,998297
+2025,3,T07,Servicios básicos,1498617
+2025,3,T07,Mermas,1167346
+2025,3,T07,Insumos y otros,731414
+2025,3,T08,Arriendo,28533331
+2025,3,T08,Remuneraciones,34458070
+2025,3,T08,Comisiones,2599023
+2025,3,T08,Servicios básicos,4047644
+2025,3,T08,Mermas,3361852
+2025,3,T08,Insumos y otros,2152458
+2025,3,T09,Arriendo,21264678
+2025,3,T09,Remuneraciones,19919298
+2025,3,T09,Comisiones,1854481
+2025,3,T09,Servicios básicos,3051689
+2025,3,T09,Mermas,2282684
+2025,3,T09,Insumos y otros,1341297
+2025,3,T10,Arriendo,21728634
+2025,3,T10,Remuneraciones,21419044
+2025,3,T10,Comisiones,2047230
+2025,3,T10,Servicios básicos,3028900
+2025,3,T10,Mermas,2610142
+2025,3,T10,Insumos y otros,1365403
+2025,3,T11,Arriendo,10980306
+2025,3,T11,Remuneraciones,12202269
+2025,3,T11,Comisiones,1093015
+2025,3,T11,Servicios básicos,1690400
+2025,3,T11,Mermas,1386431
+2025,3,T11,Insumos y otros,888295
+2025,3,T13,Arriendo,22569555
+2025,3,T13,Remuneraciones,20803930
+2025,3,T13,Comisiones,1595463
+2025,3,T13,Servicios básicos,2834227
+2025,3,T13,Mermas,1611772
+2025,3,T13,Insumos y otros,1112148
+2025,3,T14,Arriendo,20733061
+2025,3,T14,Remuneraciones,21032153
+2025,3,T14,Comisiones,1975003
+2025,3,T14,Servicios básicos,3844018
+2025,3,T14,Mermas,2852866
+2025,3,T14,Insumos y otros,1573798
+2025,3,T15,Arriendo,21119691
+2025,3,T15,Remuneraciones,19548504
+2025,3,T15,Comisiones,1909474
+2025,3,T15,Servicios básicos,2863722
+2025,3,T15,Mermas,2579631
+2025,3,T15,Insumos y otros,1702424
+2025,3,T16,Arriendo,12758807
+2025,3,T16,Remuneraciones,12043518
+2025,3,T16,Comisiones,1235232
+2025,3,T16,Servicios básicos,1771402
+2025,3,T16,Mermas,1733512
+2025,3,T16,Insumos y otros,824199
+2025,3,T17,Arriendo,29528904
+2025,3,T17,Remuneraciones,20593860
+2025,3,T17,Comisiones,2379607
+2025,3,T17,Servicios básicos,3554183
+2025,3,T17,Mermas,2990852
+2025,3,T17,Insumos y otros,1546857
+2025,3,T18,Arriendo,30785454
+2025,3,T18,Remuneraciones,32302200
+2025,3,T18,Comisiones,2679815
+2025,3,T18,Servicios básicos,4590550
+2025,3,T18,Mermas,4089486
+2025,3,T18,Insumos y otros,1943241
+2025,3,T19,Arriendo,39194667
+2025,3,T19,Remuneraciones,33549076
+2025,3,T19,Comisiones,3774637
+2025,3,T19,Servicios básicos,5560811
+2025,3,T19,Mermas,5309430
+2025,3,T19,Insumos y otros,2582815
+2025,3,T21,Arriendo,26919149
+2025,3,T21,Remuneraciones,20317341
+2025,3,T21,Comisiones,2131679
+2025,3,T21,Servicios básicos,2967797
+2025,3,T21,Mermas,3632967
+2025,3,T21,Insumos y otros,1926360
+2025,3,T22,Arriendo,23439474
+2025,3,T22,Remuneraciones,21385572
+2025,3,T22,Comisiones,1894890
+2025,3,T22,Servicios básicos,2920661
+2025,3,T22,Mermas,2241319
+2025,3,T22,Insumos y otros,1287077
+2025,3,T23,Arriendo,16354470
+2025,3,T23,Remuneraciones,21590577
+2025,3,T23,Comisiones,1543298
+2025,3,T23,Servicios básicos,2521312
+2025,3,T23,Mermas,1822365
+2025,3,T23,Insumos y otros,1419161
+2025,3,T24,Arriendo,31471723
+2025,3,T24,Remuneraciones,34124688
+2025,3,T24,Comisiones,3240873
+2025,3,T24,Servicios básicos,5103359
+2025,3,T24,Mermas,4054928
+2025,3,T24,Insumos y otros,2339114
+2025,3,T25,Arriendo,18558264
+2025,3,T25,Remuneraciones,20828452
+2025,3,T25,Comisiones,1693760
+2025,3,T25,Servicios básicos,2393118
+2025,3,T25,Mermas,1931515
+2025,3,T25,Insumos y otros,1477824
+2025,3,T26,Arriendo,19718156
+2025,3,T26,Remuneraciones,21041074
+2025,3,T26,Comisiones,1768380
+2025,3,T26,Servicios básicos,2998418
+2025,3,T26,Mermas,2149101
+2025,3,T26,Insumos y otros,1319549
+2025,3,T27,Arriendo,23236493
+2025,3,T27,Remuneraciones,33276829
+2025,3,T27,Comisiones,2690306
+2025,3,T27,Servicios básicos,3295701
+2025,3,T27,Mermas,2792592
+2025,3,T27,Insumos y otros,1924016
+2025,3,T28,Arriendo,20607406
+2025,3,T28,Remuneraciones,21397780
+2025,3,T28,Comisiones,1174090
+2025,3,T28,Servicios básicos,2479898
+2025,3,T28,Mermas,1422028
+2025,3,T28,Insumos y otros,984309
+2025,3,T29,Arriendo,22076602
+2025,3,T29,Remuneraciones,20757853
+2025,3,T29,Comisiones,2041824
+2025,3,T29,Servicios básicos,2765551
+2025,3,T29,Mermas,2693557
+2025,3,T29,Insumos y otros,1807294
+2025,3,T30,Arriendo,16779764
+2025,3,T30,Remuneraciones,21822035
+2025,3,T30,Comisiones,1686517
+2025,3,T30,Servicios básicos,2368369
+2025,3,T30,Mermas,2094948
+2025,3,T30,Insumos y otros,1150279
+2025,4,T01,Arriendo,28318559
+2025,4,T01,Remuneraciones,33259382
+2025,4,T01,Comisiones,2077536
+2025,4,T01,Servicios básicos,3560531
+2025,4,T01,Mermas,2445787
+2025,4,T01,Insumos y otros,1786902
+2025,4,T02,Arriendo,16765521
+2025,4,T02,Remuneraciones,22776409
+2025,4,T02,Comisiones,1981717
+2025,4,T02,Servicios básicos,3187054
+2025,4,T02,Mermas,2438332
+2025,4,T02,Insumos y otros,1380673
+2025,4,T03,Arriendo,17932494
+2025,4,T03,Remuneraciones,19725285
+2025,4,T03,Comisiones,1782144
+2025,4,T03,Servicios básicos,3057293
+2025,4,T03,Mermas,2089519
+2025,4,T03,Insumos y otros,1530366
+2025,4,T04,Arriendo,21394516
+2025,4,T04,Remuneraciones,20483252
+2025,4,T04,Comisiones,1856520
+2025,4,T04,Servicios básicos,3002840
+2025,4,T04,Mermas,1893232
+2025,4,T04,Insumos y otros,1613498
+2025,4,T05,Arriendo,14314876
+2025,4,T05,Remuneraciones,20753438
+2025,4,T05,Comisiones,1354281
+2025,4,T05,Servicios básicos,2642896
+2025,4,T05,Mermas,1779869
+2025,4,T05,Insumos y otros,1074537
+2025,4,T06,Arriendo,11475240
+2025,4,T06,Remuneraciones,12415634
+2025,4,T06,Comisiones,1037398
+2025,4,T06,Servicios básicos,1674876
+2025,4,T06,Mermas,1112311
+2025,4,T06,Insumos y otros,965938
+2025,4,T07,Arriendo,9374688
+2025,4,T07,Remuneraciones,12409759
+2025,4,T07,Comisiones,873364
+2025,4,T07,Servicios básicos,1550320
+2025,4,T07,Mermas,1055461
+2025,4,T07,Insumos y otros,722218
+2025,4,T08,Arriendo,28707551
+2025,4,T08,Remuneraciones,35766009
+2025,4,T08,Comisiones,2420855
+2025,4,T08,Servicios básicos,4060214
+2025,4,T08,Mermas,3847572
+2025,4,T08,Insumos y otros,1848963
+2025,4,T09,Arriendo,21394516
+2025,4,T09,Remuneraciones,20309281
+2025,4,T09,Comisiones,1639599
+2025,4,T09,Servicios básicos,2531551
+2025,4,T09,Mermas,1983486
+2025,4,T09,Insumos y otros,1420451
+2025,4,T10,Arriendo,21861305
+2025,4,T10,Remuneraciones,20824573
+2025,4,T10,Comisiones,1792760
+2025,4,T10,Servicios básicos,2754518
+2025,4,T10,Mermas,2390648
+2025,4,T10,Insumos y otros,1244008
+2025,4,T11,Arriendo,11047350
+2025,4,T11,Remuneraciones,12646635
+2025,4,T11,Comisiones,967105
+2025,4,T11,Servicios básicos,1638324
+2025,4,T11,Mermas,768568
+2025,4,T11,Insumos y otros,784176
+2025,4,T13,Arriendo,22707361
+2025,4,T13,Remuneraciones,20286085
+2025,4,T13,Comisiones,1469342
+2025,4,T13,Servicios básicos,2357175
+2025,4,T13,Mermas,1828487
+2025,4,T13,Insumos y otros,1230877
+2025,4,T14,Arriendo,20859653
+2025,4,T14,Remuneraciones,21656465
+2025,4,T14,Comisiones,1838463
+2025,4,T14,Servicios básicos,3565741
+2025,4,T14,Mermas,2421785
+2025,4,T14,Insumos y otros,1930284
+2025,4,T15,Arriendo,21248644
+2025,4,T15,Remuneraciones,20472574
+2025,4,T15,Comisiones,1697773
+2025,4,T15,Servicios básicos,3180865
+2025,4,T15,Mermas,2025394
+2025,4,T15,Insumos y otros,1405852
+2025,4,T16,Arriendo,12836710
+2025,4,T16,Remuneraciones,13371269
+2025,4,T16,Comisiones,1134958
+2025,4,T16,Servicios básicos,1690879
+2025,4,T16,Mermas,1417018
+2025,4,T16,Insumos y otros,915028
+2025,4,T17,Arriendo,29709203
+2025,4,T17,Remuneraciones,21006739
+2025,4,T17,Comisiones,2178420
+2025,4,T17,Servicios básicos,3247223
+2025,4,T17,Mermas,2726730
+2025,4,T17,Insumos y otros,1744686
+2025,4,T18,Arriendo,30973424
+2025,4,T18,Remuneraciones,32443181
+2025,4,T18,Comisiones,2508002
+2025,4,T18,Servicios básicos,3773039
+2025,4,T18,Mermas,2742350
+2025,4,T18,Insumos y otros,1910815
+2025,4,T19,Arriendo,39433983
+2025,4,T19,Remuneraciones,33315780
+2025,4,T19,Comisiones,3486102
+2025,4,T19,Servicios básicos,5322411
+2025,4,T19,Mermas,3745251
+2025,4,T19,Insumos y otros,2372333
+2025,4,T21,Arriendo,27083512
+2025,4,T21,Remuneraciones,21180705
+2025,4,T21,Comisiones,1988917
+2025,4,T21,Servicios básicos,3989798
+2025,4,T21,Mermas,2677190
+2025,4,T21,Insumos y otros,1762591
+2025,4,T22,Arriendo,23582592
+2025,4,T22,Remuneraciones,20259789
+2025,4,T22,Comisiones,1754997
+2025,4,T22,Servicios básicos,2918112
+2025,4,T22,Mermas,2452346
+2025,4,T22,Insumos y otros,1387488
+2025,4,T23,Arriendo,16454328
+2025,4,T23,Remuneraciones,20173074
+2025,4,T23,Comisiones,1415843
+2025,4,T23,Servicios básicos,2748338
+2025,4,T23,Mermas,1552215
+2025,4,T23,Insumos y otros,997671
+2025,4,T24,Arriendo,31663884
+2025,4,T24,Remuneraciones,34154175
+2025,4,T24,Comisiones,2884303
+2025,4,T24,Servicios básicos,4898846
+2025,4,T24,Mermas,3427302
+2025,4,T24,Insumos y otros,2204634
+2025,4,T25,Arriendo,18671578
+2025,4,T25,Remuneraciones,19919676
+2025,4,T25,Comisiones,1614868
+2025,4,T25,Servicios básicos,2607684
+2025,4,T25,Mermas,1808537
+2025,4,T25,Insumos y otros,1241067
+2025,4,T26,Arriendo,19838551
+2025,4,T26,Remuneraciones,20549833
+2025,4,T26,Comisiones,1683571
+2025,4,T26,Servicios básicos,2751447
+2025,4,T26,Mermas,2155340
+2025,4,T26,Insumos y otros,1243203
+2025,4,T27,Arriendo,23378371
+2025,4,T27,Remuneraciones,33272185
+2025,4,T27,Comisiones,2471419
+2025,4,T27,Servicios básicos,4250487
+2025,4,T27,Mermas,2651565
+2025,4,T27,Insumos y otros,1624908
+2025,4,T28,Arriendo,20733231
+2025,4,T28,Remuneraciones,21501356
+2025,4,T28,Comisiones,1102087
+2025,4,T28,Servicios básicos,2826528
+2025,4,T28,Mermas,1022661
+2025,4,T28,Insumos y otros,675450
+2025,4,T29,Arriendo,22211398
+2025,4,T29,Remuneraciones,20923027
+2025,4,T29,Comisiones,1820205
+2025,4,T29,Servicios básicos,3313651
+2025,4,T29,Mermas,2255448
+2025,4,T29,Insumos y otros,1985838
+2025,4,T30,Arriendo,16882218
+2025,4,T30,Remuneraciones,20319916
+2025,4,T30,Comisiones,1550616
+2025,4,T30,Servicios básicos,2170724
+2025,4,T30,Mermas,1624202
+2025,4,T30,Insumos y otros,1136458
+2025,5,T01,Arriendo,28451623
+2025,5,T01,Remuneraciones,32262146
+2025,5,T01,Comisiones,2433807
+2025,5,T01,Servicios básicos,4090006
+2025,5,T01,Mermas,3287327
+2025,5,T01,Insumos y otros,2202512
+2025,5,T02,Arriendo,16844299
+2025,5,T02,Remuneraciones,21275556
+2025,5,T02,Comisiones,2233819
+2025,5,T02,Servicios básicos,4038265
+2025,5,T02,Mermas,2446695
+2025,5,T02,Insumos y otros,1490799
+2025,5,T03,Arriendo,18016756
+2025,5,T03,Remuneraciones,20808741
+2025,5,T03,Comisiones,1942219
+2025,5,T03,Servicios básicos,2912479
+2025,5,T03,Mermas,2562732
+2025,5,T03,Insumos y otros,1777195
+2025,5,T04,Arriendo,21495045
+2025,5,T04,Remuneraciones,21705369
+2025,5,T04,Comisiones,2137749
+2025,5,T04,Servicios básicos,2756779
+2025,5,T04,Mermas,1711808
+2025,5,T04,Insumos y otros,1839774
+2025,5,T05,Arriendo,14382139
+2025,5,T05,Remuneraciones,20019474
+2025,5,T05,Comisiones,1556220
+2025,5,T05,Servicios básicos,2417221
+2025,5,T05,Mermas,2188947
+2025,5,T05,Insumos y otros,1305956
+2025,5,T06,Arriendo,11529160
+2025,5,T06,Remuneraciones,12582106
+2025,5,T06,Comisiones,1161528
+2025,5,T06,Servicios básicos,1819410
+2025,5,T06,Mermas,1622836
+2025,5,T06,Insumos y otros,824937
+2025,5,T07,Arriendo,9418738
+2025,5,T07,Remuneraciones,12409857
+2025,5,T07,Comisiones,1016970
+2025,5,T07,Servicios básicos,1587177
+2025,5,T07,Mermas,941843
+2025,5,T07,Insumos y otros,723600
+2025,5,T08,Arriendo,28842442
+2025,5,T08,Remuneraciones,32741775
+2025,5,T08,Comisiones,2845538
+2025,5,T08,Servicios básicos,4317756
+2025,5,T08,Mermas,3161978
+2025,5,T08,Insumos y otros,2113183
+2025,5,T09,Arriendo,21495045
+2025,5,T09,Remuneraciones,20646198
+2025,5,T09,Comisiones,1853306
+2025,5,T09,Servicios básicos,2691092
+2025,5,T09,Mermas,2469442
+2025,5,T09,Insumos y otros,1723417
+2025,5,T10,Arriendo,21964028
+2025,5,T10,Remuneraciones,20189967
+2025,5,T10,Comisiones,2118418
+2025,5,T10,Servicios básicos,3032010
+2025,5,T10,Mermas,3006390
+2025,5,T10,Insumos y otros,1403758
+2025,5,T11,Arriendo,11099260
+2025,5,T11,Remuneraciones,13269331
+2025,5,T11,Comisiones,1125808
+2025,5,T11,Servicios básicos,1872099
+2025,5,T11,Mermas,1632332
+2025,5,T11,Insumos y otros,1215160
+2025,5,T13,Arriendo,22814059
+2025,5,T13,Remuneraciones,20753423
+2025,5,T13,Comisiones,1656937
+2025,5,T13,Servicios básicos,2360340
+2025,5,T13,Mermas,1881386
+2025,5,T13,Insumos y otros,1523487
+2025,5,T14,Arriendo,20957669
+2025,5,T14,Remuneraciones,20232501
+2025,5,T14,Comisiones,2031595
+2025,5,T14,Servicios básicos,3472888
+2025,5,T14,Mermas,2372321
+2025,5,T14,Insumos y otros,1570451
+2025,5,T15,Arriendo,21348488
+2025,5,T15,Remuneraciones,20067785
+2025,5,T15,Comisiones,1938906
+2025,5,T15,Servicios básicos,3168605
+2025,5,T15,Mermas,2708239
+2025,5,T15,Insumos y otros,1547724
+2025,5,T16,Arriendo,12897027
+2025,5,T16,Remuneraciones,13049091
+2025,5,T16,Comisiones,1282559
+2025,5,T16,Servicios básicos,1619919
+2025,5,T16,Mermas,1528353
+2025,5,T16,Insumos y otros,914973
+2025,5,T17,Arriendo,29848801
+2025,5,T17,Remuneraciones,20518225
+2025,5,T17,Comisiones,2430906
+2025,5,T17,Servicios básicos,3555901
+2025,5,T17,Mermas,2738922
+2025,5,T17,Insumos y otros,2245276
+2025,5,T18,Arriendo,31118963
+2025,5,T18,Remuneraciones,35291180
+2025,5,T18,Comisiones,2890308
+2025,5,T18,Servicios básicos,4077473
+2025,5,T18,Mermas,3930018
+2025,5,T18,Insumos y otros,2157645
+2025,5,T19,Arriendo,39619276
+2025,5,T19,Remuneraciones,32774188
+2025,5,T19,Comisiones,3954549
+2025,5,T19,Servicios básicos,4987237
+2025,5,T19,Mermas,4047333
+2025,5,T19,Insumos y otros,3539073
+2025,5,T21,Arriendo,27210773
+2025,5,T21,Remuneraciones,20120163
+2025,5,T21,Comisiones,2290364
+2025,5,T21,Servicios básicos,3641005
+2025,5,T21,Mermas,3563910
+2025,5,T21,Insumos y otros,2299283
+2025,5,T22,Arriendo,23693402
+2025,5,T22,Remuneraciones,20223814
+2025,5,T22,Comisiones,2025516
+2025,5,T22,Servicios básicos,3466750
+2025,5,T22,Mermas,2232209
+2025,5,T22,Insumos y otros,1914588
+2025,5,T23,Arriendo,16531644
+2025,5,T23,Remuneraciones,20505004
+2025,5,T23,Comisiones,1599855
+2025,5,T23,Servicios básicos,2737565
+2025,5,T23,Mermas,1686498
+2025,5,T23,Insumos y otros,1280773
+2025,5,T24,Arriendo,31812667
+2025,5,T24,Remuneraciones,31968090
+2025,5,T24,Comisiones,3414257
+2025,5,T24,Servicios básicos,5333423
+2025,5,T24,Mermas,4263004
+2025,5,T24,Insumos y otros,2297959
+2025,5,T25,Arriendo,18759312
+2025,5,T25,Remuneraciones,22092858
+2025,5,T25,Comisiones,1832153
+2025,5,T25,Servicios básicos,2583757
+2025,5,T25,Mermas,1956916
+2025,5,T25,Insumos y otros,1315570
+2025,5,T26,Arriendo,19931769
+2025,5,T26,Remuneraciones,20572448
+2025,5,T26,Comisiones,1873456
+2025,5,T26,Servicios básicos,2733174
+2025,5,T26,Mermas,2122445
+2025,5,T26,Insumos y otros,1341048
+2025,5,T27,Arriendo,23488222
+2025,5,T27,Remuneraciones,30668250
+2025,5,T27,Comisiones,2808024
+2025,5,T27,Servicios básicos,4789945
+2025,5,T27,Mermas,3468460
+2025,5,T27,Insumos y otros,1973975
+2025,5,T28,Arriendo,20830653
+2025,5,T28,Remuneraciones,22095967
+2025,5,T28,Comisiones,1353451
+2025,5,T28,Servicios básicos,3171414
+2025,5,T28,Mermas,1642255
+2025,5,T28,Insumos y otros,1187844
+2025,5,T29,Arriendo,22315765
+2025,5,T29,Remuneraciones,21776211
+2025,5,T29,Comisiones,2180925
+2025,5,T29,Servicios básicos,2654754
+2025,5,T29,Mermas,2415539
+2025,5,T29,Insumos y otros,1602636
+2025,5,T30,Arriendo,16961545
+2025,5,T30,Remuneraciones,20770836
+2025,5,T30,Comisiones,1687240
+2025,5,T30,Servicios básicos,2675501
+2025,5,T30,Mermas,2517882
+2025,5,T30,Insumos y otros,1186253
+2025,6,T01,Arriendo,28531754
+2025,6,T01,Remuneraciones,32643466
+2025,6,T01,Comisiones,2247286
+2025,6,T01,Servicios básicos,5285942
+2025,6,T01,Mermas,3133737
+2025,6,T01,Insumos y otros,1799272
+2025,6,T02,Arriendo,16891739
+2025,6,T02,Remuneraciones,21348420
+2025,6,T02,Comisiones,1998456
+2025,6,T02,Servicios básicos,3919142
+2025,6,T02,Mermas,2173004
+2025,6,T02,Insumos y otros,1657920
+2025,6,T03,Arriendo,18067498
+2025,6,T03,Remuneraciones,20505796
+2025,6,T03,Comisiones,1745879
+2025,6,T03,Servicios básicos,3569612
+2025,6,T03,Mermas,2569369
+2025,6,T03,Insumos y otros,1533882
+2025,6,T04,Arriendo,21555584
+2025,6,T04,Remuneraciones,21209278
+2025,6,T04,Comisiones,1926692
+2025,6,T04,Servicios básicos,3992258
+2025,6,T04,Mermas,2472693
+2025,6,T04,Insumos y otros,1469806
+2025,6,T05,Arriendo,14422645
+2025,6,T05,Remuneraciones,20932838
+2025,6,T05,Comisiones,1413525
+2025,6,T05,Servicios básicos,3142093
+2025,6,T05,Mermas,1305615
+2025,6,T05,Insumos y otros,1026750
+2025,6,T06,Arriendo,11561631
+2025,6,T06,Remuneraciones,12496799
+2025,6,T06,Comisiones,1091784
+2025,6,T06,Servicios básicos,1989487
+2025,6,T06,Mermas,1245201
+2025,6,T06,Insumos y otros,938708
+2025,6,T07,Arriendo,9445265
+2025,6,T07,Remuneraciones,13313576
+2025,6,T07,Comisiones,891636
+2025,6,T07,Servicios básicos,1821291
+2025,6,T07,Mermas,986911
+2025,6,T07,Insumos y otros,821820
+2025,6,T08,Arriendo,28923674
+2025,6,T08,Remuneraciones,33341246
+2025,6,T08,Comisiones,2441602
+2025,6,T08,Servicios básicos,4737241
+2025,6,T08,Mermas,2859127
+2025,6,T08,Insumos y otros,1682443
+2025,6,T09,Arriendo,21555584
+2025,6,T09,Remuneraciones,21454144
+2025,6,T09,Comisiones,1653577
+2025,6,T09,Servicios básicos,4458769
+2025,6,T09,Mermas,1438716
+2025,6,T09,Insumos y otros,1243105
+2025,6,T10,Arriendo,22025887
+2025,6,T10,Remuneraciones,21688869
+2025,6,T10,Comisiones,1862776
+2025,6,T10,Servicios básicos,4520054
+2025,6,T10,Mermas,2890634
+2025,6,T10,Insumos y otros,1771206
+2025,6,T11,Arriendo,11130519
+2025,6,T11,Remuneraciones,12550595
+2025,6,T11,Comisiones,1029792
+2025,6,T11,Servicios básicos,1931214
+2025,6,T11,Mermas,1148278
+2025,6,T11,Insumos y otros,798366
+2025,6,T13,Arriendo,22878312
+2025,6,T13,Remuneraciones,20785081
+2025,6,T13,Comisiones,1426864
+2025,6,T13,Servicios básicos,2787491
+2025,6,T13,Mermas,1606376
+2025,6,T13,Insumos y otros,1171815
+2025,6,T14,Arriendo,21016694
+2025,6,T14,Remuneraciones,20680875
+2025,6,T14,Comisiones,1863124
+2025,6,T14,Servicios básicos,4035240
+2025,6,T14,Mermas,1580798
+2025,6,T14,Insumos y otros,1446596
+2025,6,T15,Arriendo,21408614
+2025,6,T15,Remuneraciones,20638764
+2025,6,T15,Comisiones,1696062
+2025,6,T15,Servicios básicos,3920877
+2025,6,T15,Mermas,2014718
+2025,6,T15,Insumos y otros,1394926
+2025,6,T16,Arriendo,12933350
+2025,6,T16,Remuneraciones,12564809
+2025,6,T16,Comisiones,1144398
+2025,6,T16,Servicios básicos,2488712
+2025,6,T16,Mermas,1134042
+2025,6,T16,Insumos y otros,987136
+2025,6,T17,Arriendo,29932867
+2025,6,T17,Remuneraciones,21268281
+2025,6,T17,Comisiones,2248110
+2025,6,T17,Servicios básicos,4846413
+2025,6,T17,Mermas,2975235
+2025,6,T17,Insumos y otros,1606479
+2025,6,T18,Arriendo,31206606
+2025,6,T18,Remuneraciones,34506561
+2025,6,T18,Comisiones,2465098
+2025,6,T18,Servicios básicos,4427449
+2025,6,T18,Mermas,2517933
+2025,6,T18,Insumos y otros,2155930
+2025,6,T19,Arriendo,39730860
+2025,6,T19,Remuneraciones,33803818
+2025,6,T19,Comisiones,3465655
+2025,6,T19,Servicios básicos,7163199
+2025,6,T19,Mermas,3756827
+2025,6,T19,Insumos y otros,2280288
+2025,6,T21,Arriendo,27287409
+2025,6,T21,Remuneraciones,20776741
+2025,6,T21,Comisiones,1989320
+2025,6,T21,Servicios básicos,4646412
+2025,6,T21,Mermas,2622092
+2025,6,T21,Insumos y otros,1780061
+2025,6,T22,Arriendo,23760132
+2025,6,T22,Remuneraciones,20859429
+2025,6,T22,Comisiones,1740160
+2025,6,T22,Servicios básicos,3811178
+2025,6,T22,Mermas,1921927
+2025,6,T22,Insumos y otros,1368173
+2025,6,T23,Arriendo,16578203
+2025,6,T23,Remuneraciones,20278605
+2025,6,T23,Comisiones,1480963
+2025,6,T23,Servicios básicos,3409289
+2025,6,T23,Mermas,1910860
+2025,6,T23,Insumos y otros,1236758
+2025,6,T24,Arriendo,31902264
+2025,6,T24,Remuneraciones,35541046
+2025,6,T24,Comisiones,3109807
+2025,6,T24,Servicios básicos,6050039
+2025,6,T24,Mermas,4921509
+2025,6,T24,Insumos y otros,2454183
+2025,6,T25,Arriendo,18812146
+2025,6,T25,Remuneraciones,20738183
+2025,6,T25,Comisiones,1596469
+2025,6,T25,Servicios básicos,3546719
+2025,6,T25,Mermas,1497702
+2025,6,T25,Insumos y otros,1163302
+2025,6,T26,Arriendo,19987905
+2025,6,T26,Remuneraciones,21290052
+2025,6,T26,Comisiones,1711314
+2025,6,T26,Servicios básicos,3712068
+2025,6,T26,Mermas,2190643
+2025,6,T26,Insumos y otros,1478705
+2025,6,T27,Arriendo,23554374
+2025,6,T27,Remuneraciones,33431791
+2025,6,T27,Comisiones,2465328
+2025,6,T27,Servicios básicos,4582484
+2025,6,T27,Mermas,2263152
+2025,6,T27,Insumos y otros,1767342
+2025,6,T28,Arriendo,20889320
+2025,6,T28,Remuneraciones,21052296
+2025,6,T28,Comisiones,1326251
+2025,6,T28,Servicios básicos,3812525
+2025,6,T28,Mermas,1547581
+2025,6,T28,Insumos y otros,1066576
+2025,6,T29,Arriendo,22378615
+2025,6,T29,Remuneraciones,20665372
+2025,6,T29,Comisiones,1977494
+2025,6,T29,Servicios básicos,4041601
+2025,6,T29,Mermas,2406820
+2025,6,T29,Insumos y otros,1504905
+2025,6,T30,Arriendo,17009315
+2025,6,T30,Remuneraciones,20498588
+2025,6,T30,Comisiones,1630460
+2025,6,T30,Servicios básicos,3390933
+2025,6,T30,Mermas,2155229
+2025,6,T30,Insumos y otros,1270460
+2025,7,T01,Arriendo,28588334
+2025,7,T01,Remuneraciones,33501560
+2025,7,T01,Comisiones,2323516
+2025,7,T01,Servicios básicos,4378654
+2025,7,T01,Mermas,2678058
+2025,7,T01,Insumos y otros,1653093
+2025,7,T02,Arriendo,16925236
+2025,7,T02,Remuneraciones,21133099
+2025,7,T02,Comisiones,2132560
+2025,7,T02,Servicios básicos,4141299
+2025,7,T02,Mermas,2825664
+2025,7,T02,Insumos y otros,1937362
+2025,7,T03,Arriendo,18103327
+2025,7,T03,Remuneraciones,21589140
+2025,7,T03,Comisiones,1873371
+2025,7,T03,Servicios básicos,3841047
+2025,7,T03,Mermas,2619700
+2025,7,T03,Insumos y otros,1381116
+2025,7,T04,Arriendo,21598330
+2025,7,T04,Remuneraciones,21677727
+2025,7,T04,Comisiones,2082642
+2025,7,T04,Servicios básicos,4001625
+2025,7,T04,Mermas,2223905
+2025,7,T04,Insumos y otros,1884046
+2025,7,T05,Arriendo,14451246
+2025,7,T05,Remuneraciones,20957293
+2025,7,T05,Comisiones,1410768
+2025,7,T05,Servicios básicos,2938607
+2025,7,T05,Mermas,1773475
+2025,7,T05,Insumos y otros,1379669
+2025,7,T06,Arriendo,11584559
+2025,7,T06,Remuneraciones,11832219
+2025,7,T06,Comisiones,1139331
+2025,7,T06,Servicios básicos,2059564
+2025,7,T06,Mermas,1447678
+2025,7,T06,Insumos y otros,973448
+2025,7,T07,Arriendo,9463995
+2025,7,T07,Remuneraciones,12349829
+2025,7,T07,Comisiones,922985
+2025,7,T07,Servicios básicos,1814336
+2025,7,T07,Mermas,3545411
+2025,7,T07,Insumos y otros,751943
+2025,7,T08,Arriendo,28981031
+2025,7,T08,Remuneraciones,33420931
+2025,7,T08,Comisiones,2671724
+2025,7,T08,Servicios básicos,5215906
+2025,7,T08,Mermas,3487587
+2025,7,T08,Insumos y otros,2182591
+2025,7,T09,Arriendo,21598330
+2025,7,T09,Remuneraciones,19992970
+2025,7,T09,Comisiones,1752799
+2025,7,T09,Servicios básicos,3758333
+2025,7,T09,Mermas,2000498
+2025,7,T09,Insumos y otros,1389932
+2025,7,T10,Arriendo,22069566
+2025,7,T10,Remuneraciones,21281193
+2025,7,T10,Comisiones,1923925
+2025,7,T10,Servicios básicos,3760759
+2025,7,T10,Mermas,2162626
+2025,7,T10,Insumos y otros,1599552
+2025,7,T11,Arriendo,11152592
+2025,7,T11,Remuneraciones,12847858
+2025,7,T11,Comisiones,1057732
+2025,7,T11,Servicios básicos,2317851
+2025,7,T11,Mermas,1344045
+2025,7,T11,Insumos y otros,881864
+2025,7,T13,Arriendo,22923682
+2025,7,T13,Remuneraciones,20400718
+2025,7,T13,Comisiones,1617893
+2025,7,T13,Servicios básicos,2886183
+2025,7,T13,Mermas,2117888
+2025,7,T13,Insumos y otros,1318240
+2025,7,T14,Arriendo,21058371
+2025,7,T14,Remuneraciones,20319514
+2025,7,T14,Comisiones,1953092
+2025,7,T14,Servicios básicos,4122498
+2025,7,T14,Mermas,2729574
+2025,7,T14,Insumos y otros,1314642
+2025,7,T15,Arriendo,21451068
+2025,7,T15,Remuneraciones,21093221
+2025,7,T15,Comisiones,1796051
+2025,7,T15,Servicios básicos,4181340
+2025,7,T15,Mermas,2775337
+2025,7,T15,Insumos y otros,1467524
+2025,7,T16,Arriendo,12958998
+2025,7,T16,Remuneraciones,12357070
+2025,7,T16,Comisiones,1232442
+2025,7,T16,Servicios básicos,2198333
+2025,7,T16,Mermas,1931057
+2025,7,T16,Insumos y otros,830890
+2025,7,T17,Arriendo,29992226
+2025,7,T17,Remuneraciones,20904763
+2025,7,T17,Comisiones,2353530
+2025,7,T17,Servicios básicos,4580884
+2025,7,T17,Mermas,2876662
+2025,7,T17,Insumos y otros,2020552
+2025,7,T18,Arriendo,31268491
+2025,7,T18,Remuneraciones,32633889
+2025,7,T18,Comisiones,2743992
+2025,7,T18,Servicios básicos,5222220
+2025,7,T18,Mermas,3611004
+2025,7,T18,Insumos y otros,1667479
+2025,7,T19,Arriendo,39809648
+2025,7,T19,Remuneraciones,33818312
+2025,7,T19,Comisiones,3719977
+2025,7,T19,Servicios básicos,9982176
+2025,7,T19,Mermas,3633828
+2025,7,T19,Insumos y otros,2785493
+2025,7,T21,Arriendo,27341522
+2025,7,T21,Remuneraciones,20406099
+2025,7,T21,Comisiones,2138548
+2025,7,T21,Servicios básicos,4418058
+2025,7,T21,Mermas,2338770
+2025,7,T21,Insumos y otros,1804812
+2025,7,T22,Arriendo,23807250
+2025,7,T22,Remuneraciones,20494438
+2025,7,T22,Comisiones,1896435
+2025,7,T22,Servicios básicos,3898478
+2025,7,T22,Mermas,2248872
+2025,7,T22,Insumos y otros,1345157
+2025,7,T23,Arriendo,16611079
+2025,7,T23,Remuneraciones,20931977
+2025,7,T23,Comisiones,1547088
+2025,7,T23,Servicios básicos,3533372
+2025,7,T23,Mermas,1405259
+2025,7,T23,Insumos y otros,1193979
+2025,7,T24,Arriendo,31965528
+2025,7,T24,Remuneraciones,33319901
+2025,7,T24,Comisiones,3255270
+2025,7,T24,Servicios básicos,6620790
+2025,7,T24,Mermas,3561620
+2025,7,T24,Insumos y otros,2884580
+2025,7,T25,Arriendo,18849451
+2025,7,T25,Remuneraciones,21444051
+2025,7,T25,Comisiones,1719907
+2025,7,T25,Servicios básicos,3414341
+2025,7,T25,Mermas,1793916
+2025,7,T25,Insumos y otros,1598982
+2025,7,T26,Arriendo,20027542
+2025,7,T26,Remuneraciones,20490026
+2025,7,T26,Comisiones,1758538
+2025,7,T26,Servicios básicos,3414683
+2025,7,T26,Mermas,1692160
+2025,7,T26,Insumos y otros,1682311
+2025,7,T27,Arriendo,23601084
+2025,7,T27,Remuneraciones,33263258
+2025,7,T27,Comisiones,2564078
+2025,7,T27,Servicios básicos,5225833
+2025,7,T27,Mermas,3527813
+2025,7,T27,Insumos y otros,1685010
+2025,7,T28,Arriendo,20930745
+2025,7,T28,Remuneraciones,21405760
+2025,7,T28,Comisiones,1477844
+2025,7,T28,Servicios básicos,3810183
+2025,7,T28,Mermas,1858182
+2025,7,T28,Insumos y otros,1318426
+2025,7,T29,Arriendo,22422993
+2025,7,T29,Remuneraciones,20931863
+2025,7,T29,Comisiones,1984493
+2025,7,T29,Servicios básicos,4143594
+2025,7,T29,Mermas,2716043
+2025,7,T29,Insumos y otros,1306282
+2025,7,T30,Arriendo,17043045
+2025,7,T30,Remuneraciones,21724717
+2025,7,T30,Comisiones,1586755
+2025,7,T30,Servicios básicos,3267509
+2025,7,T30,Mermas,1898221
+2025,7,T30,Insumos y otros,1312134
+2025,8,T01,Arriendo,28518636
+2025,8,T01,Remuneraciones,32802191
+2025,8,T01,Comisiones,2271467
+2025,8,T01,Servicios básicos,4524634
+2025,8,T01,Mermas,2421451
+2025,8,T01,Insumos y otros,2199403
+2025,8,T02,Arriendo,16883972
+2025,8,T02,Remuneraciones,20872566
+2025,8,T02,Comisiones,2119425
+2025,8,T02,Servicios básicos,3706110
+2025,8,T02,Mermas,3195243
+2025,8,T02,Insumos y otros,1982949
+2025,8,T03,Arriendo,18059191
+2025,8,T03,Remuneraciones,20864874
+2025,8,T03,Comisiones,1907021
+2025,8,T03,Servicios básicos,3859434
+2025,8,T03,Mermas,2316968
+2025,8,T03,Insumos y otros,1488490
+2025,8,T04,Arriendo,21545672
+2025,8,T04,Remuneraciones,21036810
+2025,8,T04,Comisiones,1914357
+2025,8,T04,Servicios básicos,3991545
+2025,8,T04,Mermas,2011097
+2025,8,T04,Insumos y otros,1664095
+2025,8,T05,Arriendo,14416014
+2025,8,T05,Remuneraciones,19922241
+2025,8,T05,Comisiones,1453677
+2025,8,T05,Servicios básicos,3253102
+2025,8,T05,Mermas,1914672
+2025,8,T05,Insumos y otros,1246841
+2025,8,T06,Arriendo,11556315
+2025,8,T06,Remuneraciones,12917049
+2025,8,T06,Comisiones,1101194
+2025,8,T06,Servicios básicos,1969462
+2025,8,T06,Mermas,1875076
+2025,8,T06,Insumos y otros,883688
+2025,8,T07,Arriendo,9440922
+2025,8,T07,Remuneraciones,12477801
+2025,8,T07,Comisiones,929773
+2025,8,T07,Servicios básicos,1930415
+2025,8,T07,Mermas,4144502
+2025,8,T07,Insumos y otros,690727
+2025,8,T08,Arriendo,28910375
+2025,8,T08,Remuneraciones,32594551
+2025,8,T08,Comisiones,2548920
+2025,8,T08,Servicios básicos,4723391
+2025,8,T08,Mermas,2972413
+2025,8,T08,Insumos y otros,1866463
+2025,8,T09,Arriendo,21545672
+2025,8,T09,Remuneraciones,21305930
+2025,8,T09,Comisiones,1662914
+2025,8,T09,Servicios básicos,3843438
+2025,8,T09,Mermas,2025940
+2025,8,T09,Insumos y otros,1204881
+2025,8,T10,Arriendo,22015760
+2025,8,T10,Remuneraciones,20238802
+2025,8,T10,Comisiones,1924130
+2025,8,T10,Servicios básicos,4146834
+2025,8,T10,Mermas,1979603
+2025,8,T10,Insumos y otros,1409574
+2025,8,T11,Arriendo,11125402
+2025,8,T11,Remuneraciones,12463713
+2025,8,T11,Comisiones,1034009
+2025,8,T11,Servicios básicos,2157234
+2025,8,T11,Mermas,1353520
+2025,8,T11,Insumos y otros,866361
+2025,8,T13,Arriendo,22867793
+2025,8,T13,Remuneraciones,20528171
+2025,8,T13,Comisiones,1529141
+2025,8,T13,Servicios básicos,2809554
+2025,8,T13,Mermas,1720048
+2025,8,T13,Insumos y otros,1092255
+2025,8,T14,Arriendo,21007031
+2025,8,T14,Remuneraciones,21676819
+2025,8,T14,Comisiones,1901390
+2025,8,T14,Servicios básicos,3970093
+2025,8,T14,Mermas,1973381
+2025,8,T14,Insumos y otros,1550823
+2025,8,T15,Arriendo,21398770
+2025,8,T15,Remuneraciones,20466717
+2025,8,T15,Comisiones,1778642
+2025,8,T15,Servicios básicos,3647646
+2025,8,T15,Mermas,2301447
+2025,8,T15,Insumos y otros,1458968
+2025,8,T16,Arriendo,12927403
+2025,8,T16,Remuneraciones,12533727
+2025,8,T16,Comisiones,1244632
+2025,8,T16,Servicios básicos,2328014
+2025,8,T16,Mermas,2129264
+2025,8,T16,Insumos y otros,1068403
+2025,8,T17,Arriendo,29919104
+2025,8,T17,Remuneraciones,20550501
+2025,8,T17,Comisiones,2293727
+2025,8,T17,Servicios básicos,4134393
+2025,8,T17,Mermas,2493294
+2025,8,T17,Insumos y otros,2052565
+2025,8,T18,Arriendo,31192258
+2025,8,T18,Remuneraciones,33043301
+2025,8,T18,Comisiones,2649899
+2025,8,T18,Servicios básicos,5248652
+2025,8,T18,Mermas,3356703
+2025,8,T18,Insumos y otros,2020599
+2025,8,T19,Arriendo,39712592
+2025,8,T19,Remuneraciones,34226003
+2025,8,T19,Comisiones,3721417
+2025,8,T19,Servicios básicos,7032014
+2025,8,T19,Mermas,4090066
+2025,8,T19,Insumos y otros,3276365
+2025,8,T21,Arriendo,27274863
+2025,8,T21,Remuneraciones,21047978
+2025,8,T21,Comisiones,2142746
+2025,8,T21,Servicios básicos,3931845
+2025,8,T21,Mermas,3086404
+2025,8,T21,Insumos y otros,1520856
+2025,8,T22,Arriendo,23749207
+2025,8,T22,Remuneraciones,20490644
+2025,8,T22,Comisiones,1886316
+2025,8,T22,Servicios básicos,3461037
+2025,8,T22,Mermas,2322127
+2025,8,T22,Insumos y otros,1639920
+2025,8,T23,Arriendo,16570581
+2025,8,T23,Remuneraciones,20569784
+2025,8,T23,Comisiones,1477904
+2025,8,T23,Servicios básicos,3574321
+2025,8,T23,Mermas,1739831
+2025,8,T23,Insumos y otros,1292065
+2025,8,T24,Arriendo,31887595
+2025,8,T24,Remuneraciones,33194876
+2025,8,T24,Comisiones,3201912
+2025,8,T24,Servicios básicos,6036100
+2025,8,T24,Mermas,3673908
+2025,8,T24,Insumos y otros,2519717
+2025,8,T25,Arriendo,18803496
+2025,8,T25,Remuneraciones,20431359
+2025,8,T25,Comisiones,1659032
+2025,8,T25,Servicios básicos,3549863
+2025,8,T25,Mermas,1734140
+2025,8,T25,Insumos y otros,1396208
+2025,8,T26,Arriendo,19978714
+2025,8,T26,Remuneraciones,19709037
+2025,8,T26,Comisiones,1758037
+2025,8,T26,Servicios básicos,3537678
+2025,8,T26,Mermas,2255558
+2025,8,T26,Insumos y otros,1330513
+2025,8,T27,Arriendo,23543544
+2025,8,T27,Remuneraciones,34361035
+2025,8,T27,Comisiones,2560545
+2025,8,T27,Servicios básicos,5565695
+2025,8,T27,Mermas,2873199
+2025,8,T27,Insumos y otros,2252371
+2025,8,T28,Arriendo,20879715
+2025,8,T28,Remuneraciones,20917658
+2025,8,T28,Comisiones,1492543
+2025,8,T28,Servicios básicos,4035495
+2025,8,T28,Mermas,1702157
+2025,8,T28,Insumos y otros,1093280
+2025,8,T29,Arriendo,22368325
+2025,8,T29,Remuneraciones,20192289
+2025,8,T29,Comisiones,1914829
+2025,8,T29,Servicios básicos,4003342
+2025,8,T29,Mermas,1790482
+2025,8,T29,Insumos y otros,1404744
+2025,8,T30,Arriendo,17001494
+2025,8,T30,Remuneraciones,20113034
+2025,8,T30,Comisiones,1597900
+2025,8,T30,Servicios básicos,2617931
+2025,8,T30,Mermas,1482788
+2025,8,T30,Insumos y otros,1321856
+2025,9,T01,Arriendo,28679167
+2025,9,T01,Remuneraciones,32043421
+2025,9,T01,Comisiones,2280850
+2025,9,T01,Servicios básicos,3528325
+2025,9,T01,Mermas,2920437
+2025,9,T01,Insumos y otros,1928313
+2025,9,T02,Arriendo,16979012
+2025,9,T02,Remuneraciones,19395893
+2025,9,T02,Comisiones,2078988
+2025,9,T02,Servicios básicos,2991768
+2025,9,T02,Mermas,2759491
+2025,9,T02,Insumos y otros,1715472
+2025,9,T03,Arriendo,18160846
+2025,9,T03,Remuneraciones,21444152
+2025,9,T03,Comisiones,1794249
+2025,9,T03,Servicios básicos,2811351
+2025,9,T03,Mermas,2076039
+2025,9,T03,Insumos y otros,1483768
+2025,9,T04,Arriendo,21666953
+2025,9,T04,Remuneraciones,20276837
+2025,9,T04,Comisiones,2083887
+2025,9,T04,Servicios básicos,3162690
+2025,9,T04,Mermas,3066141
+2025,9,T04,Insumos y otros,1336893
+2025,9,T05,Arriendo,14497161
+2025,9,T05,Remuneraciones,20739161
+2025,9,T05,Comisiones,1416797
+2025,9,T05,Servicios básicos,2546153
+2025,9,T05,Mermas,1506519
+2025,9,T05,Insumos y otros,1190140
+2025,9,T06,Arriendo,11621366
+2025,9,T06,Remuneraciones,12330424
+2025,9,T06,Comisiones,1120637
+2025,9,T06,Servicios básicos,1630831
+2025,9,T06,Mermas,1563156
+2025,9,T06,Insumos y otros,818473
+2025,9,T07,Arriendo,9494065
+2025,9,T07,Remuneraciones,12611085
+2025,9,T07,Comisiones,943572
+2025,9,T07,Servicios básicos,1682957
+2025,9,T07,Mermas,3490264
+2025,9,T07,Insumos y otros,914546
+2025,9,T08,Arriendo,29073111
+2025,9,T08,Remuneraciones,34290443
+2025,9,T08,Comisiones,2697545
+2025,9,T08,Servicios básicos,4193030
+2025,9,T08,Mermas,3181529
+2025,9,T08,Insumos y otros,1962874
+2025,9,T09,Arriendo,21666953
+2025,9,T09,Remuneraciones,20068209
+2025,9,T09,Comisiones,1784807
+2025,9,T09,Servicios básicos,2752071
+2025,9,T09,Mermas,2542003
+2025,9,T09,Insumos y otros,1465295
+2025,9,T10,Arriendo,22139687
+2025,9,T10,Remuneraciones,21293101
+2025,9,T10,Comisiones,2008953
+2025,9,T10,Servicios básicos,3466219
+2025,9,T10,Mermas,2325931
+2025,9,T10,Insumos y otros,1679447
+2025,9,T11,Arriendo,11188027
+2025,9,T11,Remuneraciones,12511851
+2025,9,T11,Comisiones,1045444
+2025,9,T11,Servicios básicos,1894102
+2025,9,T11,Mermas,1186519
+2025,9,T11,Insumos y otros,762706
+2025,9,T13,Arriendo,22996516
+2025,9,T13,Remuneraciones,21413015
+2025,9,T13,Comisiones,1562972
+2025,9,T13,Servicios básicos,2482096
+2025,9,T13,Mermas,1691548
+2025,9,T13,Insumos y otros,1245888
+2025,9,T14,Arriendo,21125279
+2025,9,T14,Remuneraciones,21325163
+2025,9,T14,Comisiones,1968155
+2025,9,T14,Servicios básicos,3139872
+2025,9,T14,Mermas,2836520
+2025,9,T14,Insumos y otros,1888853
+2025,9,T15,Arriendo,21519224
+2025,9,T15,Remuneraciones,19827168
+2025,9,T15,Comisiones,1793954
+2025,9,T15,Servicios básicos,3435614
+2025,9,T15,Mermas,2336527
+2025,9,T15,Insumos y otros,1428364
+2025,9,T16,Arriendo,13000172
+2025,9,T16,Remuneraciones,12223301
+2025,9,T16,Comisiones,1224225
+2025,9,T16,Servicios básicos,1950999
+2025,9,T16,Mermas,1199317
+2025,9,T16,Insumos y otros,850040
+2025,9,T17,Arriendo,30087519
+2025,9,T17,Remuneraciones,20923805
+2025,9,T17,Comisiones,2288372
+2025,9,T17,Servicios básicos,3699982
+2025,9,T17,Mermas,3291064
+2025,9,T17,Insumos y otros,1872706
+2025,9,T18,Arriendo,31367839
+2025,9,T18,Remuneraciones,33268879
+2025,9,T18,Comisiones,2741192
+2025,9,T18,Servicios básicos,4404471
+2025,9,T18,Mermas,2524875
+2025,9,T18,Insumos y otros,1910237
+2025,9,T19,Arriendo,39936134
+2025,9,T19,Remuneraciones,33087846
+2025,9,T19,Comisiones,3643150
+2025,9,T19,Servicios básicos,5438323
+2025,9,T19,Mermas,4060661
+2025,9,T19,Insumos y otros,3191148
+2025,9,T20,Arriendo,41314940
+2025,9,T20,Remuneraciones,33924609
+2025,9,T20,Comisiones,2661142
+2025,9,T20,Servicios básicos,6417392
+2025,9,T20,Mermas,2842746
+2025,9,T20,Insumos y otros,2292955
+2025,9,T21,Arriendo,27428393
+2025,9,T21,Remuneraciones,20786560
+2025,9,T21,Comisiones,2131968
+2025,9,T21,Servicios básicos,3790063
+2025,9,T21,Mermas,2814900
+2025,9,T21,Insumos y otros,1619710
+2025,9,T22,Arriendo,23882891
+2025,9,T22,Remuneraciones,20787151
+2025,9,T22,Comisiones,1890436
+2025,9,T22,Servicios básicos,3325853
+2025,9,T22,Mermas,1878191
+2025,9,T22,Insumos y otros,1670794
+2025,9,T23,Arriendo,16663857
+2025,9,T23,Remuneraciones,21060215
+2025,9,T23,Comisiones,1510287
+2025,9,T23,Servicios básicos,2444549
+2025,9,T23,Mermas,2127845
+2025,9,T23,Insumos y otros,1293489
+2025,9,T24,Arriendo,32067090
+2025,9,T24,Remuneraciones,32850570
+2025,9,T24,Comisiones,3184026
+2025,9,T24,Servicios básicos,5439572
+2025,9,T24,Mermas,3770740
+2025,9,T24,Insumos y otros,2701990
+2025,9,T25,Arriendo,18909341
+2025,9,T25,Remuneraciones,19831325
+2025,9,T25,Comisiones,1671208
+2025,9,T25,Servicios básicos,2444064
+2025,9,T25,Mermas,2398457
+2025,9,T25,Insumos y otros,1333120
+2025,9,T26,Arriendo,20091175
+2025,9,T26,Remuneraciones,21118810
+2025,9,T26,Comisiones,1767634
+2025,9,T26,Servicios básicos,3082102
+2025,9,T26,Mermas,2250620
+2025,9,T26,Insumos y otros,1575140
+2025,9,T27,Arriendo,23676070
+2025,9,T27,Remuneraciones,32397459
+2025,9,T27,Comisiones,2541058
+2025,9,T27,Servicios básicos,3795822
+2025,9,T27,Mermas,1831974
+2025,9,T27,Insumos y otros,1834364
+2025,9,T28,Arriendo,20997247
+2025,9,T28,Remuneraciones,22659129
+2025,9,T28,Comisiones,1586371
+2025,9,T28,Servicios básicos,2838724
+2025,9,T28,Mermas,1650717
+2025,9,T28,Insumos y otros,1531308
+2025,9,T29,Arriendo,22494237
+2025,9,T29,Remuneraciones,21384827
+2025,9,T29,Comisiones,1915196
+2025,9,T29,Servicios básicos,3039896
+2025,9,T29,Mermas,1950519
+2025,9,T29,Insumos y otros,1700454
+2025,9,T30,Arriendo,17097196
+2025,9,T30,Remuneraciones,20821094
+2025,9,T30,Comisiones,1634777
+2025,9,T30,Servicios básicos,3037440
+2025,9,T30,Mermas,2084106
+2025,9,T30,Insumos y otros,1306365
+2025,10,T01,Arriendo,28745553
+2025,10,T01,Remuneraciones,33642823
+2025,10,T01,Comisiones,2534471
+2025,10,T01,Servicios básicos,4280339
+2025,10,T01,Mermas,3724043
+2025,10,T01,Insumos y otros,1908058
+2025,10,T02,Arriendo,17018315
+2025,10,T02,Remuneraciones,21563806
+2025,10,T02,Comisiones,2286126
+2025,10,T02,Servicios básicos,3314287
+2025,10,T02,Mermas,2723581
+2025,10,T02,Insumos y otros,1586234
+2025,10,T03,Arriendo,18202885
+2025,10,T03,Remuneraciones,19823912
+2025,10,T03,Comisiones,2037099
+2025,10,T03,Servicios básicos,2538418
+2025,10,T03,Mermas,2631757
+2025,10,T03,Insumos y otros,1777803
+2025,10,T04,Arriendo,21717108
+2025,10,T04,Remuneraciones,20741727
+2025,10,T04,Comisiones,2267888
+2025,10,T04,Servicios básicos,3108833
+2025,10,T04,Mermas,2441374
+2025,10,T04,Insumos y otros,2220583
+2025,10,T05,Arriendo,14530719
+2025,10,T05,Remuneraciones,21180565
+2025,10,T05,Comisiones,1562144
+2025,10,T05,Servicios básicos,2614107
+2025,10,T05,Mermas,1995590
+2025,10,T05,Insumos y otros,1408721
+2025,10,T06,Arriendo,11648267
+2025,10,T06,Remuneraciones,13159088
+2025,10,T06,Comisiones,1270952
+2025,10,T06,Servicios básicos,1698614
+2025,10,T06,Mermas,1885892
+2025,10,T06,Insumos y otros,1034893
+2025,10,T07,Arriendo,9516042
+2025,10,T07,Remuneraciones,12322677
+2025,10,T07,Comisiones,1073952
+2025,10,T07,Servicios básicos,1673489
+2025,10,T07,Mermas,4184010
+2025,10,T07,Insumos y otros,1055206
+2025,10,T08,Arriendo,29140410
+2025,10,T08,Remuneraciones,33550670
+2025,10,T08,Comisiones,2873312
+2025,10,T08,Servicios básicos,4106589
+2025,10,T08,Mermas,3592147
+2025,10,T08,Insumos y otros,2036996
+2025,10,T09,Arriendo,21717108
+2025,10,T09,Remuneraciones,21102936
+2025,10,T09,Comisiones,1846643
+2025,10,T09,Servicios básicos,2879767
+2025,10,T09,Mermas,2101020
+2025,10,T09,Insumos y otros,1334567
+2025,10,T10,Arriendo,22190935
+2025,10,T10,Remuneraciones,21595807
+2025,10,T10,Comisiones,2169528
+2025,10,T10,Servicios básicos,2982555
+2025,10,T10,Mermas,2791169
+2025,10,T10,Insumos y otros,2046966
+2025,10,T11,Arriendo,11213925
+2025,10,T11,Remuneraciones,13148724
+2025,10,T11,Comisiones,1139275
+2025,10,T11,Servicios básicos,1499848
+2025,10,T11,Mermas,1497839
+2025,10,T11,Insumos y otros,956800
+2025,10,T13,Arriendo,23049748
+2025,10,T13,Remuneraciones,21325504
+2025,10,T13,Comisiones,1661811
+2025,10,T13,Servicios básicos,2743728
+2025,10,T13,Mermas,2365950
+2025,10,T13,Insumos y otros,1210242
+2025,10,T14,Arriendo,21174180
+2025,10,T14,Remuneraciones,20540578
+2025,10,T14,Comisiones,2085365
+2025,10,T14,Servicios básicos,2929022
+2025,10,T14,Mermas,2646316
+2025,10,T14,Insumos y otros,1596124
+2025,10,T15,Arriendo,21569036
+2025,10,T15,Remuneraciones,21052147
+2025,10,T15,Comisiones,1954037
+2025,10,T15,Servicios básicos,2867309
+2025,10,T15,Mermas,1939943
+2025,10,T15,Insumos y otros,1479478
+2025,10,T16,Arriendo,13030264
+2025,10,T16,Remuneraciones,12355092
+2025,10,T16,Comisiones,1305659
+2025,10,T16,Servicios básicos,1874420
+2025,10,T16,Mermas,1089952
+2025,10,T16,Insumos y otros,1048779
+2025,10,T17,Arriendo,30157165
+2025,10,T17,Remuneraciones,21738826
+2025,10,T17,Comisiones,2483837
+2025,10,T17,Servicios básicos,3913394
+2025,10,T17,Mermas,3169489
+2025,10,T17,Insumos y otros,1667818
+2025,10,T18,Arriendo,31440449
+2025,10,T18,Remuneraciones,32632200
+2025,10,T18,Comisiones,3019264
+2025,10,T18,Servicios básicos,3797489
+2025,10,T18,Mermas,4113695
+2025,10,T18,Insumos y otros,2320490
+2025,10,T19,Arriendo,40028578
+2025,10,T19,Remuneraciones,33338164
+2025,10,T19,Comisiones,3807335
+2025,10,T19,Servicios básicos,5802572
+2025,10,T19,Mermas,5925323
+2025,10,T19,Insumos y otros,12335199
+2025,10,T20,Arriendo,41410575
+2025,10,T20,Remuneraciones,33345179
+2025,10,T20,Comisiones,3127719
+2025,10,T20,Servicios básicos,5720248
+2025,10,T20,Mermas,3918251
+2025,10,T20,Insumos y otros,1962905
+2025,10,T21,Arriendo,27491884
+2025,10,T21,Remuneraciones,21386326
+2025,10,T21,Comisiones,2227389
+2025,10,T21,Servicios básicos,3804325
+2025,10,T21,Mermas,2864636
+2025,10,T21,Insumos y otros,1833709
+2025,10,T22,Arriendo,23938175
+2025,10,T22,Remuneraciones,20856446
+2025,10,T22,Comisiones,1991298
+2025,10,T22,Servicios básicos,2845263
+2025,10,T22,Mermas,2572675
+2025,10,T22,Insumos y otros,1435441
+2025,10,T23,Arriendo,16702430
+2025,10,T23,Remuneraciones,21589910
+2025,10,T23,Comisiones,1574179
+2025,10,T23,Servicios básicos,2394150
+2025,10,T23,Mermas,1835389
+2025,10,T23,Insumos y otros,1488590
+2025,10,T24,Arriendo,32141319
+2025,10,T24,Remuneraciones,31986759
+2025,10,T24,Comisiones,3441630
+2025,10,T24,Servicios básicos,5177502
+2025,10,T24,Mermas,2831472
+2025,10,T24,Insumos y otros,3073141
+2025,10,T25,Arriendo,18953112
+2025,10,T25,Remuneraciones,21213706
+2025,10,T25,Comisiones,1835659
+2025,10,T25,Servicios básicos,2541285
+2025,10,T25,Mermas,2220005
+2025,10,T25,Insumos y otros,1650576
+2025,10,T26,Arriendo,20137682
+2025,10,T26,Remuneraciones,20795897
+2025,10,T26,Comisiones,1925933
+2025,10,T26,Servicios básicos,2563908
+2025,10,T26,Mermas,2322109
+2025,10,T26,Insumos y otros,1485120
+2025,10,T27,Arriendo,23730876
+2025,10,T27,Remuneraciones,33005276
+2025,10,T27,Comisiones,2749082
+2025,10,T27,Servicios básicos,4704468
+2025,10,T27,Mermas,2969144
+2025,10,T27,Insumos y otros,2948453
+2025,10,T28,Arriendo,21045851
+2025,10,T28,Remuneraciones,20952570
+2025,10,T28,Comisiones,1930562
+2025,10,T28,Servicios básicos,2985125
+2025,10,T28,Mermas,2423995
+2025,10,T28,Insumos y otros,1521325
+2025,10,T29,Arriendo,22546306
+2025,10,T29,Remuneraciones,21102418
+2025,10,T29,Comisiones,2146778
+2025,10,T29,Servicios básicos,3402289
+2025,10,T29,Mermas,2916568
+2025,10,T29,Insumos y otros,1876971
+2025,10,T30,Arriendo,17136772
+2025,10,T30,Remuneraciones,21766550
+2025,10,T30,Comisiones,1752167
+2025,10,T30,Servicios básicos,2553398
+2025,10,T30,Mermas,2121661
+2025,10,T30,Insumos y otros,1354526
+2025,11,T01,Arriendo,28830817
+2025,11,T01,Remuneraciones,33809176
+2025,11,T01,Comisiones,2716829
+2025,11,T01,Servicios básicos,3506698
+2025,11,T01,Mermas,3451420
+2025,11,T01,Insumos y otros,2154920
+2025,11,T02,Arriendo,17068794
+2025,11,T02,Remuneraciones,20413467
+2025,11,T02,Comisiones,2402968
+2025,11,T02,Servicios básicos,3035562
+2025,11,T02,Mermas,2807535
+2025,11,T02,Insumos y otros,1944525
+2025,11,T03,Arriendo,18256877
+2025,11,T03,Remuneraciones,20610902
+2025,11,T03,Comisiones,2252509
+2025,11,T03,Servicios básicos,2919902
+2025,11,T03,Mermas,3155998
+2025,11,T03,Insumos y otros,1436973
+2025,11,T04,Arriendo,21781524
+2025,11,T04,Remuneraciones,20209938
+2025,11,T04,Comisiones,2502658
+2025,11,T04,Servicios básicos,2763852
+2025,11,T04,Mermas,2266194
+2025,11,T04,Insumos y otros,1858685
+2025,11,T05,Arriendo,14573819
+2025,11,T05,Remuneraciones,20444373
+2025,11,T05,Comisiones,1742981
+2025,11,T05,Servicios básicos,2536416
+2025,11,T05,Mermas,1925503
+2025,11,T05,Insumos y otros,1371744
+2025,11,T06,Arriendo,11682817
+2025,11,T06,Remuneraciones,12166346
+2025,11,T06,Comisiones,1374776
+2025,11,T06,Servicios básicos,1854226
+2025,11,T06,Mermas,1757690
+2025,11,T06,Insumos y otros,987271
+2025,11,T07,Arriendo,9544268
+2025,11,T07,Remuneraciones,12396643
+2025,11,T07,Comisiones,1117312
+2025,11,T07,Servicios básicos,1551188
+2025,11,T07,Mermas,5405512
+2025,11,T07,Insumos y otros,949907
+2025,11,T08,Arriendo,29226844
+2025,11,T08,Remuneraciones,34261017
+2025,11,T08,Comisiones,3175833
+2025,11,T08,Servicios básicos,3586625
+2025,11,T08,Mermas,4638370
+2025,11,T08,Insumos y otros,2457018
+2025,11,T09,Arriendo,21781524
+2025,11,T09,Remuneraciones,19984005
+2025,11,T09,Comisiones,2053382
+2025,11,T09,Servicios básicos,2747401
+2025,11,T09,Mermas,1933098
+2025,11,T09,Insumos y otros,1287411
+2025,11,T10,Arriendo,22256757
+2025,11,T10,Remuneraciones,20937083
+2025,11,T10,Comisiones,2354272
+2025,11,T10,Servicios básicos,3093348
+2025,11,T10,Mermas,2858133
+2025,11,T10,Insumos y otros,1529078
+2025,11,T11,Arriendo,11247187
+2025,11,T11,Remuneraciones,12523297
+2025,11,T11,Comisiones,1237197
+2025,11,T11,Servicios básicos,1841038
+2025,11,T11,Mermas,1714772
+2025,11,T11,Insumos y otros,933921
+2025,11,T13,Arriendo,23118117
+2025,11,T13,Remuneraciones,20804644
+2025,11,T13,Comisiones,1863312
+2025,11,T13,Servicios básicos,2734653
+2025,11,T13,Mermas,1689572
+2025,11,T13,Insumos y otros,1494394
+2025,11,T14,Arriendo,21236985
+2025,11,T14,Remuneraciones,20637083
+2025,11,T14,Comisiones,2254803
+2025,11,T14,Servicios básicos,3737879
+2025,11,T14,Mermas,2100313
+2025,11,T14,Insumos y otros,1693660
+2025,11,T15,Arriendo,21633013
+2025,11,T15,Remuneraciones,21890167
+2025,11,T15,Comisiones,2151187
+2025,11,T15,Servicios básicos,3117980
+2025,11,T15,Mermas,3172489
+2025,11,T15,Insumos y otros,1545355
+2025,11,T16,Arriendo,13068914
+2025,11,T16,Remuneraciones,12945286
+2025,11,T16,Comisiones,1463592
+2025,11,T16,Servicios básicos,2023544
+2025,11,T16,Mermas,2083315
+2025,11,T16,Insumos y otros,1095656
+2025,11,T17,Arriendo,30246616
+2025,11,T17,Remuneraciones,20867133
+2025,11,T17,Comisiones,2723678
+2025,11,T17,Servicios básicos,3910125
+2025,11,T17,Mermas,2611332
+2025,11,T17,Insumos y otros,2854541
+2025,11,T18,Arriendo,31533706
+2025,11,T18,Remuneraciones,32763253
+2025,11,T18,Comisiones,3291496
+2025,11,T18,Servicios básicos,3917290
+2025,11,T18,Mermas,5358590
+2025,11,T18,Insumos y otros,3039392
+2025,11,T19,Arriendo,40147308
+2025,11,T19,Remuneraciones,33422351
+2025,11,T19,Comisiones,4308625
+2025,11,T19,Servicios básicos,5340746
+2025,11,T19,Mermas,4117724
+2025,11,T19,Insumos y otros,3381375
+2025,11,T20,Arriendo,41533405
+2025,11,T20,Remuneraciones,31986872
+2025,11,T20,Comisiones,3756451
+2025,11,T20,Servicios básicos,5059162
+2025,11,T20,Mermas,5175512
+2025,11,T20,Insumos y otros,2609827
+2025,11,T21,Arriendo,27573429
+2025,11,T21,Remuneraciones,20605159
+2025,11,T21,Comisiones,2438956
+2025,11,T21,Servicios básicos,3406104
+2025,11,T21,Mermas,3627393
+2025,11,T21,Insumos y otros,2013393
+2025,11,T22,Arriendo,24009179
+2025,11,T22,Remuneraciones,20933543
+2025,11,T22,Comisiones,2239344
+2025,11,T22,Servicios básicos,3852077
+2025,11,T22,Mermas,2579514
+2025,11,T22,Insumos y otros,1701231
+2025,11,T23,Arriendo,16751972
+2025,11,T23,Remuneraciones,20857055
+2025,11,T23,Comisiones,1790262
+2025,11,T23,Servicios básicos,2534388
+2025,11,T23,Mermas,1650076
+2025,11,T23,Insumos y otros,1448763
+2025,11,T24,Arriendo,32236655
+2025,11,T24,Remuneraciones,32980050
+2025,11,T24,Comisiones,3700247
+2025,11,T24,Servicios básicos,4913998
+2025,11,T24,Mermas,4917716
+2025,11,T24,Insumos y otros,2971054
+2025,11,T25,Arriendo,19009330
+2025,11,T25,Remuneraciones,21013867
+2025,11,T25,Comisiones,1998584
+2025,11,T25,Servicios básicos,2947345
+2025,11,T25,Mermas,2070767
+2025,11,T25,Insumos y otros,1783529
+2025,11,T26,Arriendo,20197413
+2025,11,T26,Remuneraciones,19596125
+2025,11,T26,Comisiones,2077786
+2025,11,T26,Servicios básicos,2826650
+2025,11,T26,Mermas,1986284
+2025,11,T26,Insumos y otros,2090068
+2025,11,T27,Arriendo,23801265
+2025,11,T27,Remuneraciones,31856545
+2025,11,T27,Comisiones,3004027
+2025,11,T27,Servicios básicos,4607030
+2025,11,T27,Mermas,4138501
+2025,11,T27,Insumos y otros,2346254
+2025,11,T28,Arriendo,21108276
+2025,11,T28,Remuneraciones,21284871
+2025,11,T28,Comisiones,2111900
+2025,11,T28,Servicios básicos,2796342
+2025,11,T28,Mermas,2067390
+2025,11,T28,Insumos y otros,1674228
+2025,11,T29,Arriendo,22613182
+2025,11,T29,Remuneraciones,21104046
+2025,11,T29,Comisiones,2421101
+2025,11,T29,Servicios básicos,3368905
+2025,11,T29,Mermas,3332010
+2025,11,T29,Insumos y otros,1828421
+2025,11,T30,Arriendo,17187602
+2025,11,T30,Remuneraciones,21411092
+2025,11,T30,Comisiones,1943861
+2025,11,T30,Servicios básicos,2516702
+2025,11,T30,Mermas,2507394
+2025,11,T30,Insumos y otros,1508806
+2025,12,T01,Arriendo,28860534
+2025,12,T01,Remuneraciones,32658095
+2025,12,T01,Comisiones,3843243
+2025,12,T01,Servicios básicos,4014385
+2025,12,T01,Mermas,4808733
+2025,12,T01,Insumos y otros,3370843
+2025,12,T02,Arriendo,17086387
+2025,12,T02,Remuneraciones,21769370
+2025,12,T02,Comisiones,3502627
+2025,12,T02,Servicios básicos,3558975
+2025,12,T02,Mermas,4659044
+2025,12,T02,Insumos y otros,3140483
+2025,12,T03,Arriendo,18275695
+2025,12,T03,Remuneraciones,20064714
+2025,12,T03,Comisiones,3009947
+2025,12,T03,Servicios básicos,3007055
+2025,12,T03,Mermas,3399568
+2025,12,T03,Insumos y otros,2042327
+2025,12,T04,Arriendo,21803974
+2025,12,T04,Remuneraciones,20361276
+2025,12,T04,Comisiones,3289408
+2025,12,T04,Servicios básicos,3409787
+2025,12,T04,Mermas,3842447
+2025,12,T04,Insumos y otros,2443379
+2025,12,T05,Arriendo,14588841
+2025,12,T05,Remuneraciones,20903851
+2025,12,T05,Comisiones,2345223
+2025,12,T05,Servicios básicos,2825501
+2025,12,T05,Mermas,2441658
+2025,12,T05,Insumos y otros,1528280
+2025,12,T06,Arriendo,11694859
+2025,12,T06,Remuneraciones,12395413
+2025,12,T06,Comisiones,1901952
+2025,12,T06,Servicios básicos,1928952
+2025,12,T06,Mermas,2150721
+2025,12,T06,Insumos y otros,1470258
+2025,12,T07,Arriendo,9554105
+2025,12,T07,Remuneraciones,12440175
+2025,12,T07,Comisiones,1519026
+2025,12,T07,Servicios básicos,1516024
+2025,12,T07,Mermas,6546332
+2025,12,T07,Insumos y otros,1462869
+2025,12,T08,Arriendo,29256969
+2025,12,T08,Remuneraciones,34515558
+2025,12,T08,Comisiones,4350810
+2025,12,T08,Servicios básicos,4773100
+2025,12,T08,Mermas,4542537
+2025,12,T08,Insumos y otros,3192474
+2025,12,T09,Arriendo,21803974
+2025,12,T09,Remuneraciones,19558956
+2025,12,T09,Comisiones,2830321
+2025,12,T09,Servicios básicos,2892928
+2025,12,T09,Mermas,2703798
+2025,12,T09,Insumos y otros,2768377
+2025,12,T10,Arriendo,22279698
+2025,12,T10,Remuneraciones,21417985
+2025,12,T10,Comisiones,3151217
+2025,12,T10,Servicios básicos,3012668
+2025,12,T10,Mermas,3364913
+2025,12,T10,Insumos y otros,2352538
+2025,12,T11,Arriendo,11258780
+2025,12,T11,Remuneraciones,11760742
+2025,12,T11,Comisiones,1710797
+2025,12,T11,Servicios básicos,1630688
+2025,12,T11,Mermas,2037718
+2025,12,T11,Insumos y otros,1486586
+2025,12,T13,Arriendo,23141946
+2025,12,T13,Remuneraciones,20434719
+2025,12,T13,Comisiones,2583474
+2025,12,T13,Servicios básicos,2584862
+2025,12,T13,Mermas,3793187
+2025,12,T13,Insumos y otros,2338509
+2025,12,T14,Arriendo,21258875
+2025,12,T14,Remuneraciones,21318640
+2025,12,T14,Comisiones,3099707
+2025,12,T14,Servicios básicos,2903177
+2025,12,T14,Mermas,3811115
+2025,12,T14,Insumos y otros,2244878
+2025,12,T15,Arriendo,21655311
+2025,12,T15,Remuneraciones,20733328
+2025,12,T15,Comisiones,2957345
+2025,12,T15,Servicios básicos,3597280
+2025,12,T15,Mermas,3683769
+2025,12,T15,Insumos y otros,2108536
+2025,12,T16,Arriendo,13082385
+2025,12,T16,Remuneraciones,12700290
+2025,12,T16,Comisiones,2041589
+2025,12,T16,Servicios básicos,2087947
+2025,12,T16,Mermas,2331124
+2025,12,T16,Insumos y otros,1392161
+2025,12,T17,Arriendo,30277792
+2025,12,T17,Remuneraciones,21086797
+2025,12,T17,Comisiones,3754601
+2025,12,T17,Servicios básicos,3448131
+2025,12,T17,Mermas,4706283
+2025,12,T17,Insumos y otros,2689259
+2025,12,T18,Arriendo,31566209
+2025,12,T18,Remuneraciones,33461734
+2025,12,T18,Comisiones,4467202
+2025,12,T18,Servicios básicos,3942245
+2025,12,T18,Mermas,6190497
+2025,12,T18,Insumos y otros,3483560
+2025,12,T19,Arriendo,40188689
+2025,12,T19,Remuneraciones,31958817
+2025,12,T19,Comisiones,5980508
+2025,12,T19,Servicios básicos,6086003
+2025,12,T19,Mermas,5254852
+2025,12,T19,Insumos y otros,18226650
+2025,12,T20,Arriendo,41576215
+2025,12,T20,Remuneraciones,31961626
+2025,12,T20,Comisiones,5490605
+2025,12,T20,Servicios básicos,5992850
+2025,12,T20,Mermas,6404605
+2025,12,T20,Insumos y otros,4004192
+2025,12,T21,Arriendo,27601850
+2025,12,T21,Remuneraciones,19966896
+2025,12,T21,Comisiones,3433225
+2025,12,T21,Servicios básicos,3332977
+2025,12,T21,Mermas,3785844
+2025,12,T21,Insumos y otros,2746677
+2025,12,T22,Arriendo,24033926
+2025,12,T22,Remuneraciones,21599622
+2025,12,T22,Comisiones,3057900
+2025,12,T22,Servicios básicos,3253112
+2025,12,T22,Mermas,2942990
+2025,12,T22,Insumos y otros,2515984
+2025,12,T23,Arriendo,16769239
+2025,12,T23,Remuneraciones,21089279
+2025,12,T23,Comisiones,2470923
+2025,12,T23,Servicios básicos,2837466
+2025,12,T23,Mermas,3171043
+2025,12,T23,Insumos y otros,1712563
+2025,12,T24,Arriendo,32269882
+2025,12,T24,Remuneraciones,34571530
+2025,12,T24,Comisiones,5184404
+2025,12,T24,Servicios básicos,4978662
+2025,12,T24,Mermas,5699572
+2025,12,T24,Insumos y otros,3426890
+2025,12,T25,Arriendo,19028923
+2025,12,T25,Remuneraciones,19979837
+2025,12,T25,Comisiones,2737254
+2025,12,T25,Servicios básicos,2857292
+2025,12,T25,Mermas,2700762
+2025,12,T25,Insumos y otros,2532030
+2025,12,T26,Arriendo,20218231
+2025,12,T26,Remuneraciones,21596676
+2025,12,T26,Comisiones,2931078
+2025,12,T26,Servicios básicos,2915976
+2025,12,T26,Mermas,3862964
+2025,12,T26,Insumos y otros,2406574
+2025,12,T27,Arriendo,23825798
+2025,12,T27,Remuneraciones,34595357
+2025,12,T27,Comisiones,4318582
+2025,12,T27,Servicios básicos,5022780
+2025,12,T27,Mermas,5303190
+2025,12,T27,Insumos y otros,3396812
+2025,12,T28,Arriendo,21130033
+2025,12,T28,Remuneraciones,20815421
+2025,12,T28,Comisiones,2864947
+2025,12,T28,Servicios básicos,2907690
+2025,12,T28,Mermas,2891369
+2025,12,T28,Insumos y otros,2167056
+2025,12,T29,Arriendo,22636490
+2025,12,T29,Remuneraciones,19793289
+2025,12,T29,Comisiones,3276325
+2025,12,T29,Servicios básicos,3493349
+2025,12,T29,Mermas,4297065
+2025,12,T29,Insumos y otros,2885264
+2025,12,T30,Arriendo,17205318
+2025,12,T30,Remuneraciones,20011673
+2025,12,T30,Comisiones,2687746
+2025,12,T30,Servicios básicos,2587050
+2025,12,T30,Mermas,4075510
+2025,12,T30,Insumos y otros,1910804
+2026,1,T01,Arriendo,28924743
+2026,1,T01,Remuneraciones,36123576
+2026,1,T01,Comisiones,2267158
+2026,1,T01,Servicios básicos,3647613
+2026,1,T01,Mermas,2457053
+2026,1,T01,Insumos y otros,1598054
+2026,1,T02,Arriendo,17124401
+2026,1,T02,Remuneraciones,22374866
+2026,1,T02,Comisiones,2003608
+2026,1,T02,Servicios básicos,3096341
+2026,1,T02,Mermas,2211248
+2026,1,T02,Insumos y otros,1591516
+2026,1,T03,Arriendo,18316355
+2026,1,T03,Remuneraciones,21863136
+2026,1,T03,Comisiones,1763388
+2026,1,T03,Servicios básicos,3034397
+2026,1,T03,Mermas,2159757
+2026,1,T03,Insumos y otros,1488879
+2026,1,T04,Arriendo,21852484
+2026,1,T04,Remuneraciones,21281972
+2026,1,T04,Comisiones,2024862
+2026,1,T04,Servicios básicos,3765050
+2026,1,T04,Mermas,2229530
+2026,1,T04,Insumos y otros,1540682
+2026,1,T05,Arriendo,14621299
+2026,1,T05,Remuneraciones,22137433
+2026,1,T05,Comisiones,1406504
+2026,1,T05,Servicios básicos,2919227
+2026,1,T05,Mermas,1628037
+2026,1,T05,Insumos y otros,1231303
+2026,1,T06,Arriendo,11720878
+2026,1,T06,Remuneraciones,13913247
+2026,1,T06,Comisiones,1088409
+2026,1,T06,Servicios básicos,1730511
+2026,1,T06,Mermas,1376872
+2026,1,T06,Insumos y otros,779043
+2026,1,T07,Arriendo,9575361
+2026,1,T07,Remuneraciones,13702455
+2026,1,T07,Comisiones,885844
+2026,1,T07,Servicios básicos,1591451
+2026,1,T07,Mermas,3164235
+2026,1,T07,Insumos y otros,845883
+2026,1,T08,Arriendo,29322061
+2026,1,T08,Remuneraciones,32196185
+2026,1,T08,Comisiones,2517326
+2026,1,T08,Servicios básicos,4078828
+2026,1,T08,Mermas,3172825
+2026,1,T08,Insumos y otros,2104227
+2026,1,T09,Arriendo,21852484
+2026,1,T09,Remuneraciones,21788719
+2026,1,T09,Comisiones,1643179
+2026,1,T09,Servicios básicos,3046398
+2026,1,T09,Mermas,1708898
+2026,1,T09,Insumos y otros,1195908
+2026,1,T10,Arriendo,22329266
+2026,1,T10,Remuneraciones,21640414
+2026,1,T10,Comisiones,1909175
+2026,1,T10,Servicios básicos,2699123
+2026,1,T10,Mermas,2723508
+2026,1,T10,Insumos y otros,1644762
+2026,1,T11,Arriendo,11283828
+2026,1,T11,Remuneraciones,12572467
+2026,1,T11,Comisiones,950259
+2026,1,T11,Servicios básicos,1743969
+2026,1,T11,Mermas,1068473
+2026,1,T11,Insumos y otros,794573
+2026,1,T13,Arriendo,23193432
+2026,1,T13,Remuneraciones,21313574
+2026,1,T13,Comisiones,1489971
+2026,1,T13,Servicios básicos,2519904
+2026,1,T13,Mermas,1762256
+2026,1,T13,Insumos y otros,1107328
+2026,1,T14,Arriendo,21306172
+2026,1,T14,Remuneraciones,21482410
+2026,1,T14,Comisiones,1855332
+2026,1,T14,Servicios básicos,3125954
+2026,1,T14,Mermas,1639460
+2026,1,T14,Insumos y otros,1473572
+2026,1,T15,Arriendo,21703490
+2026,1,T15,Remuneraciones,20865584
+2026,1,T15,Comisiones,1723527
+2026,1,T15,Servicios básicos,3173480
+2026,1,T15,Mermas,2034386
+2026,1,T15,Insumos y otros,1492294
+2026,1,T16,Arriendo,13111491
+2026,1,T16,Remuneraciones,12428948
+2026,1,T16,Comisiones,1207373
+2026,1,T16,Servicios básicos,2095471
+2026,1,T16,Mermas,1748429
+2026,1,T16,Insumos y otros,900830
+2026,1,T17,Arriendo,30345155
+2026,1,T17,Remuneraciones,22078101
+2026,1,T17,Comisiones,2144306
+2026,1,T17,Servicios básicos,3763350
+2026,1,T17,Mermas,2672105
+2026,1,T17,Insumos y otros,1613670
+2026,1,T18,Arriendo,31636438
+2026,1,T18,Remuneraciones,34152869
+2026,1,T18,Comisiones,2653960
+2026,1,T18,Servicios básicos,3690710
+2026,1,T18,Mermas,2509800
+2026,1,T18,Insumos y otros,1755057
+2026,1,T19,Arriendo,40278102
+2026,1,T19,Remuneraciones,34216602
+2026,1,T19,Comisiones,3536038
+2026,1,T19,Servicios básicos,6446882
+2026,1,T19,Mermas,6294670
+2026,1,T19,Insumos y otros,11330121
+2026,1,T20,Arriendo,41668715
+2026,1,T20,Remuneraciones,35882243
+2026,1,T20,Comisiones,3494680
+2026,1,T20,Servicios básicos,6603745
+2026,1,T20,Mermas,5354330
+2026,1,T20,Insumos y otros,2250581
+2026,1,T21,Arriendo,27663259
+2026,1,T21,Remuneraciones,20957530
+2026,1,T21,Comisiones,2121360
+2026,1,T21,Servicios básicos,3034807
+2026,1,T21,Mermas,2300971
+2026,1,T21,Insumos y otros,1527981
+2026,1,T22,Arriendo,24087398
+2026,1,T22,Remuneraciones,20995670
+2026,1,T22,Comisiones,1809329
+2026,1,T22,Servicios básicos,3009602
+2026,1,T22,Mermas,2185753
+2026,1,T22,Insumos y otros,1461315
+2026,1,T23,Arriendo,16806547
+2026,1,T23,Remuneraciones,20825990
+2026,1,T23,Comisiones,1412097
+2026,1,T23,Servicios básicos,2345157
+2026,1,T23,Mermas,1952927
+2026,1,T23,Insumos y otros,1033932
+2026,1,T24,Arriendo,32341677
+2026,1,T24,Remuneraciones,35576761
+2026,1,T24,Comisiones,3078703
+2026,1,T24,Servicios básicos,5508820
+2026,1,T24,Mermas,2624643
+2026,1,T24,Insumos y otros,2229777
+2026,1,T25,Arriendo,19071259
+2026,1,T25,Remuneraciones,21681844
+2026,1,T25,Comisiones,1661258
+2026,1,T25,Servicios básicos,2506243
+2026,1,T25,Mermas,1909423
+2026,1,T25,Insumos y otros,1376454
+2026,1,T26,Arriendo,20263213
+2026,1,T26,Remuneraciones,21863432
+2026,1,T26,Comisiones,1735433
+2026,1,T26,Servicios básicos,2487794
+2026,1,T26,Mermas,2135463
+2026,1,T26,Insumos y otros,1518926
+2026,1,T27,Arriendo,23878806
+2026,1,T27,Remuneraciones,34225510
+2026,1,T27,Comisiones,2543221
+2026,1,T27,Servicios básicos,4756754
+2026,1,T27,Mermas,3230044
+2026,1,T27,Insumos y otros,1970271
+2026,1,T28,Arriendo,21177044
+2026,1,T28,Remuneraciones,22646214
+2026,1,T28,Comisiones,1772544
+2026,1,T28,Servicios básicos,2693452
+2026,1,T28,Mermas,1890661
+2026,1,T28,Insumos y otros,1418873
+2026,1,T29,Arriendo,22686852
+2026,1,T29,Remuneraciones,21210413
+2026,1,T29,Comisiones,1957461
+2026,1,T29,Servicios básicos,2896712
+2026,1,T29,Mermas,2350108
+2026,1,T29,Insumos y otros,1650261
+2026,1,T30,Arriendo,17243597
+2026,1,T30,Remuneraciones,21952687
+2026,1,T30,Comisiones,1571276
+2026,1,T30,Servicios básicos,2459463
+2026,1,T30,Mermas,2183708
+2026,1,T30,Insumos y otros,1370080
+2026,2,T01,Arriendo,28904148
+2026,2,T01,Remuneraciones,34432051
+2026,2,T01,Comisiones,1743857
+2026,2,T01,Servicios básicos,3861435
+2026,2,T01,Mermas,1940308
+2026,2,T01,Insumos y otros,1550602
+2026,2,T02,Arriendo,17112208
+2026,2,T02,Remuneraciones,21799218
+2026,2,T02,Comisiones,1621567
+2026,2,T02,Servicios básicos,3650975
+2026,2,T02,Mermas,2307468
+2026,2,T02,Insumos y otros,1079392
+2026,2,T03,Arriendo,18303314
+2026,2,T03,Remuneraciones,22002604
+2026,2,T03,Comisiones,1418730
+2026,2,T03,Servicios básicos,2735788
+2026,2,T03,Mermas,1583855
+2026,2,T03,Insumos y otros,1027193
+2026,2,T04,Arriendo,21836925
+2026,2,T04,Remuneraciones,21878607
+2026,2,T04,Comisiones,1572320
+2026,2,T04,Servicios básicos,2981628
+2026,2,T04,Mermas,1747732
+2026,2,T04,Insumos y otros,1500388
+2026,2,T05,Arriendo,14610888
+2026,2,T05,Remuneraciones,21354364
+2026,2,T05,Comisiones,1128186
+2026,2,T05,Servicios básicos,2547121
+2026,2,T05,Mermas,1121504
+2026,2,T05,Insumos y otros,840646
+2026,2,T06,Arriendo,11712532
+2026,2,T06,Remuneraciones,12577422
+2026,2,T06,Comisiones,854951
+2026,2,T06,Servicios básicos,2161733
+2026,2,T06,Mermas,1123385
+2026,2,T06,Insumos y otros,591705
+2026,2,T07,Arriendo,9568544
+2026,2,T07,Remuneraciones,13083008
+2026,2,T07,Comisiones,744632
+2026,2,T07,Servicios básicos,1362854
+2026,2,T07,Mermas,2844254
+2026,2,T07,Insumos y otros,654612
+2026,2,T08,Arriendo,29301183
+2026,2,T08,Remuneraciones,32657948
+2026,2,T08,Comisiones,2172198
+2026,2,T08,Servicios básicos,4447907
+2026,2,T08,Mermas,1966312
+2026,2,T08,Insumos y otros,1997861
+2026,2,T09,Arriendo,21836925
+2026,2,T09,Remuneraciones,22365084
+2026,2,T09,Comisiones,1402515
+2026,2,T09,Servicios básicos,2915643
+2026,2,T09,Mermas,2093162
+2026,2,T09,Insumos y otros,1153871
+2026,2,T10,Arriendo,22313367
+2026,2,T10,Remuneraciones,20899714
+2026,2,T10,Comisiones,1634722
+2026,2,T10,Servicios básicos,2935384
+2026,2,T10,Mermas,1869000
+2026,2,T10,Insumos y otros,1209468
+2026,2,T11,Arriendo,11275794
+2026,2,T11,Remuneraciones,12587543
+2026,2,T11,Comisiones,853442
+2026,2,T11,Servicios básicos,1724007
+2026,2,T11,Mermas,952497
+2026,2,T11,Insumos y otros,756823
+2026,2,T13,Arriendo,23176918
+2026,2,T13,Remuneraciones,21387277
+2026,2,T13,Comisiones,1275518
+2026,2,T13,Servicios básicos,2129212
+2026,2,T13,Mermas,1688496
+2026,2,T13,Insumos y otros,737002
+2026,2,T14,Arriendo,21291002
+2026,2,T14,Remuneraciones,21225099
+2026,2,T14,Comisiones,1535590
+2026,2,T14,Servicios básicos,3288872
+2026,2,T14,Mermas,2010893
+2026,2,T14,Insumos y otros,1208483
+2026,2,T15,Arriendo,21688037
+2026,2,T15,Remuneraciones,21272505
+2026,2,T15,Comisiones,1441023
+2026,2,T15,Servicios básicos,2935482
+2026,2,T15,Mermas,1834084
+2026,2,T15,Insumos y otros,1094751
+2026,2,T16,Arriendo,13102155
+2026,2,T16,Remuneraciones,12614996
+2026,2,T16,Comisiones,1021103
+2026,2,T16,Servicios básicos,1740391
+2026,2,T16,Mermas,1250160
+2026,2,T16,Insumos y otros,870975
+2026,2,T17,Arriendo,30323548
+2026,2,T17,Remuneraciones,21905919
+2026,2,T17,Comisiones,1836019
+2026,2,T17,Servicios básicos,3616177
+2026,2,T17,Mermas,2365494
+2026,2,T17,Insumos y otros,1000480
+2026,2,T18,Arriendo,31613912
+2026,2,T18,Remuneraciones,33692592
+2026,2,T18,Comisiones,2251748
+2026,2,T18,Servicios básicos,3879683
+2026,2,T18,Mermas,2145348
+2026,2,T18,Insumos y otros,1712839
+2026,2,T19,Arriendo,40249423
+2026,2,T19,Remuneraciones,32926272
+2026,2,T19,Comisiones,2981475
+2026,2,T19,Servicios básicos,5504794
+2026,2,T19,Mermas,3889329
+2026,2,T19,Insumos y otros,2445087
+2026,2,T20,Arriendo,41639046
+2026,2,T20,Remuneraciones,35062583
+2026,2,T20,Comisiones,3018244
+2026,2,T20,Servicios básicos,6503406
+2026,2,T20,Mermas,3667303
+2026,2,T20,Insumos y otros,2550263
+2026,2,T21,Arriendo,27643562
+2026,2,T21,Remuneraciones,21421534
+2026,2,T21,Comisiones,1729806
+2026,2,T21,Servicios básicos,3554349
+2026,2,T21,Mermas,1755098
+2026,2,T21,Insumos y otros,1522078
+2026,2,T22,Arriendo,24070247
+2026,2,T22,Remuneraciones,22198985
+2026,2,T22,Comisiones,1506019
+2026,2,T22,Servicios básicos,3248445
+2026,2,T22,Mermas,2264595
+2026,2,T22,Insumos y otros,1395844
+2026,2,T23,Arriendo,16794580
+2026,2,T23,Remuneraciones,21310127
+2026,2,T23,Comisiones,1198676
+2026,2,T23,Servicios básicos,2522025
+2026,2,T23,Mermas,1631713
+2026,2,T23,Insumos y otros,1001182
+2026,2,T24,Arriendo,32318649
+2026,2,T24,Remuneraciones,31458206
+2026,2,T24,Comisiones,2621681
+2026,2,T24,Servicios básicos,5477478
+2026,2,T24,Mermas,3206177
+2026,2,T24,Insumos y otros,2092707
+2026,2,T25,Arriendo,19057680
+2026,2,T25,Remuneraciones,22230206
+2026,2,T25,Comisiones,1385354
+2026,2,T25,Servicios básicos,2845836
+2026,2,T25,Mermas,1957105
+2026,2,T25,Insumos y otros,946088
+2026,2,T26,Arriendo,20248785
+2026,2,T26,Remuneraciones,20780259
+2026,2,T26,Comisiones,1495980
+2026,2,T26,Servicios básicos,3068508
+2026,2,T26,Mermas,1665968
+2026,2,T26,Insumos y otros,1112350
+2026,2,T27,Arriendo,23861804
+2026,2,T27,Remuneraciones,34311428
+2026,2,T27,Comisiones,2014969
+2026,2,T27,Servicios básicos,4469384
+2026,2,T27,Mermas,1964291
+2026,2,T27,Insumos y otros,1393258
+2026,2,T28,Arriendo,21161966
+2026,2,T28,Remuneraciones,21707017
+2026,2,T28,Comisiones,1457704
+2026,2,T28,Servicios básicos,2851463
+2026,2,T28,Mermas,1566451
+2026,2,T28,Insumos y otros,1208508
+2026,2,T29,Arriendo,22670698
+2026,2,T29,Remuneraciones,20825884
+2026,2,T29,Comisiones,1637539
+2026,2,T29,Servicios básicos,2994716
+2026,2,T29,Mermas,1990990
+2026,2,T29,Insumos y otros,1710306
+2026,2,T30,Arriendo,17231319
+2026,2,T30,Remuneraciones,21790221
+2026,2,T30,Comisiones,1319086
+2026,2,T30,Servicios básicos,2716466
+2026,2,T30,Mermas,1791910
+2026,2,T30,Insumos y otros,1042736
+2026,3,T01,Arriendo,28971714
+2026,3,T01,Remuneraciones,37398568
+2026,3,T01,Comisiones,2216525
+2026,3,T01,Servicios básicos,3421401
+2026,3,T01,Mermas,2167052
+2026,3,T01,Insumos y otros,1550384
+2026,3,T02,Arriendo,17152210
+2026,3,T02,Remuneraciones,21412555
+2026,3,T02,Comisiones,2010211
+2026,3,T02,Servicios básicos,3256502
+2026,3,T02,Mermas,2758991
+2026,3,T02,Insumos y otros,1444399
+2026,3,T03,Arriendo,18346099
+2026,3,T03,Remuneraciones,21690980
+2026,3,T03,Comisiones,1822219
+2026,3,T03,Servicios básicos,2898595
+2026,3,T03,Mermas,2306813
+2026,3,T03,Insumos y otros,1626803
+2026,3,T04,Arriendo,21887970
+2026,3,T04,Remuneraciones,21797351
+2026,3,T04,Comisiones,1999585
+2026,3,T04,Servicios básicos,3331432
+2026,3,T04,Mermas,2224428
+2026,3,T04,Insumos y otros,1512065
+2026,3,T05,Arriendo,14645042
+2026,3,T05,Remuneraciones,21430087
+2026,3,T05,Comisiones,1453774
+2026,3,T05,Servicios básicos,2259613
+2026,3,T05,Mermas,1966073
+2026,3,T05,Insumos y otros,1251057
+2026,3,T06,Arriendo,11739911
+2026,3,T06,Remuneraciones,12819416
+2026,3,T06,Comisiones,1089585
+2026,3,T06,Servicios básicos,1785197
+2026,3,T06,Mermas,1032323
+2026,3,T06,Insumos y otros,901806
+2026,3,T07,Arriendo,9590911
+2026,3,T07,Remuneraciones,13269528
+2026,3,T07,Comisiones,944597
+2026,3,T07,Servicios básicos,1568939
+2026,3,T07,Mermas,3628955
+2026,3,T07,Insumos y otros,917552
+2026,3,T08,Arriendo,29369677
+2026,3,T08,Remuneraciones,32613773
+2026,3,T08,Comisiones,2681928
+2026,3,T08,Servicios básicos,4794031
+2026,3,T08,Mermas,3905624
+2026,3,T08,Insumos y otros,2442179
+2026,3,T09,Arriendo,21887970
+2026,3,T09,Remuneraciones,20912041
+2026,3,T09,Comisiones,1742295
+2026,3,T09,Servicios básicos,2970878
+2026,3,T09,Mermas,1846286
+2026,3,T09,Insumos y otros,1547370
+2026,3,T10,Arriendo,22365526
+2026,3,T10,Remuneraciones,22302293
+2026,3,T10,Comisiones,2092461
+2026,3,T10,Servicios básicos,3078795
+2026,3,T10,Mermas,2216324
+2026,3,T10,Insumos y otros,1415122
+2026,3,T11,Arriendo,11302152
+2026,3,T11,Remuneraciones,13143828
+2026,3,T11,Comisiones,1100315
+2026,3,T11,Servicios básicos,1695586
+2026,3,T11,Mermas,1637715
+2026,3,T11,Insumos y otros,1069440
+2026,3,T13,Arriendo,23231096
+2026,3,T13,Remuneraciones,21704882
+2026,3,T13,Comisiones,1554148
+2026,3,T13,Servicios básicos,2522077
+2026,3,T13,Mermas,1886353
+2026,3,T13,Insumos y otros,1123506
+2026,3,T14,Arriendo,21340771
+2026,3,T14,Remuneraciones,22167544
+2026,3,T14,Comisiones,1984248
+2026,3,T14,Servicios básicos,3165021
+2026,3,T14,Mermas,2932730
+2026,3,T14,Insumos y otros,1840310
+2026,3,T15,Arriendo,21738734
+2026,3,T15,Remuneraciones,21937597
+2026,3,T15,Comisiones,1849831
+2026,3,T15,Servicios básicos,2934520
+2026,3,T15,Mermas,1960447
+2026,3,T15,Insumos y otros,1701740
+2026,3,T16,Arriendo,13132782
+2026,3,T16,Remuneraciones,13001430
+2026,3,T16,Comisiones,1280694
+2026,3,T16,Servicios básicos,1928061
+2026,3,T16,Mermas,1730371
+2026,3,T16,Insumos y otros,947465
+2026,3,T17,Arriendo,30394432
+2026,3,T17,Remuneraciones,20687327
+2026,3,T17,Comisiones,2364516
+2026,3,T17,Servicios básicos,3675532
+2026,3,T17,Mermas,2857212
+2026,3,T17,Insumos y otros,1755814
+2026,3,T18,Arriendo,31687812
+2026,3,T18,Remuneraciones,34700643
+2026,3,T18,Comisiones,2875413
+2026,3,T18,Servicios básicos,4131699
+2026,3,T18,Mermas,3771593
+2026,3,T18,Insumos y otros,2910720
+2026,3,T19,Arriendo,40343509
+2026,3,T19,Remuneraciones,34082271
+2026,3,T19,Comisiones,3732500
+2026,3,T19,Servicios básicos,7067708
+2026,3,T19,Mermas,5747013
+2026,3,T19,Insumos y otros,6778280
+2026,3,T20,Arriendo,41736380
+2026,3,T20,Remuneraciones,34636859
+2026,3,T20,Comisiones,3961950
+2026,3,T20,Servicios básicos,6989804
+2026,3,T20,Mermas,4312543
+2026,3,T20,Insumos y otros,3947680
+2026,3,T21,Arriendo,27708181
+2026,3,T21,Remuneraciones,21501068
+2026,3,T21,Comisiones,2135976
+2026,3,T21,Servicios básicos,3766716
+2026,3,T21,Mermas,2911300
+2026,3,T21,Insumos y otros,1993861
+2026,3,T22,Arriendo,24126513
+2026,3,T22,Remuneraciones,21371981
+2026,3,T22,Comisiones,1964538
+2026,3,T22,Servicios básicos,3186068
+2026,3,T22,Mermas,2697153
+2026,3,T22,Insumos y otros,1808480
+2026,3,T23,Arriendo,16833839
+2026,3,T23,Remuneraciones,22736974
+2026,3,T23,Comisiones,1557270
+2026,3,T23,Servicios básicos,2766784
+2026,3,T23,Mermas,1641866
+2026,3,T23,Insumos y otros,1381494
+2026,3,T24,Arriendo,32394196
+2026,3,T24,Remuneraciones,33879682
+2026,3,T24,Comisiones,3336213
+2026,3,T24,Servicios básicos,5118747
+2026,3,T24,Mermas,4630353
+2026,3,T24,Insumos y otros,2787171
+2026,3,T25,Arriendo,19102229
+2026,3,T25,Remuneraciones,22525451
+2026,3,T25,Comisiones,1744702
+2026,3,T25,Servicios básicos,2579758
+2026,3,T25,Mermas,1814117
+2026,3,T25,Insumos y otros,1712070
+2026,3,T26,Arriendo,20296118
+2026,3,T26,Remuneraciones,21324160
+2026,3,T26,Comisiones,1799281
+2026,3,T26,Servicios básicos,3234495
+2026,3,T26,Mermas,2192459
+2026,3,T26,Insumos y otros,1443352
+2026,3,T27,Arriendo,23917582
+2026,3,T27,Remuneraciones,35134710
+2026,3,T27,Comisiones,2643281
+2026,3,T27,Servicios básicos,4248861
+2026,3,T27,Mermas,2589332
+2026,3,T27,Insumos y otros,2012457
+2026,3,T28,Arriendo,21211433
+2026,3,T28,Remuneraciones,20914774
+2026,3,T28,Comisiones,1830913
+2026,3,T28,Servicios básicos,2824235
+2026,3,T28,Mermas,1814119
+2026,3,T28,Insumos y otros,1131414
+2026,3,T29,Arriendo,22723693
+2026,3,T29,Remuneraciones,22059161
+2026,3,T29,Comisiones,2123190
+2026,3,T29,Servicios básicos,3089476
+2026,3,T29,Mermas,2445259
+2026,3,T29,Insumos y otros,1635061
+2026,3,T30,Arriendo,17271599
+2026,3,T30,Remuneraciones,21081490
+2026,3,T30,Comisiones,1685318
+2026,3,T30,Servicios básicos,2704665
+2026,3,T30,Mermas,2199386
+2026,3,T30,Insumos y otros,1350158
+2026,4,T01,Arriendo,29004772
+2026,4,T01,Remuneraciones,34936084
+2026,4,T01,Comisiones,2039539
+2026,4,T01,Servicios básicos,4183795
+2026,4,T01,Mermas,2539707
+2026,4,T01,Insumos y otros,1922933
+2026,4,T02,Arriendo,17171781
+2026,4,T02,Remuneraciones,21021105
+2026,4,T02,Comisiones,1857119
+2026,4,T02,Servicios básicos,3447332
+2026,4,T02,Mermas,2179805
+2026,4,T02,Insumos y otros,1656559
+2026,4,T03,Arriendo,18367033
+2026,4,T03,Remuneraciones,21470593
+2026,4,T03,Comisiones,1617745
+2026,4,T03,Servicios básicos,3149030
+2026,4,T03,Mermas,1990343
+2026,4,T03,Insumos y otros,1276110
+2026,4,T04,Arriendo,21912946
+2026,4,T04,Remuneraciones,20694426
+2026,4,T04,Comisiones,1848174
+2026,4,T04,Servicios básicos,3286837
+2026,4,T04,Mermas,1980431
+2026,4,T04,Insumos y otros,1565311
+2026,4,T05,Arriendo,14661753
+2026,4,T05,Remuneraciones,20948153
+2026,4,T05,Comisiones,1249214
+2026,4,T05,Servicios básicos,2248049
+2026,4,T05,Mermas,1934435
+2026,4,T05,Insumos y otros,908002
+2026,4,T06,Arriendo,11753307
+2026,4,T06,Remuneraciones,13023282
+2026,4,T06,Comisiones,994628
+2026,4,T06,Servicios básicos,1789661
+2026,4,T06,Mermas,1320639
+2026,4,T06,Insumos y otros,732837
+2026,4,T07,Arriendo,9601855
+2026,4,T07,Remuneraciones,13066332
+2026,4,T07,Comisiones,905114
+2026,4,T07,Servicios básicos,1797376
+2026,4,T07,Mermas,3328655
+2026,4,T07,Insumos y otros,721095
+2026,4,T08,Arriendo,29403189
+2026,4,T08,Remuneraciones,33765287
+2026,4,T08,Comisiones,2470759
+2026,4,T08,Servicios básicos,4915391
+2026,4,T08,Mermas,3274599
+2026,4,T08,Insumos y otros,2142835
+2026,4,T09,Arriendo,21912946
+2026,4,T09,Remuneraciones,22161057
+2026,4,T09,Comisiones,1635146
+2026,4,T09,Servicios básicos,2959427
+2026,4,T09,Mermas,2027745
+2026,4,T09,Insumos y otros,1111916
+2026,4,T10,Arriendo,22391047
+2026,4,T10,Remuneraciones,22006501
+2026,4,T10,Comisiones,1858186
+2026,4,T10,Servicios básicos,3033451
+2026,4,T10,Mermas,2296453
+2026,4,T10,Insumos y otros,1617226
+2026,4,T11,Arriendo,11315048
+2026,4,T11,Remuneraciones,12678120
+2026,4,T11,Comisiones,1001282
+2026,4,T11,Servicios básicos,1600539
+2026,4,T11,Mermas,1510446
+2026,4,T11,Insumos y otros,742883
+2026,4,T12,Arriendo,8526128
+2026,4,T12,Remuneraciones,12930918
+2026,4,T12,Comisiones,565900
+2026,4,T12,Servicios básicos,1576477
+2026,4,T12,Mermas,661754
+2026,4,T12,Insumos y otros,490825
+2026,4,T13,Arriendo,23257604
+2026,4,T13,Remuneraciones,20489858
+2026,4,T13,Comisiones,1440956
+2026,4,T13,Servicios básicos,2577215
+2026,4,T13,Mermas,2207782
+2026,4,T13,Insumos y otros,1304823
+2026,4,T14,Arriendo,21365122
+2026,4,T14,Remuneraciones,22072753
+2026,4,T14,Comisiones,1774227
+2026,4,T14,Servicios básicos,3154690
+2026,4,T14,Mermas,2424183
+2026,4,T14,Insumos y otros,1508244
+2026,4,T15,Arriendo,21763540
+2026,4,T15,Remuneraciones,20560852
+2026,4,T15,Comisiones,1669478
+2026,4,T15,Servicios básicos,2955588
+2026,4,T15,Mermas,1579975
+2026,4,T15,Insumos y otros,1300077
+2026,4,T16,Arriendo,13147768
+2026,4,T16,Remuneraciones,12931559
+2026,4,T16,Comisiones,1176320
+2026,4,T16,Servicios básicos,1807327
+2026,4,T16,Mermas,1185607
+2026,4,T16,Insumos y otros,916693
+2026,4,T17,Arriendo,30429114
+2026,4,T17,Remuneraciones,22839833
+2026,4,T17,Comisiones,2109692
+2026,4,T17,Servicios básicos,3677011
+2026,4,T17,Mermas,2361881
+2026,4,T17,Insumos y otros,1879025
+2026,4,T18,Arriendo,31723970
+2026,4,T18,Remuneraciones,35921870
+2026,4,T18,Comisiones,2597125
+2026,4,T18,Servicios básicos,3956815
+2026,4,T18,Mermas,2399851
+2026,4,T18,Insumos y otros,2350721
+2026,4,T19,Arriendo,40389544
+2026,4,T19,Remuneraciones,33789161
+2026,4,T19,Comisiones,3429143
+2026,4,T19,Servicios básicos,6197876
+2026,4,T19,Mermas,3732006
+2026,4,T19,Insumos y otros,2261669
+2026,4,T20,Arriendo,41784004
+2026,4,T20,Remuneraciones,33899619
+2026,4,T20,Comisiones,3950811
+2026,4,T20,Servicios básicos,6636457
+2026,4,T20,Mermas,4707986
+2026,4,T20,Insumos y otros,3013282
+2026,4,T21,Arriendo,27739798
+2026,4,T21,Remuneraciones,22757106
+2026,4,T21,Comisiones,1988282
+2026,4,T21,Servicios básicos,3401835
+2026,4,T21,Mermas,2596649
+2026,4,T21,Insumos y otros,1597694
+2026,4,T22,Arriendo,24154043
+2026,4,T22,Remuneraciones,21561271
+2026,4,T22,Comisiones,1691700
+2026,4,T22,Servicios básicos,3688758
+2026,4,T22,Mermas,1573363
+2026,4,T22,Insumos y otros,1422913
+2026,4,T23,Arriendo,16853048
+2026,4,T23,Remuneraciones,22070495
+2026,4,T23,Comisiones,1448023
+2026,4,T23,Servicios básicos,2569104
+2026,4,T23,Mermas,1807639
+2026,4,T23,Insumos y otros,1232692
+2026,4,T24,Arriendo,32431160
+2026,4,T24,Remuneraciones,32808765
+2026,4,T24,Comisiones,2963377
+2026,4,T24,Servicios básicos,5156989
+2026,4,T24,Mermas,2926599
+2026,4,T24,Insumos y otros,3313276
+2026,4,T25,Arriendo,19124026
+2026,4,T25,Remuneraciones,21028345
+2026,4,T25,Comisiones,1667904
+2026,4,T25,Servicios básicos,2661995
+2026,4,T25,Mermas,2653004
+2026,4,T25,Insumos y otros,1175095
+2026,4,T26,Arriendo,20319277
+2026,4,T26,Remuneraciones,21745238
+2026,4,T26,Comisiones,1668743
+2026,4,T26,Servicios básicos,3383305
+2026,4,T26,Mermas,1934310
+2026,4,T26,Insumos y otros,1319366
+2026,4,T27,Arriendo,23944874
+2026,4,T27,Remuneraciones,34994274
+2026,4,T27,Comisiones,2471540
+2026,4,T27,Servicios básicos,4456696
+2026,4,T27,Mermas,3463499
+2026,4,T27,Insumos y otros,2001294
+2026,4,T28,Arriendo,21235637
+2026,4,T28,Remuneraciones,21794182
+2026,4,T28,Comisiones,1656181
+2026,4,T28,Servicios básicos,2956599
+2026,4,T28,Mermas,1797213
+2026,4,T28,Insumos y otros,1369201
+2026,4,T29,Arriendo,22749622
+2026,4,T29,Remuneraciones,21393829
+2026,4,T29,Comisiones,1845704
+2026,4,T29,Servicios básicos,3384059
+2026,4,T29,Mermas,2058555
+2026,4,T29,Insumos y otros,1323699
+2026,4,T30,Arriendo,17291306
+2026,4,T30,Remuneraciones,21231692
+2026,4,T30,Comisiones,1561011
+2026,4,T30,Servicios básicos,2700311
+2026,4,T30,Mermas,1829007
+2026,4,T30,Insumos y otros,1016371
+2026,5,T01,Arriendo,29217188
+2026,5,T01,Remuneraciones,34829259
+2026,5,T01,Comisiones,2345142
+2026,5,T01,Servicios básicos,4312135
+2026,5,T01,Mermas,2851387
+2026,5,T01,Insumos y otros,1679200
+2026,5,T02,Arriendo,17297538
+2026,5,T02,Remuneraciones,21460211
+2026,5,T02,Comisiones,2199995
+2026,5,T02,Servicios básicos,3420556
+2026,5,T02,Mermas,3095568
+2026,5,T02,Insumos y otros,1661645
+2026,5,T03,Arriendo,18501544
+2026,5,T03,Remuneraciones,21178965
+2026,5,T03,Comisiones,1892618
+2026,5,T03,Servicios básicos,3155494
+2026,5,T03,Mermas,2561250
+2026,5,T03,Insumos y otros,2150563
+2026,5,T04,Arriendo,22073425
+2026,5,T04,Remuneraciones,21309290
+2026,5,T04,Comisiones,2151657
+2026,5,T04,Servicios básicos,3097733
+2026,5,T04,Mermas,2912235
+2026,5,T04,Insumos y otros,1670581
+2026,5,T05,Arriendo,14769128
+2026,5,T05,Remuneraciones,21262952
+2026,5,T05,Comisiones,1501878
+2026,5,T05,Servicios básicos,2637890
+2026,5,T05,Mermas,1414786
+2026,5,T05,Insumos y otros,1107932
+2026,5,T06,Arriendo,11839382
+2026,5,T06,Remuneraciones,12372754
+2026,5,T06,Comisiones,1152311
+2026,5,T06,Servicios básicos,1898790
+2026,5,T06,Mermas,1510814
+2026,5,T06,Insumos y otros,1039902
+2026,5,T07,Arriendo,9672174
+2026,5,T07,Remuneraciones,12691904
+2026,5,T07,Comisiones,991619
+2026,5,T07,Servicios básicos,1533525
+2026,5,T07,Mermas,3755221
+2026,5,T07,Insumos y otros,917546
+2026,5,T08,Arriendo,29618523
+2026,5,T08,Remuneraciones,34329407
+2026,5,T08,Comisiones,2872073
+2026,5,T08,Servicios básicos,4460751
+2026,5,T08,Mermas,3220983
+2026,5,T08,Insumos y otros,2338332
+2026,5,T09,Arriendo,22073425
+2026,5,T09,Remuneraciones,20165553
+2026,5,T09,Comisiones,1832716
+2026,5,T09,Servicios básicos,2803894
+2026,5,T09,Mermas,1926370
+2026,5,T09,Insumos y otros,1459479
+2026,5,T10,Arriendo,22555027
+2026,5,T10,Remuneraciones,21304752
+2026,5,T10,Comisiones,2224342
+2026,5,T10,Servicios básicos,3376962
+2026,5,T10,Mermas,2549872
+2026,5,T10,Insumos y otros,2043055
+2026,5,T11,Arriendo,11397914
+2026,5,T11,Remuneraciones,12288360
+2026,5,T11,Comisiones,1108693
+2026,5,T11,Servicios básicos,1770287
+2026,5,T11,Mermas,1477319
+2026,5,T11,Insumos y otros,934333
+2026,5,T12,Arriendo,8588569
+2026,5,T12,Remuneraciones,12721021
+2026,5,T12,Comisiones,675020
+2026,5,T12,Servicios básicos,1519799
+2026,5,T12,Mermas,752195
+2026,5,T12,Insumos y otros,502022
+2026,5,T13,Arriendo,23427931
+2026,5,T13,Remuneraciones,21111396
+2026,5,T13,Comisiones,1677708
+2026,5,T13,Servicios básicos,2506406
+2026,5,T13,Mermas,1490489
+2026,5,T13,Insumos y otros,1089846
+2026,5,T14,Arriendo,21521589
+2026,5,T14,Remuneraciones,21170200
+2026,5,T14,Comisiones,2035381
+2026,5,T14,Servicios básicos,3346241
+2026,5,T14,Mermas,2732947
+2026,5,T14,Insumos y otros,1771590
+2026,5,T15,Arriendo,21922924
+2026,5,T15,Remuneraciones,21640978
+2026,5,T15,Comisiones,1881078
+2026,5,T15,Servicios básicos,2931267
+2026,5,T15,Mermas,2282618
+2026,5,T15,Insumos y otros,1514628
+2026,5,T16,Arriendo,13244055
+2026,5,T16,Remuneraciones,12343012
+2026,5,T16,Comisiones,1385366
+2026,5,T16,Servicios básicos,1937813
+2026,5,T16,Mermas,1468511
+2026,5,T16,Insumos y otros,1341763
+2026,5,T17,Arriendo,30651961
+2026,5,T17,Remuneraciones,21034072
+2026,5,T17,Comisiones,2512726
+2026,5,T17,Servicios básicos,4022861
+2026,5,T17,Mermas,3201395
+2026,5,T17,Insumos y otros,1979946
+2026,5,T18,Arriendo,31956299
+2026,5,T18,Remuneraciones,35418879
+2026,5,T18,Comisiones,3065504
+2026,5,T18,Servicios básicos,3749731
+2026,5,T18,Mermas,3569142
+2026,5,T18,Insumos y otros,2385912
+2026,5,T19,Arriendo,40685336
+2026,5,T19,Remuneraciones,33861836
+2026,5,T19,Comisiones,3882485
+2026,5,T19,Servicios básicos,6426193
+2026,5,T19,Mermas,4069546
+2026,5,T19,Insumos y otros,10932858
+2026,5,T20,Arriendo,42090008
+2026,5,T20,Remuneraciones,33920339
+2026,5,T20,Comisiones,4517093
+2026,5,T20,Servicios básicos,6584587
+2026,5,T20,Mermas,6138354
+2026,5,T20,Insumos y otros,4050141
+2026,5,T21,Arriendo,27942949
+2026,5,T21,Remuneraciones,21034114
+2026,5,T21,Comisiones,2226038
+2026,5,T21,Servicios básicos,3312472
+2026,5,T21,Mermas,2643058
+2026,5,T21,Insumos y otros,1854022
+2026,5,T22,Arriendo,24330934
+2026,5,T22,Remuneraciones,20609297
+2026,5,T22,Comisiones,2059454
+2026,5,T22,Servicios básicos,3023377
+2026,5,T22,Mermas,2038083
+2026,5,T22,Insumos y otros,1316450
+2026,5,T23,Arriendo,16976470
+2026,5,T23,Remuneraciones,21489735
+2026,5,T23,Comisiones,1566516
+2026,5,T23,Servicios básicos,3472047
+2026,5,T23,Mermas,1754765
+2026,5,T23,Insumos y otros,1378579
+2026,5,T24,Arriendo,32668669
+2026,5,T24,Remuneraciones,34412598
+2026,5,T24,Comisiones,3482717
+2026,5,T24,Servicios básicos,6326676
+2026,5,T24,Mermas,4374010
+2026,5,T24,Insumos y otros,3250689
+2026,5,T25,Arriendo,19264080
+2026,5,T25,Remuneraciones,21850991
+2026,5,T25,Comisiones,1868563
+2026,5,T25,Servicios básicos,3820155
+2026,5,T25,Mermas,2664880
+2026,5,T25,Insumos y otros,1816224
+2026,5,T26,Arriendo,20468085
+2026,5,T26,Remuneraciones,21770434
+2026,5,T26,Comisiones,1981872
+2026,5,T26,Servicios básicos,3875332
+2026,5,T26,Mermas,2620911
+2026,5,T26,Insumos y otros,1895175
+2026,5,T27,Arriendo,24120234
+2026,5,T27,Remuneraciones,34525751
+2026,5,T27,Comisiones,2795424
+2026,5,T27,Servicios básicos,5758975
+2026,5,T27,Mermas,2686786
+2026,5,T27,Insumos y otros,2217008
+2026,5,T28,Arriendo,21391156
+2026,5,T28,Remuneraciones,21649514
+2026,5,T28,Comisiones,1915345
+2026,5,T28,Servicios básicos,4262710
+2026,5,T28,Mermas,2156271
+2026,5,T28,Insumos y otros,1388562
+2026,5,T29,Arriendo,22916228
+2026,5,T29,Remuneraciones,21758326
+2026,5,T29,Comisiones,2123551
+2026,5,T29,Servicios básicos,3791882
+2026,5,T29,Mermas,1918586
+2026,5,T29,Insumos y otros,1723134
+2026,5,T30,Arriendo,17417939
+2026,5,T30,Remuneraciones,21436360
+2026,5,T30,Comisiones,1774285
+2026,5,T30,Servicios básicos,3306317
+2026,5,T30,Mermas,2656656
+2026,5,T30,Insumos y otros,1320517
+2026,6,T01,Arriendo,29576907
+2026,6,T01,Remuneraciones,35298983
+2026,6,T01,Comisiones,2076493
+2026,6,T01,Servicios básicos,4763757
+2026,6,T01,Mermas,3216896
+2026,6,T01,Insumos y otros,1849383
+2026,6,T02,Arriendo,17510504
+2026,6,T02,Remuneraciones,21242582
+2026,6,T02,Comisiones,1980851
+2026,6,T02,Servicios básicos,4016178
+2026,6,T02,Mermas,2090218
+2026,6,T02,Insumos y otros,1498882
+2026,6,T03,Arriendo,18729333
+2026,6,T03,Remuneraciones,21616705
+2026,6,T03,Comisiones,1695607
+2026,6,T03,Servicios básicos,3413973
+2026,6,T03,Mermas,1743512
+2026,6,T03,Insumos y otros,1608414
+2026,6,T04,Arriendo,22345191
+2026,6,T04,Remuneraciones,22224063
+2026,6,T04,Comisiones,1840895
+2026,6,T04,Servicios básicos,3793652
+2026,6,T04,Mermas,1799106
+2026,6,T04,Insumos y otros,1450485
+2026,6,T05,Arriendo,14950964
+2026,6,T05,Remuneraciones,21503896
+2026,6,T05,Comisiones,1291985
+2026,6,T05,Servicios básicos,3251173
+2026,6,T05,Mermas,1686518
+2026,6,T05,Insumos y otros,1062916
+2026,6,T06,Arriendo,11985148
+2026,6,T06,Remuneraciones,12782096
+2026,6,T06,Comisiones,1020805
+2026,6,T06,Servicios básicos,2292420
+2026,6,T06,Mermas,1409125
+2026,6,T06,Insumos y otros,708665
+2026,6,T07,Arriendo,9791256
+2026,6,T07,Remuneraciones,13354812
+2026,6,T07,Comisiones,904088
+2026,6,T07,Servicios básicos,2210608
+2026,6,T07,Mermas,3382917
+2026,6,T07,Insumos y otros,870784
+2026,6,T08,Arriendo,29983184
+2026,6,T08,Remuneraciones,34589047
+2026,6,T08,Comisiones,2622435
+2026,6,T08,Servicios básicos,5537186
+2026,6,T08,Mermas,4144303
+2026,6,T08,Insumos y otros,2055641
+2026,6,T09,Arriendo,22345191
+2026,6,T09,Remuneraciones,21922624
+2026,6,T09,Comisiones,1682695
+2026,6,T09,Servicios básicos,3736401
+2026,6,T09,Mermas,2083288
+2026,6,T09,Insumos y otros,1126460
+2026,6,T10,Arriendo,22832722
+2026,6,T10,Remuneraciones,21143273
+2026,6,T10,Comisiones,1976278
+2026,6,T10,Servicios básicos,3968320
+2026,6,T10,Mermas,2792974
+2026,6,T10,Insumos y otros,1495794
+2026,6,T11,Arriendo,11538244
+2026,6,T11,Remuneraciones,12841549
+2026,6,T11,Comisiones,1063382
+2026,6,T11,Servicios básicos,2182693
+2026,6,T11,Mermas,1178400
+2026,6,T11,Insumos y otros,1038181
+2026,6,T12,Arriendo,8694311
+2026,6,T12,Remuneraciones,12240818
+2026,6,T12,Comisiones,696818
+2026,6,T12,Servicios básicos,1740671
+2026,6,T12,Mermas,593311
+2026,6,T12,Insumos y otros,557232
+2026,6,T13,Arriendo,23716373
+2026,6,T13,Remuneraciones,21169366
+2026,6,T13,Comisiones,1510294
+2026,6,T13,Servicios básicos,2964940
+2026,6,T13,Mermas,2570943
+2026,6,T13,Insumos y otros,1239952
+2026,6,T14,Arriendo,21786561
+2026,6,T14,Remuneraciones,22715445
+2026,6,T14,Comisiones,1854977
+2026,6,T14,Servicios básicos,3857155
+2026,6,T14,Mermas,2094659
+2026,6,T14,Insumos y otros,1802580
+2026,6,T15,Arriendo,22192837
+2026,6,T15,Remuneraciones,20159546
+2026,6,T15,Comisiones,1754521
+2026,6,T15,Servicios básicos,3962659
+2026,6,T15,Mermas,2684970
+2026,6,T15,Insumos y otros,1479471
+2026,6,T16,Arriendo,13407115
+2026,6,T16,Remuneraciones,12702648
+2026,6,T16,Comisiones,1274823
+2026,6,T16,Servicios básicos,2228629
+2026,6,T16,Mermas,1463367
+2026,6,T16,Insumos y otros,1090594
+2026,6,T17,Arriendo,31029345
+2026,6,T17,Remuneraciones,20823344
+2026,6,T17,Comisiones,2316368
+2026,6,T17,Servicios básicos,4738103
+2026,6,T17,Mermas,3699349
+2026,6,T17,Insumos y otros,1930954
+2026,6,T18,Arriendo,32349742
+2026,6,T18,Remuneraciones,34338316
+2026,6,T18,Comisiones,2751030
+2026,6,T18,Servicios básicos,4819213
+2026,6,T18,Mermas,3604785
+2026,6,T18,Insumos y otros,1561782
+2026,6,T19,Arriendo,41186250
+2026,6,T19,Remuneraciones,32378170
+2026,6,T19,Comisiones,3693630
+2026,6,T19,Servicios básicos,7651453
+2026,6,T19,Mermas,4205366
+2026,6,T19,Insumos y otros,8013556
+2026,6,T20,Arriendo,42608216
+2026,6,T20,Remuneraciones,34327065
+2026,6,T20,Comisiones,4257304
+2026,6,T20,Servicios básicos,8046056
+2026,6,T20,Mermas,4478885
+2026,6,T20,Insumos y otros,2999217
+2026,6,T21,Arriendo,28286980
+2026,6,T21,Remuneraciones,22235025
+2026,6,T21,Comisiones,2073934
+2026,6,T21,Servicios básicos,4732535
+2026,6,T21,Mermas,2445758
+2026,6,T21,Insumos y otros,1790825
+2026,6,T22,Arriendo,24630495
+2026,6,T22,Remuneraciones,22256048
+2026,6,T22,Comisiones,1934369
+2026,6,T22,Servicios básicos,3816085
+2026,6,T22,Mermas,2358885
+2026,6,T22,Insumos y otros,1563540
+2026,6,T23,Arriendo,17185483
+2026,6,T23,Remuneraciones,20207366
+2026,6,T23,Comisiones,1461711
+2026,6,T23,Servicios básicos,4244657
+2026,6,T23,Mermas,1518928
+2026,6,T23,Insumos y otros,1011954
+2026,6,T24,Arriendo,33070883
+2026,6,T24,Remuneraciones,33231412
+2026,6,T24,Comisiones,3207886
+2026,6,T24,Servicios básicos,8582112
+2026,6,T24,Mermas,3847047
+2026,6,T24,Insumos y otros,3057024
+2026,6,T25,Arriendo,19501258
+2026,6,T25,Remuneraciones,22306276
+2026,6,T25,Comisiones,1696098
+2026,6,T25,Servicios básicos,4719410
+2026,6,T25,Mermas,1645890
+2026,6,T25,Insumos y otros,1229799
+2026,6,T26,Arriendo,20720086
+2026,6,T26,Remuneraciones,22756558
+2026,6,T26,Comisiones,1808189
+2026,6,T26,Servicios básicos,4402835
+2026,6,T26,Mermas,1959291
+2026,6,T26,Insumos y otros,1379173
+2026,6,T27,Arriendo,24417200
+2026,6,T27,Remuneraciones,34161105
+2026,6,T27,Comisiones,2598689
+2026,6,T27,Servicios básicos,8075909
+2026,6,T27,Mermas,3912092
+2026,6,T27,Insumos y otros,1962416
+2026,6,T28,Arriendo,21654521
+2026,6,T28,Remuneraciones,21359169
+2026,6,T28,Comisiones,1709861
+2026,6,T28,Servicios básicos,4801186
+2026,6,T28,Mermas,1988189
+2026,6,T28,Insumos y otros,1515673
+2026,6,T29,Arriendo,23198371
+2026,6,T29,Remuneraciones,21860812
+2026,6,T29,Comisiones,1968107
+2026,6,T29,Servicios básicos,5253209
+2026,6,T29,Mermas,2156081
+2026,6,T29,Insumos y otros,1459822
+2026,6,T30,Arriendo,17632387
+2026,6,T30,Remuneraciones,21667144
+2026,6,T30,Comisiones,1584021
+2026,6,T30,Servicios básicos,3717105
+2026,6,T30,Mermas,2194504
+2026,6,T30,Insumos y otros,1148260
+2026,7,T01,Arriendo,29719166
+2026,7,T01,Remuneraciones,35710087
+2026,7,T01,Comisiones,2194748
+2026,7,T01,Servicios básicos,4474560
+2026,7,T01,Mermas,2689787
+2026,7,T01,Insumos y otros,1382421
+2026,7,T02,Arriendo,17594726
+2026,7,T02,Remuneraciones,21045977
+2026,7,T02,Comisiones,2006262
+2026,7,T02,Servicios básicos,3754142
+2026,7,T02,Mermas,2373991
+2026,7,T02,Insumos y otros,1404736
+2026,7,T03,Arriendo,18819417
+2026,7,T03,Remuneraciones,21019576
+2026,7,T03,Comisiones,1697637
+2026,7,T03,Servicios básicos,4029598
+2026,7,T03,Mermas,2332110
+2026,7,T03,Insumos y otros,1405825
+2026,7,T04,Arriendo,22452666
+2026,7,T04,Remuneraciones,20734541
+2026,7,T04,Comisiones,1927227
+2026,7,T04,Servicios básicos,3443125
+2026,7,T04,Mermas,1952124
+2026,7,T04,Insumos y otros,1156391
+2026,7,T05,Arriendo,15022875
+2026,7,T05,Remuneraciones,20911275
+2026,7,T05,Comisiones,1337234
+2026,7,T05,Servicios básicos,3229054
+2026,7,T05,Mermas,1655768
+2026,7,T05,Insumos y otros,975253
+2026,7,T06,Arriendo,12042794
+2026,7,T06,Remuneraciones,12705732
+2026,7,T06,Comisiones,1062654
+2026,7,T06,Servicios básicos,2212860
+2026,7,T06,Mermas,1203148
+2026,7,T06,Insumos y otros,933444
+2026,7,T07,Arriendo,9838350
+2026,7,T07,Remuneraciones,12984221
+2026,7,T07,Comisiones,945574
+2026,7,T07,Servicios básicos,1949485
+2026,7,T07,Mermas,3385985
+2026,7,T07,Insumos y otros,695322
+2026,7,T08,Arriendo,30127396
+2026,7,T08,Remuneraciones,34413879
+2026,7,T08,Comisiones,2735696
+2026,7,T08,Servicios básicos,5679360
+2026,7,T08,Mermas,2928155
+2026,7,T08,Insumos y otros,2006963
+2026,7,T09,Arriendo,22452666
+2026,7,T09,Remuneraciones,21162339
+2026,7,T09,Comisiones,1714711
+2026,7,T09,Servicios básicos,3848384
+2026,7,T09,Mermas,2428747
+2026,7,T09,Insumos y otros,1337406
+2026,7,T10,Arriendo,22942543
+2026,7,T10,Remuneraciones,21101560
+2026,7,T10,Comisiones,1968153
+2026,7,T10,Servicios básicos,4105896
+2026,7,T10,Mermas,2661498
+2026,7,T10,Insumos y otros,1466227
+2026,7,T11,Arriendo,11593741
+2026,7,T11,Remuneraciones,12740712
+2026,7,T11,Comisiones,1088149
+2026,7,T11,Servicios básicos,2696361
+2026,7,T11,Mermas,1292308
+2026,7,T11,Insumos y otros,858423
+2026,7,T12,Arriendo,8736128
+2026,7,T12,Remuneraciones,12261186
+2026,7,T12,Comisiones,733269
+2026,7,T12,Servicios básicos,1912286
+2026,7,T12,Mermas,957061
+2026,7,T12,Insumos y otros,636266
+2026,7,T13,Arriendo,23830444
+2026,7,T13,Remuneraciones,21629038
+2026,7,T13,Comisiones,1556495
+2026,7,T13,Servicios básicos,3057307
+2026,7,T13,Mermas,1773767
+2026,7,T13,Insumos y otros,1298085
+2026,7,T14,Arriendo,21891350
+2026,7,T14,Remuneraciones,21458029
+2026,7,T14,Comisiones,1914980
+2026,7,T14,Servicios básicos,4849212
+2026,7,T14,Mermas,2226697
+2026,7,T14,Insumos y otros,1561599
+2026,7,T15,Arriendo,22299580
+2026,7,T15,Remuneraciones,20544477
+2026,7,T15,Comisiones,1776994
+2026,7,T15,Servicios básicos,3773424
+2026,7,T15,Mermas,2276034
+2026,7,T15,Insumos y otros,1257626
+2026,7,T16,Arriendo,13471600
+2026,7,T16,Remuneraciones,13125003
+2026,7,T16,Comisiones,1278927
+2026,7,T16,Servicios básicos,2064463
+2026,7,T16,Mermas,1459749
+2026,7,T16,Insumos y otros,999966
+2026,7,T17,Arriendo,31178589
+2026,7,T17,Remuneraciones,20869152
+2026,7,T17,Comisiones,2334672
+2026,7,T17,Servicios básicos,4489225
+2026,7,T17,Mermas,2586930
+2026,7,T17,Insumos y otros,1552566
+2026,7,T18,Arriendo,32505338
+2026,7,T18,Remuneraciones,35663051
+2026,7,T18,Comisiones,2803162
+2026,7,T18,Servicios básicos,5118736
+2026,7,T18,Mermas,3374627
+2026,7,T18,Insumos y otros,2183144
+2026,7,T19,Arriendo,41384347
+2026,7,T19,Remuneraciones,35087059
+2026,7,T19,Comisiones,3589762
+2026,7,T19,Servicios básicos,7713084
+2026,7,T19,Mermas,4226365
+2026,7,T19,Insumos y otros,2564468
+2026,7,T20,Arriendo,42813153
+2026,7,T20,Remuneraciones,34912579
+2026,7,T20,Comisiones,4160310
+2026,7,T20,Servicios básicos,9182864
+2026,7,T20,Mermas,5613619
+2026,7,T20,Insumos y otros,3596603
+2026,7,T21,Arriendo,28423035
+2026,7,T21,Remuneraciones,21342524
+2026,7,T21,Comisiones,2144385
+2026,7,T21,Servicios básicos,4527789
+2026,7,T21,Mermas,2436218
+2026,7,T21,Insumos y otros,1962286
+2026,7,T22,Arriendo,24748962
+2026,7,T22,Remuneraciones,21381371
+2026,7,T22,Comisiones,1880806
+2026,7,T22,Servicios básicos,3461192
+2026,7,T22,Mermas,2434150
+2026,7,T22,Insumos y otros,1469008
+2026,7,T23,Arriendo,17268142
+2026,7,T23,Remuneraciones,22555720
+2026,7,T23,Comisiones,1540553
+2026,7,T23,Servicios básicos,4723010
+2026,7,T23,Mermas,1685531
+2026,7,T23,Insumos y otros,1201393
+2026,7,T24,Arriendo,33229946
+2026,7,T24,Remuneraciones,36076532
+2026,7,T24,Comisiones,3225944
+2026,7,T24,Servicios básicos,7568493
+2026,7,T24,Mermas,3699956
+2026,7,T24,Insumos y otros,2393645
+2026,7,T25,Arriendo,19595054
+2026,7,T25,Remuneraciones,20674515
+2026,7,T25,Comisiones,1767150
+2026,7,T25,Servicios básicos,4035597
+2026,7,T25,Mermas,1997869
+2026,7,T25,Insumos y otros,1569456
+2026,7,T26,Arriendo,20819745
+2026,7,T26,Remuneraciones,21208856
+2026,7,T26,Comisiones,1757218
+2026,7,T26,Servicios básicos,4429887
+2026,7,T26,Mermas,2044862
+2026,7,T26,Insumos y otros,1317297
+2026,7,T27,Arriendo,24534641
+2026,7,T27,Remuneraciones,34112884
+2026,7,T27,Comisiones,2606563
+2026,7,T27,Servicios básicos,6527406
+2026,7,T27,Mermas,3157497
+2026,7,T27,Insumos y otros,2785728
+2026,7,T28,Arriendo,21758675
+2026,7,T28,Remuneraciones,21597462
+2026,7,T28,Comisiones,1848547
+2026,7,T28,Servicios básicos,4880220
+2026,7,T28,Mermas,1976801
+2026,7,T28,Insumos y otros,1155160
+2026,7,T29,Arriendo,23309950
+2026,7,T29,Remuneraciones,20587644
+2026,7,T29,Comisiones,2004499
+2026,7,T29,Servicios básicos,5199310
+2026,7,T29,Mermas,2827616
+2026,7,T29,Insumos y otros,1716454
+2026,7,T30,Arriendo,17717195
+2026,7,T30,Remuneraciones,20742209
+2026,7,T30,Comisiones,1639487
+2026,7,T30,Servicios básicos,4096266
+2026,7,T30,Mermas,2394868
+2026,7,T30,Insumos y otros,1410215
+2026,8,T01,Arriendo,29735007
+2026,8,T01,Remuneraciones,34115582
+2026,8,T01,Comisiones,2021964
+2026,8,T01,Servicios básicos,4607629
+2026,8,T01,Mermas,2463663
+2026,8,T01,Insumos y otros,1510475
+2026,8,T02,Arriendo,17604104
+2026,8,T02,Remuneraciones,21530922
+2026,8,T02,Comisiones,1924026
+2026,8,T02,Servicios básicos,4364660
+2026,8,T02,Mermas,1926615
+2026,8,T02,Insumos y otros,1489416
+2026,8,T03,Arriendo,18829448
+2026,8,T03,Remuneraciones,21173237
+2026,8,T03,Comisiones,1717643
+2026,8,T03,Servicios básicos,4012566
+2026,8,T03,Mermas,2343419
+2026,8,T03,Insumos y otros,1270939
+2026,8,T04,Arriendo,22464634
+2026,8,T04,Remuneraciones,21838876
+2026,8,T04,Comisiones,1859355
+2026,8,T04,Servicios básicos,4522254
+2026,8,T04,Mermas,2118766
+2026,8,T04,Insumos y otros,1713703
+2026,8,T05,Arriendo,15030883
+2026,8,T05,Remuneraciones,21536852
+2026,8,T05,Comisiones,1319241
+2026,8,T05,Servicios básicos,3227519
+2026,8,T05,Mermas,1924061
+2026,8,T05,Insumos y otros,997522
+2026,8,T06,Arriendo,12049213
+2026,8,T06,Remuneraciones,12967855
+2026,8,T06,Comisiones,1074027
+2026,8,T06,Servicios básicos,2345209
+2026,8,T06,Mermas,1266682
+2026,8,T06,Insumos y otros,821723
+2026,8,T07,Arriendo,9843594
+2026,8,T07,Remuneraciones,12249380
+2026,8,T07,Comisiones,884938
+2026,8,T07,Servicios básicos,1815327
+2026,8,T07,Mermas,3542922
+2026,8,T07,Insumos y otros,725584
+2026,8,T08,Arriendo,30143455
+2026,8,T08,Remuneraciones,34509652
+2026,8,T08,Comisiones,2632506
+2026,8,T08,Servicios básicos,5060681
+2026,8,T08,Mermas,2648997
+2026,8,T08,Insumos y otros,1801315
+2026,8,T09,Arriendo,22464634
+2026,8,T09,Remuneraciones,21025761
+2026,8,T09,Comisiones,1654709
+2026,8,T09,Servicios básicos,3701852
+2026,8,T09,Mermas,2426799
+2026,8,T09,Insumos y otros,1434376
+2026,8,T10,Arriendo,22954772
+2026,8,T10,Remuneraciones,21346319
+2026,8,T10,Comisiones,1993118
+2026,8,T10,Servicios básicos,4375611
+2026,8,T10,Mermas,2189150
+2026,8,T10,Insumos y otros,1724176
+2026,8,T11,Arriendo,11599920
+2026,8,T11,Remuneraciones,12636790
+2026,8,T11,Comisiones,991560
+2026,8,T11,Servicios básicos,2290046
+2026,8,T11,Mermas,1085285
+2026,8,T11,Insumos y otros,742092
+2026,8,T12,Arriendo,8740785
+2026,8,T12,Remuneraciones,13348304
+2026,8,T12,Comisiones,804572
+2026,8,T12,Servicios básicos,1946884
+2026,8,T12,Mermas,1013898
+2026,8,T12,Insumos y otros,651756
+2026,8,T13,Arriendo,23843146
+2026,8,T13,Remuneraciones,21097417
+2026,8,T13,Comisiones,1546672
+2026,8,T13,Servicios básicos,3811824
+2026,8,T13,Mermas,1385798
+2026,8,T13,Insumos y otros,1356392
+2026,8,T14,Arriendo,21903019
+2026,8,T14,Remuneraciones,21973266
+2026,8,T14,Comisiones,1826672
+2026,8,T14,Servicios básicos,4609988
+2026,8,T14,Mermas,2293517
+2026,8,T14,Insumos y otros,1622639
+2026,8,T15,Arriendo,22311467
+2026,8,T15,Remuneraciones,20770933
+2026,8,T15,Comisiones,1711048
+2026,8,T15,Servicios básicos,3576060
+2026,8,T15,Mermas,2288199
+2026,8,T15,Insumos y otros,1152792
+2026,8,T16,Arriendo,13478781
+2026,8,T16,Remuneraciones,13524449
+2026,8,T16,Comisiones,1291489
+2026,8,T16,Servicios básicos,2694609
+2026,8,T16,Mermas,1529734
+2026,8,T16,Insumos y otros,859147
+2026,8,T17,Arriendo,31195208
+2026,8,T17,Remuneraciones,21509945
+2026,8,T17,Comisiones,2232916
+2026,8,T17,Servicios básicos,5064100
+2026,8,T17,Mermas,3288340
+2026,8,T17,Insumos y otros,2033575
+2026,8,T18,Arriendo,32522664
+2026,8,T18,Remuneraciones,34439488
+2026,8,T18,Comisiones,2771344
+2026,8,T18,Servicios básicos,5045044
+2026,8,T18,Mermas,3858489
+2026,8,T18,Insumos y otros,2401112
+2026,8,T19,Arriendo,41406406
+2026,8,T19,Remuneraciones,33731077
+2026,8,T19,Comisiones,3526804
+2026,8,T19,Servicios básicos,6492305
+2026,8,T19,Mermas,4340117
+2026,8,T19,Insumos y otros,8085910
+2026,8,T20,Arriendo,42835974
+2026,8,T20,Remuneraciones,35054505
+2026,8,T20,Comisiones,4289129
+2026,8,T20,Servicios básicos,8641401
+2026,8,T20,Mermas,4521035
+2026,8,T20,Insumos y otros,3235524
+2026,8,T21,Arriendo,28438185
+2026,8,T21,Remuneraciones,22417043
+2026,8,T21,Comisiones,2039669
+2026,8,T21,Servicios básicos,4917900
+2026,8,T21,Mermas,2157569
+2026,8,T21,Insumos y otros,1814479
+2026,8,T22,Arriendo,24762154
+2026,8,T22,Remuneraciones,22211159
+2026,8,T22,Comisiones,1806786
+2026,8,T22,Servicios básicos,4778583
+2026,8,T22,Mermas,2063953
+2026,8,T22,Insumos y otros,1276378
+2026,8,T23,Arriendo,17277346
+2026,8,T23,Remuneraciones,21411477
+2026,8,T23,Comisiones,1403809
+2026,8,T23,Servicios básicos,3734085
+2026,8,T23,Mermas,2312902
+2026,8,T23,Insumos y otros,1148950
+2026,8,T24,Arriendo,33247659
+2026,8,T24,Remuneraciones,33484249
+2026,8,T24,Comisiones,3135087
+2026,8,T24,Servicios básicos,9503463
+2026,8,T24,Mermas,3361314
+2026,8,T24,Insumos y otros,2695441
+2026,8,T25,Arriendo,19605499
+2026,8,T25,Remuneraciones,20027848
+2026,8,T25,Comisiones,1640152
+2026,8,T25,Servicios básicos,4481371
+2026,8,T25,Mermas,1971935
+2026,8,T25,Insumos y otros,1562405
+2026,8,T26,Arriendo,20830843
+2026,8,T26,Remuneraciones,21584810
+2026,8,T26,Comisiones,1742612
+2026,8,T26,Servicios básicos,4894731
+2026,8,T26,Mermas,1729261
+2026,8,T26,Insumos y otros,1247268
+2026,8,T27,Arriendo,24547719
+2026,8,T27,Remuneraciones,33549495
+2026,8,T27,Comisiones,2483461
+2026,8,T27,Servicios básicos,6649070
+2026,8,T27,Mermas,3793924
+2026,8,T27,Insumos y otros,2220222
+2026,8,T28,Arriendo,21770273
+2026,8,T28,Remuneraciones,22023163
+2026,8,T28,Comisiones,1794457
+2026,8,T28,Servicios básicos,4481161
+2026,8,T28,Mermas,1717741
+2026,8,T28,Insumos y otros,1298038
+2026,8,T29,Arriendo,23322375
+2026,8,T29,Remuneraciones,22004733
+2026,8,T29,Comisiones,1924842
+2026,8,T29,Servicios básicos,5438932
+2026,8,T29,Mermas,2083866
+2026,8,T29,Insumos y otros,1655670
+2026,8,T30,Arriendo,17726639
+2026,8,T30,Remuneraciones,21772535
+2026,8,T30,Comisiones,1620203
+2026,8,T30,Servicios básicos,4222533
+2026,8,T30,Mermas,1776782
+2026,8,T30,Insumos y otros,1284667
+2026,9,T01,Arriendo,29757066
+2026,9,T01,Remuneraciones,36001746
+2026,9,T01,Comisiones,1987576
+2026,9,T01,Servicios básicos,3082303
+2026,9,T01,Mermas,1870338
+2026,9,T01,Insumos y otros,1723623
+2026,9,T02,Arriendo,17617164
+2026,9,T02,Remuneraciones,20424756
+2026,9,T02,Comisiones,1870003
+2026,9,T02,Servicios básicos,3623719
+2026,9,T02,Mermas,2053251
+2026,9,T02,Insumos y otros,1374427
+2026,9,T03,Arriendo,18843416
+2026,9,T03,Remuneraciones,20662402
+2026,9,T03,Comisiones,1594899
+2026,9,T03,Servicios básicos,3393035
+2026,9,T03,Mermas,2694229
+2026,9,T03,Insumos y otros,1147141
+2026,9,T04,Arriendo,22481299
+2026,9,T04,Remuneraciones,22094289
+2026,9,T04,Comisiones,1801906
+2026,9,T04,Servicios básicos,2910836
+2026,9,T04,Mermas,2143367
+2026,9,T04,Insumos y otros,1208706
+2026,9,T05,Arriendo,15042033
+2026,9,T05,Remuneraciones,20812912
+2026,9,T05,Comisiones,1230586
+2026,9,T05,Servicios básicos,2688440
+2026,9,T05,Mermas,1325076
+2026,9,T05,Insumos y otros,1059728
+2026,9,T06,Arriendo,12058152
+2026,9,T06,Remuneraciones,13006783
+2026,9,T06,Comisiones,985293
+2026,9,T06,Servicios básicos,2013138
+2026,9,T06,Mermas,1316183
+2026,9,T06,Insumos y otros,1049021
+2026,9,T07,Arriendo,9850897
+2026,9,T07,Remuneraciones,12901501
+2026,9,T07,Comisiones,844121
+2026,9,T07,Servicios básicos,1808017
+2026,9,T07,Mermas,3090754
+2026,9,T07,Insumos y otros,816718
+2026,9,T08,Arriendo,30165816
+2026,9,T08,Remuneraciones,34137004
+2026,9,T08,Comisiones,2480444
+2026,9,T08,Servicios básicos,3851882
+2026,9,T08,Mermas,2261008
+2026,9,T08,Insumos y otros,2369784
+2026,9,T09,Arriendo,22481299
+2026,9,T09,Remuneraciones,21770645
+2026,9,T09,Comisiones,1601834
+2026,9,T09,Servicios básicos,3001826
+2026,9,T09,Mermas,1766827
+2026,9,T09,Insumos y otros,1367687
+2026,9,T10,Arriendo,22971801
+2026,9,T10,Remuneraciones,21334706
+2026,9,T10,Comisiones,1930119
+2026,9,T10,Servicios básicos,3113999
+2026,9,T10,Mermas,2007486
+2026,9,T10,Insumos y otros,1681121
+2026,9,T11,Arriendo,11608526
+2026,9,T11,Remuneraciones,12511923
+2026,9,T11,Comisiones,993899
+2026,9,T11,Servicios básicos,1746506
+2026,9,T11,Mermas,1777783
+2026,9,T11,Insumos y otros,692736
+2026,9,T12,Arriendo,8747269
+2026,9,T12,Remuneraciones,12347726
+2026,9,T12,Comisiones,786571
+2026,9,T12,Servicios básicos,1806799
+2026,9,T12,Mermas,967762
+2026,9,T12,Insumos y otros,657377
+2026,9,T13,Arriendo,23860834
+2026,9,T13,Remuneraciones,20267407
+2026,9,T13,Comisiones,1411807
+2026,9,T13,Servicios básicos,2564275
+2026,9,T13,Mermas,1661484
+2026,9,T13,Insumos y otros,1149392
+2026,9,T14,Arriendo,21919267
+2026,9,T14,Remuneraciones,21282878
+2026,9,T14,Comisiones,1703929
+2026,9,T14,Servicios básicos,3458762
+2026,9,T14,Mermas,1877331
+2026,9,T14,Insumos y otros,1608130
+2026,9,T15,Arriendo,22328018
+2026,9,T15,Remuneraciones,21053547
+2026,9,T15,Comisiones,1637730
+2026,9,T15,Servicios básicos,2989692
+2026,9,T15,Mermas,1896774
+2026,9,T15,Insumos y otros,1449203
+2026,9,T16,Arriendo,13488780
+2026,9,T16,Remuneraciones,13262275
+2026,9,T16,Comisiones,1187991
+2026,9,T16,Servicios básicos,1994018
+2026,9,T16,Mermas,1243722
+2026,9,T16,Insumos y otros,984431
+2026,9,T17,Arriendo,31218350
+2026,9,T17,Remuneraciones,21583533
+2026,9,T17,Comisiones,2149050
+2026,9,T17,Servicios básicos,3424259
+2026,9,T17,Mermas,2548398
+2026,9,T17,Insumos y otros,1291442
+2026,9,T18,Arriendo,32546790
+2026,9,T18,Remuneraciones,33463229
+2026,9,T18,Comisiones,2622364
+2026,9,T18,Servicios básicos,3925397
+2026,9,T18,Mermas,3046021
+2026,9,T18,Insumos y otros,1820975
+2026,9,T19,Arriendo,41437122
+2026,9,T19,Remuneraciones,34398162
+2026,9,T19,Comisiones,3443311
+2026,9,T19,Servicios básicos,6018344
+2026,9,T19,Mermas,3899106
+2026,9,T19,Insumos y otros,11251382
+2026,9,T20,Arriendo,42867751
+2026,9,T20,Remuneraciones,33395979
+2026,9,T20,Comisiones,4059161
+2026,9,T20,Servicios básicos,5184673
+2026,9,T20,Mermas,4249012
+2026,9,T20,Insumos y otros,3241530
+2026,9,T21,Arriendo,28459281
+2026,9,T21,Remuneraciones,22026298
+2026,9,T21,Comisiones,1988953
+2026,9,T21,Servicios básicos,3418905
+2026,9,T21,Mermas,2547265
+2026,9,T21,Insumos y otros,1626139
+2026,9,T22,Arriendo,24780523
+2026,9,T22,Remuneraciones,21242048
+2026,9,T22,Comisiones,1777632
+2026,9,T22,Servicios básicos,3397904
+2026,9,T22,Mermas,2099567
+2026,9,T22,Insumos y otros,1583877
+2026,9,T23,Arriendo,17290163
+2026,9,T23,Remuneraciones,20973186
+2026,9,T23,Comisiones,1342426
+2026,9,T23,Servicios básicos,3344457
+2026,9,T23,Mermas,1856031
+2026,9,T23,Insumos y otros,1037904
+2026,9,T24,Arriendo,33272323
+2026,9,T24,Remuneraciones,32611320
+2026,9,T24,Comisiones,3005896
+2026,9,T24,Servicios básicos,5826242
+2026,9,T24,Mermas,4011630
+2026,9,T24,Insumos y otros,2332345
+2026,9,T25,Arriendo,19620043
+2026,9,T25,Remuneraciones,23083543
+2026,9,T25,Comisiones,1645419
+2026,9,T25,Servicios básicos,3239069
+2026,9,T25,Mermas,1591058
+2026,9,T25,Insumos y otros,1270392
+2026,9,T26,Arriendo,20846296
+2026,9,T26,Remuneraciones,21258817
+2026,9,T26,Comisiones,1645721
+2026,9,T26,Servicios básicos,3450879
+2026,9,T26,Mermas,2362586
+2026,9,T26,Insumos y otros,1279994
+2026,9,T27,Arriendo,24565929
+2026,9,T27,Remuneraciones,33967617
+2026,9,T27,Comisiones,2357247
+2026,9,T27,Servicios básicos,6024087
+2026,9,T27,Mermas,2668505
+2026,9,T27,Insumos y otros,1673296
+2026,9,T28,Arriendo,21786423
+2026,9,T28,Remuneraciones,21498700
+2026,9,T28,Comisiones,1689699
+2026,9,T28,Servicios básicos,3453708
+2026,9,T28,Mermas,2169441
+2026,9,T28,Insumos y otros,1265876
+2026,9,T29,Arriendo,23339676
+2026,9,T29,Remuneraciones,21905848
+2026,9,T29,Comisiones,1894307
+2026,9,T29,Servicios básicos,5180332
+2026,9,T29,Mermas,2430355
+2026,9,T29,Insumos y otros,1279158
+2026,9,T30,Arriendo,17739789
+2026,9,T30,Remuneraciones,21023187
+2026,9,T30,Comisiones,1533536
+2026,9,T30,Servicios básicos,3753922
+2026,9,T30,Mermas,1943905
+2026,9,T30,Insumos y otros,1271537
