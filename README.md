@@ -15,69 +15,72 @@ Sistema de control de gestión para **Tiendas Valdora**, una cadena **ficticia**
 
 ## De qué trata
 
-**Tiendas Valdora** es una cadena ficticia de 30 tiendas en Chile que vende en 6 categorías (electro, hogar, belleza,
-deportes, juguetería y vestuario). Como toda empresa, parte el año con un **presupuesto**: cuánto espera vender,
-cuánto le costará y cuánto gastará cada mes. Y cada mes, un analista de control de gestión (un *controller*) debe
-contestar tres preguntas:
+Toda empresa empieza el año con un plan: cuánto espera vender, cuánto le costarán los productos y cuánto gastará en
+sueldos, arriendos y otros gastos. Ese plan se llama **presupuesto**.
 
-1. **¿Cuánto nos desviamos del presupuesto?**
-2. **¿Por qué?** ¿Bajaron los precios, se vendió menos, subió el costo de los productos o se disparó algún gasto?
-3. **¿Dónde miro primero?** ¿Qué tienda, zona o categoría tiene el problema, y desde cuándo?
+Cada mes se compara el plan con lo que realmente pasó. Si las ventas quedaron por debajo, la pregunta importante no
+es *cuánto* faltó, sino:
 
-Hacer esto a mano significa horas de Excel cada mes, y muchas veces el problema se descubre tarde. Este proyecto
-automatiza ese proceso completo, de los datos crudos al tablero.
+1. **¿Por qué?** ¿Se vendió a menor precio, vino menos gente, o subió el costo de los productos?
+2. **¿Dónde?** ¿En qué tienda, zona o tipo de producto?
+3. **¿Desde cuándo?** ¿Es algo de este mes o se arrastra hace tiempo?
+
+Responderlo a mano toma horas de planilla cada mes, y muchas veces el problema se descubre tarde. Este proyecto
+automatiza ese trabajo: toma los datos de una cadena de 30 tiendas y entrega las respuestas listas, con gráficos y
+alertas que indican qué revisar primero.
 
 ## Qué quería averiguar
 
-> **¿Puede un conjunto de reglas simples y explícitas detectar a tiempo los problemas reales de una cadena, sin
-> llenar al analista de falsas alarmas?**
+> **¿Se puede detectar a tiempo los problemas de una cadena de tiendas con reglas simples, sin que el sistema avise
+> por cosas que en realidad no son problemas?**
 
-Es la pregunta de fondo. No basta con construir gráficos bonitos: un sistema de alertas solo sirve si avisa de lo
-que importa y no grita por todo. Y con datos de una empresa real no se puede medir eso, porque nadie sabe cuál es
-"la verdad". Por eso el proyecto se diseñó como un experimento:
+Un sistema de alertas solo es útil si cumple las dos cosas: avisar cuando hay un problema real y callar cuando no.
+Con datos de una empresa real no es posible medirlo, porque nadie sabe con certeza qué problemas existían. Por eso
+lo planteé como un experimento:
 
-- **Simulé los datos** de la empresa, con una semilla fija para que cualquiera pueda reproducirlos.
-- **Escondí 5 problemas a propósito** (un competidor que le quita ventas a una categoría, una merma anormal en una
-  tienda, un alza de tarifas eléctricas, entre otros) y los anoté en un archivo *antes* de analizar nada.
-- **Corrí el sistema sin mirar esa lista** y después comparé: cuántos encontró, con cuántos meses de demora y cuántas
-  alarmas falsas generó.
+1. **Inventé la empresa y sus datos** (ventas, costos y gastos de 30 tiendas durante casi tres años).
+2. **Escondí 5 problemas a propósito**, como un competidor que le quita ventas a una categoría o una pérdida anormal
+   de mercadería en una tienda, y los dejé anotados en un archivo antes de empezar a analizar.
+3. **Dejé que el sistema buscara solo**, sin mirar esa lista.
+4. **Comparé el resultado con la lista**: cuántos problemas encontró, cuántos meses tardó y cuántas veces avisó
+   sin que hubiera un problema.
 
 ## Cómo lo hice, paso a paso
 
-**1. Datos: una empresa simulada pero anclada a la realidad** (`generar_datos.py`, `indicadores_reales.py`).
-Simulé las ventas diarias de cada tienda y categoría durante 33 meses, con estacionalidad por mes y categoría, por día
-de la semana y con eventos como CyberDay y Black Friday. Para que no fuera un mundo de fantasía, anclé la simulación
-a indicadores **reales** del Banco Central:
-- el **IMACEC** (actividad económica) mueve la demanda: cuando la economía real se enfría, las ventas simuladas también;
-- el **dólar** encarece el costo de las categorías importadas (Electro y Juguetería), con unos meses de desfase por inventario;
-- la **UF** reajusta los arriendos, los precios cada marzo y los sueldos cada enero.
+**1. Crear los datos** (`generar_datos.py`, `indicadores_reales.py`).
+Generé las ventas diarias de cada tienda y producto, con las variaciones propias del retail: más ventas en diciembre,
+más los fines de semana, y días especiales como CyberDay y Black Friday. Para que se parezca a la realidad, usé tres
+indicadores **reales** de Chile publicados por el Banco Central:
+- **IMACEC** (el termómetro de la economía): si la economía se enfría, las ventas del modelo también.
+- **Dólar**: cuando sube, cuestan más los productos importados (electrodomésticos y juguetes).
+- **UF**: reajusta los arriendos, los precios cada marzo y los sueldos cada enero.
 
-Además generé el presupuesto, armado como lo haría una empresa (suponiendo 4% de inflación anual), y los gastos
-operacionales: remuneraciones, arriendo, comisiones, servicios básicos, mermas e insumos.
+También generé el presupuesto, armado como lo haría una empresa real, y los gastos: sueldos, arriendo, comisiones,
+servicios básicos, mermas e insumos.
 
-**2. Modelo de datos en SQL** (`modelo.py`, `sql/vistas.sql`).
-Cargué todo en una base SQLite con esquema estrella (tablas de ventas, presupuesto y gastos conectadas a tiendas,
-categorías y calendario) y creé vistas que comparan real contra presupuesto. Así las cifras se calculan en un solo
-lugar y todo lo demás las reutiliza.
+**2. Ordenar los datos en una base de datos** (`modelo.py`, `sql/vistas.sql`).
+Guardé todo en una base de datos y definí consultas que comparan lo real con lo presupuestado. Así cada cifra se
+calcula en un solo lugar y el resto del proyecto la reutiliza.
 
-**3. Análisis de control de gestión** (`analisis.py`).
-Aquí están las respuestas a las tres preguntas:
-- *¿Cuánto?* KPIs de venta, margen y EBITDA contra el presupuesto y contra el año anterior.
-- *¿Por qué?* Un **puente de EBITDA** que parte del resultado presupuestado y llega al real, separando el efecto del
-  precio, del costo unitario, del volumen, del mix de productos y tiendas, y de cada cuenta de gasto.
-- *¿Dónde?* **Alertas automáticas** con tres reglas fijas (gasto atípico, venta bajo presupuesto sostenida y
-  precio/margen bajo presupuesto), más una marca para las alertas que se repiten mes a mes.
-- *¿Cómo cierra el mes?* Una **proyección del cierre** del mes en curso, cuyo error medí contra un método ingenuo.
+**3. Analizar** (`analisis.py`). Es la parte que responde las preguntas:
+- **¿Cuánto nos desviamos?** Indicadores de venta, margen y ganancia operacional (EBITDA) contra el presupuesto y
+  contra el año anterior.
+- **¿Por qué?** Un gráfico en cascada que parte de la ganancia presupuestada y llega a la real, mostrando cuánto
+  aportó cada causa: precios, costo de los productos, cantidad vendida, tipo de productos vendidos y cada gasto.
+- **¿Dónde y desde cuándo?** Alertas automáticas por tienda, zona y categoría, con tres reglas fijas (un gasto fuera
+  de lo normal, ventas bajo el plan varios meses seguidos, y precio o margen bajo el plan). Las que se repiten mes a
+  mes se marcan como recurrentes.
+- **¿Cómo cerrará el mes?** Una proyección de cuánto se venderá al terminar el mes en curso, midiendo cuánto suele
+  equivocarse.
 
-**4. Visualización: dos tableros con el mismo estándar** (`docs/`, `powerbi/`).
-Un tablero web (HTML y Chart.js) y un informe de **Power BI** con modelo semántico y medidas DAX. Ambos siguen el
-estándar de notación **IBCS** para reportes de gestión: real en gris oscuro, presupuesto en gris claro, y color
-solo para las desviaciones (verde favorable, rojo desfavorable). Las cifras principales (cumplimiento de venta y de EBITDA, puente, P&L) coinciden entre los dos y con el
-análisis en Python; las revisé una por una.
+**4. Mostrar los resultados** (`docs/`, `powerbi/`).
+Hice dos tableros con los mismos números: uno web y otro en Power BI. Ambos siguen un estándar internacional de
+reportes de gestión (IBCS): lo real en gris oscuro, el plan en gris claro y los colores solo para las desviaciones
+(verde si es favorable, rojo si no). Las cifras principales coinciden entre los dos tableros y con el análisis en
+Python; las revisé una por una.
 
-**5. Verificación: ¿encontró lo que escondí?**
-Comparé las alertas con la lista de anomalías plantadas. El resultado está más abajo, junto con lo que el proyecto
-**no** demuestra.
+**5. Comprobar si funcionó.**
+Comparé las alertas con la lista de problemas escondidos. El resultado y sus límites están más abajo.
 
 **Glosario rápido**
 - **EBITDA:** el resultado operacional antes de depreciaciones e intereses; la ganancia que deja el negocio de tiendas.
